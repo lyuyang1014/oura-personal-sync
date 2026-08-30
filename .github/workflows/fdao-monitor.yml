@@ -42,3 +42,4 @@ jobs:
             git commit -m "data: refresh FDAO monitor"
             git push origin HEAD:fdao-dashboard-source
           fi
+      # force full-day rescan after fixing non-monotonic partial coverage

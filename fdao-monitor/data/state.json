@@ -1,113 +1,12 @@
 {
-  "engine": "bsc-multi-v2",
+  "engine": "routescan-index-v1",
   "date": "2026-08-30",
   "dayStartBlock": 118795756,
-  "lastBlock": 118914360,
-  "dayEvents": [
-    {
-      "kind": "stake",
-      "id": "0xf5a9c43909088e7086c07232b0b990a555aba1956adf6ded004fe7a96e340f57:0x1c9",
-      "user": "0x6263319064dbbcfe87a17790449ac2f985baf09a",
-      "block": 118908572,
-      "tx": "0xf5a9c43909088e7086c07232b0b990a555aba1956adf6ded004fe7a96e340f57",
-      "lp": 95.9018058893033,
-      "meta": 181.60821892869885,
-      "ts": 1788069976
-    },
-    {
-      "kind": "stake",
-      "id": "0x337789414d3231d3d91a9016d7be5e4322f0a824a97d578df8bd7d46b8576907:0xaf",
-      "user": "0x204c9697ee55bc0914aae295a21395b496769234",
-      "block": 118908918,
-      "tx": "0x337789414d3231d3d91a9016d7be5e4322f0a824a97d578df8bd7d46b8576907",
-      "lp": 2137.5302478624135,
-      "meta": 4047.897251190435,
-      "ts": 1788070132
-    },
-    {
-      "kind": "stake",
-      "id": "0x66bc22dd32f7de7255869d6b77c2b957ba946c5b5ab8f8461d64c32ee10f841a:0x56",
-      "user": "0xfd285686a31665aeb0e8964d67473f239801a37c",
-      "block": 118895846,
-      "tx": "0x66bc22dd32f7de7255869d6b77c2b957ba946c5b5ab8f8461d64c32ee10f841a",
-      "lp": 1063.8647287119102,
-      "meta": 2013.4782101016467,
-      "ts": 1788064249
-    },
-    {
-      "kind": "stake",
-      "id": "0x83b58ad5ce0eb82d2525ed4dbf3332b6291fc3bfa042d8de884a8a5b173f0d48:0xfb",
-      "user": "0x733e122589f5c6fc2f46dd12d5a7b3bf9478aa2a",
-      "block": 118899074,
-      "tx": "0x83b58ad5ce0eb82d2525ed4dbf3332b6291fc3bfa042d8de884a8a5b173f0d48",
-      "lp": 1131.929304544944,
-      "meta": 2141.9604138178465,
-      "ts": 1788065702
-    },
-    {
-      "kind": "stake",
-      "id": "0x24b1d879a0171c7f1b3bff422d4c49127b6823f580c8e923a5af8ee934b6072f:0x64",
-      "user": "0x48f2d72e56f71278366caac6bfc535a5cd60f185",
-      "block": 118902031,
-      "tx": "0x24b1d879a0171c7f1b3bff422d4c49127b6823f580c8e923a5af8ee934b6072f",
-      "lp": 2718.548891299705,
-      "meta": 5145.224754827339,
-      "ts": 1788067033
-    },
-    {
-      "kind": "stake",
-      "id": "0x967ecc3b8ff65dd805e163edc880a62067bc2a7485bdc7e1b781d7ee3a406ef3:0x116",
-      "user": "0x9c2d30f017c9bf7990b1830d7aab9ad75509de9e",
-      "block": 118913560,
-      "tx": "0x967ecc3b8ff65dd805e163edc880a62067bc2a7485bdc7e1b781d7ee3a406ef3",
-      "lp": 6388.655434457591,
-      "meta": 12099.265060303522,
-      "ts": 1788072222
-    },
-    {
-      "kind": "stake",
-      "id": "0xe8838a858071422e6e70f57e5a06c7ede2835de998f9956de27a54137d9f7301:0x1e9",
-      "user": "0x333ca68b4d4d09baeef49d3e9c01f08eacf96138",
-      "block": 118913986,
-      "tx": "0xe8838a858071422e6e70f57e5a06c7ede2835de998f9956de27a54137d9f7301",
-      "lp": 1542.5274264078957,
-      "meta": 2921.361055456447,
-      "ts": 1788072413
-    },
-    {
-      "kind": "stake",
-      "id": "0xe8fa72b4144f29cbf93d20ae0505edc6ee40c3db7f71b7c6e67df8ffd4a8c4e6:0xfe",
-      "user": "0xc0dc5d1f8d1e57a11e114c70c8782fe6b8fb4316",
-      "block": 118884027,
-      "tx": "0xe8fa72b4144f29cbf93d20ae0505edc6ee40c3db7f71b7c6e67df8ffd4a8c4e6",
-      "lp": 1095.7231285261114,
-      "meta": 2071.489409146488,
-      "ts": 1788058930
-    },
-    {
-      "kind": "stake",
-      "id": "0xa001fd6821771bb0fbcd8d120d595db263fdb034501b633999c820c4cef997ec:0x32",
-      "user": "0xdbaeb8683f3502165736305d487f947060e3c1c7",
-      "block": 118887155,
-      "tx": "0xa001fd6821771bb0fbcd8d120d595db263fdb034501b633999c820c4cef997ec",
-      "lp": 1424.1493349382308,
-      "meta": 2693.4215569293046,
-      "ts": 1788060338
-    },
-    {
-      "kind": "stake",
-      "id": "0x8f0fd9c88aba3f8c833131d1b7968c7e1916b3cef75cc5d2ea5aeb22da38c64a:0x175",
-      "user": "0xcd71515144efaba183a70d02c95317c310821ab6",
-      "block": 118888007,
-      "tx": "0x8f0fd9c88aba3f8c833131d1b7968c7e1916b3cef75cc5d2ea5aeb22da38c64a",
-      "lp": 1097.00015717528,
-      "meta": 2074.8287312781235,
-      "ts": 1788060721
-    }
-  ],
-  "dayBackfillCursor": 118882945,
-  "historyCursor": null,
+  "lastBlock": 118917992,
+  "dayEvents": [],
+  "dayBackfillCursor": 118795755,
+  "historyCursor": 118795755,
   "historyFloor": 112795756,
   "historicalWallets": [],
-  "dayBackfillDone": false
+  "dayBackfillDone": true
 }

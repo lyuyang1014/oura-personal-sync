@@ -30,7 +30,7 @@ jobs:
         with:
           node-version: '22'
       - name: Update chain index
-        run: node fdao-monitor/indexer2.mjs
+        run: node fdao-monitor/indexer3.mjs
       - name: Persist computed data
         run: |
           git config user.name 'fdao-monitor-bot'

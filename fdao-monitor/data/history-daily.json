@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2026-08-30T06:39:39.407Z",
+  "backfillDone": false,
+  "coverage": 1.6666666666666668e-7,
+  "firstObservedDate": "2026-08-30",
+  "totalObservedStakeWallets": 2,
+  "trend": {
+    "last3AvgStakeUsd": 1206.3773250245333,
+    "previous3AvgStakeUsd": 0,
+    "flowRatio": null,
+    "last3AvgWallets": 2,
+    "previous3AvgWallets": 0,
+    "walletRatio": null,
+    "risk": "数据不足"
+  },
+  "daily": [
+    {
+      "date": "2026-08-30",
+      "stakeWallets": 2,
+      "newWallets": 2,
+      "stakeCount": 2,
+      "stakeMeta": 4229.505470119134,
+      "stakeUsdAtCurrentPrice": 1206.3773250245333,
+      "unstakeCount": 0,
+      "unstakeToken": 0,
+      "unstakeUsdAtCurrentPrice": 0,
+      "netUsdAtCurrentPrice": 1206.3773250245333
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+name: FDAO Background Monitor
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/fdao-monitor.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fdao-background-monitor
+  cancel-in-progress: false
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Checkout monitor branch
+        uses: actions/checkout@v4
+        with:
+          ref: fdao-dashboard-source
+          fetch-depth: 1
+      - name: Use Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Update chain index
+        run: node fdao-monitor/indexer.mjs
+      - name: Persist computed data
+        run: |
+          git config user.name 'fdao-monitor-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add fdao-monitor/data/
+          if git diff --cached --quiet; then
+            echo 'No data changes'
+          else
+            git commit -m "data: refresh FDAO monitor"
+            git push origin HEAD:fdao-dashboard-source
+          fi

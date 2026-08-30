@@ -2,7 +2,7 @@
   "engine": "bsc-multi-v2",
   "date": "2026-08-30",
   "dayStartBlock": 118795756,
-  "lastBlock": 118913230,
+  "lastBlock": 118914360,
   "dayEvents": [
     {
       "kind": "stake",
@@ -53,9 +53,59 @@
       "lp": 2718.548891299705,
       "meta": 5145.224754827339,
       "ts": 1788067033
+    },
+    {
+      "kind": "stake",
+      "id": "0x967ecc3b8ff65dd805e163edc880a62067bc2a7485bdc7e1b781d7ee3a406ef3:0x116",
+      "user": "0x9c2d30f017c9bf7990b1830d7aab9ad75509de9e",
+      "block": 118913560,
+      "tx": "0x967ecc3b8ff65dd805e163edc880a62067bc2a7485bdc7e1b781d7ee3a406ef3",
+      "lp": 6388.655434457591,
+      "meta": 12099.265060303522,
+      "ts": 1788072222
+    },
+    {
+      "kind": "stake",
+      "id": "0xe8838a858071422e6e70f57e5a06c7ede2835de998f9956de27a54137d9f7301:0x1e9",
+      "user": "0x333ca68b4d4d09baeef49d3e9c01f08eacf96138",
+      "block": 118913986,
+      "tx": "0xe8838a858071422e6e70f57e5a06c7ede2835de998f9956de27a54137d9f7301",
+      "lp": 1542.5274264078957,
+      "meta": 2921.361055456447,
+      "ts": 1788072413
+    },
+    {
+      "kind": "stake",
+      "id": "0xe8fa72b4144f29cbf93d20ae0505edc6ee40c3db7f71b7c6e67df8ffd4a8c4e6:0xfe",
+      "user": "0xc0dc5d1f8d1e57a11e114c70c8782fe6b8fb4316",
+      "block": 118884027,
+      "tx": "0xe8fa72b4144f29cbf93d20ae0505edc6ee40c3db7f71b7c6e67df8ffd4a8c4e6",
+      "lp": 1095.7231285261114,
+      "meta": 2071.489409146488,
+      "ts": 1788058930
+    },
+    {
+      "kind": "stake",
+      "id": "0xa001fd6821771bb0fbcd8d120d595db263fdb034501b633999c820c4cef997ec:0x32",
+      "user": "0xdbaeb8683f3502165736305d487f947060e3c1c7",
+      "block": 118887155,
+      "tx": "0xa001fd6821771bb0fbcd8d120d595db263fdb034501b633999c820c4cef997ec",
+      "lp": 1424.1493349382308,
+      "meta": 2693.4215569293046,
+      "ts": 1788060338
+    },
+    {
+      "kind": "stake",
+      "id": "0x8f0fd9c88aba3f8c833131d1b7968c7e1916b3cef75cc5d2ea5aeb22da38c64a:0x175",
+      "user": "0xcd71515144efaba183a70d02c95317c310821ab6",
+      "block": 118888007,
+      "tx": "0x8f0fd9c88aba3f8c833131d1b7968c7e1916b3cef75cc5d2ea5aeb22da38c64a",
+      "lp": 1097.00015717528,
+      "meta": 2074.8287312781235,
+      "ts": 1788060721
     }
   ],
-  "dayBackfillCursor": 118892945,
+  "dayBackfillCursor": 118882945,
   "historyCursor": null,
   "historyFloor": 112795756,
   "historicalWallets": [],

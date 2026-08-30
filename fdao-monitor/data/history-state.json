@@ -1,5 +1,5 @@
 {
-  "cursor": 113295755,
+  "cursor": 112795755,
   "floor": 112795756,
   "events": [
     {
@@ -29813,8 +29813,2678 @@
       "meta": 2161.319728225409,
       "ts": 1785764388,
       "tx": "0xc7d66ec71cf1b5ed5e0f6e6fb5c6a84472a90e0c25dc4818e07dfd1e79e4ba56"
+    },
+    {
+      "kind": "stake",
+      "id": "0x75a05b33873f38026ff8a1f90292d084f0a1241f451d1ede5c1201cfd166c2d8:0x10",
+      "user": "0x2a83c15574ae7aca30cdadc17e5a896925adf7c7",
+      "block": 112796692,
+      "lp": 5446.6677461919435,
+      "meta": 10122.302157698557,
+      "ts": 1785318536,
+      "tx": "0x75a05b33873f38026ff8a1f90292d084f0a1241f451d1ede5c1201cfd166c2d8"
+    },
+    {
+      "kind": "stake",
+      "id": "0x6dcde4ad43e324463917264d2d59ee5e92f9149eabfca8880563c8a845b588ea:0xe6",
+      "user": "0x3e4634df343255d05809630710ff21bea6c1426b",
+      "block": 112797014,
+      "lp": 18905.749701727305,
+      "meta": 35135.190894010375,
+      "ts": 1785318681,
+      "tx": "0x6dcde4ad43e324463917264d2d59ee5e92f9149eabfca8880563c8a845b588ea"
+    },
+    {
+      "kind": "stake",
+      "id": "0x96de26a5df59dd7a6f6201a6bcea7c9011f9167e8cae4544e2866b7e8d06115e:0x50",
+      "user": "0x702a53038b0f8e5ef432e2cd297dc8e9155b8527",
+      "block": 112797319,
+      "lp": 564.7786270843034,
+      "meta": 1049.3231292089902,
+      "ts": 1785318818,
+      "tx": "0x96de26a5df59dd7a6f6201a6bcea7c9011f9167e8cae4544e2866b7e8d06115e"
+    },
+    {
+      "kind": "stake",
+      "id": "0xeb5c6377fd934da603c3b4a716f6859c9ccb35f34c3a4267cf8fc068779e7599:0x59",
+      "user": "0xc230306ad0f95da4cd389ae7fea38d40a56fbf1f",
+      "block": 112798521,
+      "lp": 2140.1326784497496,
+      "meta": 3980.3198289952034,
+      "ts": 1785319359,
+      "tx": "0xeb5c6377fd934da603c3b4a716f6859c9ccb35f34c3a4267cf8fc068779e7599"
+    },
+    {
+      "kind": "stake",
+      "id": "0x4d642bbe769ea534ab22b5053867471be8fa6567061af0b4364e7adb24b884dd:0x340",
+      "user": "0x2e9e56e730538f32c6db8a83f9f91997fb5045a0",
+      "block": 112798683,
+      "lp": 565.3548855486109,
+      "meta": 1051.4737165727956,
+      "ts": 1785319432,
+      "tx": "0x4d642bbe769ea534ab22b5053867471be8fa6567061af0b4364e7adb24b884dd"
+    },
+    {
+      "kind": "stake",
+      "id": "0xde1f0737d12307656a799720eaf2b099e9406b37ae7fadcda1e223ee16c76a8c:0x68",
+      "user": "0x781be6351926a0a25c1e37afb9e13e3df811d54d",
+      "block": 112799379,
+      "lp": 565.7008040079128,
+      "meta": 1052.7632601183377,
+      "ts": 1785319745,
+      "tx": "0xde1f0737d12307656a799720eaf2b099e9406b37ae7fadcda1e223ee16c76a8c"
+    },
+    {
+      "kind": "stake",
+      "id": "0x2558123ceb615822acfc727d5cd3fd75953eb97bc1201a2abb55c60d966d42d2:0x49",
+      "user": "0x249f44ccf166d292cfb679c4b0b570dc125c0bd4",
+      "block": 112799849,
+      "lp": 1098.229326424245,
+      "meta": 2043.7062095803287,
+      "ts": 1785319957,
+      "tx": "0x2558123ceb615822acfc727d5cd3fd75953eb97bc1201a2abb55c60d966d42d2"
+    },
+    {
+      "kind": "stake",
+      "id": "0xe2fd20f81a90d35fc0306afbea52a8e211f0d1c3302280f8dc7aa7fc19242d12:0x67",
+      "user": "0xa77979d354ac95cdc636ba17660f72d0ddad2916",
+      "block": 112799960,
+      "lp": 565.6745844110042,
+      "meta": 1052.6696318760942,
+      "ts": 1785320007,
+      "tx": "0xe2fd20f81a90d35fc0306afbea52a8e211f0d1c3302280f8dc7aa7fc19242d12"
+    },
+    {
+      "kind": "stake",
+      "id": "0x02617b2e314b182784410171b15519d90fa92a03d49d4c29d663d9159bff891b:0x24",
+      "user": "0x40db3b7a7552b8b554880d7cad66e4ba1c4d68ae",
+      "block": 112800521,
+      "lp": 1098.615997180804,
+      "meta": 2045.3669637592554,
+      "ts": 1785320259,
+      "tx": "0x02617b2e314b182784410171b15519d90fa92a03d49d4c29d663d9159bff891b"
+    },
+    {
+      "kind": "stake",
+      "id": "0x0f0a9c92919fa25b41bb89773f1ea01885f90a67d375c0e32dd66d312abdb2f2:0x51",
+      "user": "0x5dd142b88687fbf3e6b6d7bc063283554f32f919",
+      "block": 112800847,
+      "lp": 2182.7258243711794,
+      "meta": 4063.7268195342494,
+      "ts": 1785320406,
+      "tx": "0x0f0a9c92919fa25b41bb89773f1ea01885f90a67d375c0e32dd66d312abdb2f2"
+    },
+    {
+      "kind": "stake",
+      "id": "0xac43a37f69a2c159e836bea26927cc268cf535bbdce78baf15228a0b44f44f50:0x43",
+      "user": "0x2ac3d63c5ca69fa24ea4f435e28310b5dd4242e7",
+      "block": 112801717,
+      "lp": 19395.693382890273,
+      "meta": 36126.300977793086,
+      "ts": 1785320797,
+      "tx": "0xac43a37f69a2c159e836bea26927cc268cf535bbdce78baf15228a0b44f44f50"
+    },
+    {
+      "kind": "stake",
+      "id": "0x4899f9544c2fc82e0ce44a75c382aa65cb0e4d91987c754f2f73a8f76d6cb6e8:0xd7",
+      "user": "0x1d3d19828b099aebe021ddd9a12e2a4f0c3254c3",
+      "block": 112802711,
+      "lp": 2882.724511438066,
+      "meta": 5369.327208817266,
+      "ts": 1785321245,
+      "tx": "0x4899f9544c2fc82e0ce44a75c382aa65cb0e4d91987c754f2f73a8f76d6cb6e8"
+    },
+    {
+      "kind": "stake",
+      "id": "0x835fc311b730940cc88ef15ed36f82dad825b4890d521fb36a0cd3f381aea9b2:0x3e",
+      "user": "0xc230306ad0f95da4cd389ae7fea38d40a56fbf1f",
+      "block": 112804143,
+      "lp": 12.129092796791857,
+      "meta": 22.58592224786387,
+      "ts": 1785321890,
+      "tx": "0x835fc311b730940cc88ef15ed36f82dad825b4890d521fb36a0cd3f381aea9b2"
+    },
+    {
+      "kind": "stake",
+      "id": "0xeaf5d3afce761b46946ad3dd88ac31818548eb2c9d61341f2d628f67ae7ac9ce:0x7d",
+      "user": "0xc6e6edee0b0e86b4609bc88b0e7189ab9c04bbaa",
+      "block": 112804356,
+      "lp": 2845.9362963046337,
+      "meta": 5299.49741399552,
+      "ts": 1785321986,
+      "tx": "0xeaf5d3afce761b46946ad3dd88ac31818548eb2c9d61341f2d628f67ae7ac9ce"
+    },
+    {
+      "kind": "stake",
+      "id": "0x8a8894fa8ceb1c8fb7ed03549671b0a15b2dd052a1f650e95e8d3e93ae30aa82:0x39",
+      "user": "0xb08ff23fd0446092d01e3b3455b272768d65444e",
+      "block": 112804477,
+      "lp": 2845.9179041149227,
+      "meta": 5299.4622445185,
+      "ts": 1785322040,
+      "tx": "0x8a8894fa8ceb1c8fb7ed03549671b0a15b2dd052a1f650e95e8d3e93ae30aa82"
+    },
+    {
+      "kind": "stake",
+      "id": "0x623e36786aa4fe41d0b6ad8292a1f189fc91b1a9a8212f62342803fcf0ae8190:0x2fd",
+      "user": "0x0cebc96c9b9bc2eeef7d44a47c18077bda97d97a",
+      "block": 112806657,
+      "lp": 2845.7274263126865,
+      "meta": 5298.786904863498,
+      "ts": 1785323021,
+      "tx": "0x623e36786aa4fe41d0b6ad8292a1f189fc91b1a9a8212f62342803fcf0ae8190"
+    },
+    {
+      "kind": "stake",
+      "id": "0x9da030bc6ee1898193689793b892907aca6d3f9dad62591783db749d4f45d7e1:0x59",
+      "user": "0x212f1211f8b917930699912ea673165f0cc3465c",
+      "block": 112806861,
+      "lp": 1927.3862837362287,
+      "meta": 3588.8220025725245,
+      "ts": 1785323113,
+      "tx": "0x9da030bc6ee1898193689793b892907aca6d3f9dad62591783db749d4f45d7e1"
+    },
+    {
+      "kind": "stake",
+      "id": "0xc41b5b0714c3c8fe3619038323a63d9482a059570e2b7ce3f4945e030580c43c:0x59",
+      "user": "0x5e4bf4dc2d0b7925c69c8d71349a848f25e2d70c",
+      "block": 112807217,
+      "lp": 1115.929140073069,
+      "meta": 2077.8744557513596,
+      "ts": 1785323273,
+      "tx": "0xc41b5b0714c3c8fe3619038323a63d9482a059570e2b7ce3f4945e030580c43c"
+    },
+    {
+      "kind": "stake",
+      "id": "0x3a63b6a937c1754228074118e405716da676501b1a260832130ac43698289cf2:0x77",
+      "user": "0x29e02047e7523af537ff51184a24b31b7d998b2c",
+      "block": 112807581,
+      "lp": 1926.2272695496604,
+      "meta": 3587.2122478507813,
+      "ts": 1785323437,
+      "tx": "0x3a63b6a937c1754228074118e405716da676501b1a260832130ac43698289cf2"
+    },
+    {
+      "kind": "stake",
+      "id": "0x32e935070a34bb2cc7121a8b7140aa452bf6d4ad3247187a08b8956331437a4c:0x1d9",
+      "user": "0xb8f998ae6b25d88ba3e56cc7fb79d39ebfcb0d96",
+      "block": 112808066,
+      "lp": 565.9963646589505,
+      "meta": 1053.9635461490323,
+      "ts": 1785323656,
+      "tx": "0x32e935070a34bb2cc7121a8b7140aa452bf6d4ad3247187a08b8956331437a4c"
+    },
+    {
+      "kind": "stake",
+      "id": "0x759019343938c1e39247f74a9f74cd33e3b0b842f2e65a1cb867b1c2f8e1127b:0xbf",
+      "user": "0xb8f998ae6b25d88ba3e56cc7fb79d39ebfcb0d96",
+      "block": 112808485,
+      "lp": 565.9818593653714,
+      "meta": 1053.9108883018944,
+      "ts": 1785323844,
+      "tx": "0x759019343938c1e39247f74a9f74cd33e3b0b842f2e65a1cb867b1c2f8e1127b"
+    },
+    {
+      "kind": "stake",
+      "id": "0x28b98c63d963671b9cb393584f08e35607b52f057b40d1afe692673c8d505034:0x2b",
+      "user": "0x10e1fdeac8d466d318188cc8e5a4b97cb8b0d99c",
+      "block": 112810718,
+      "lp": 2047.2676830029857,
+      "meta": 3818.4337460450206,
+      "ts": 1785324849,
+      "tx": "0x28b98c63d963671b9cb393584f08e35607b52f057b40d1afe692673c8d505034"
+    },
+    {
+      "kind": "stake",
+      "id": "0x4ea30f40fed07c54078634a963a1a25069873a3b7d3d294726d80c009cc51733:0x4d",
+      "user": "0x10e1fdeac8d466d318188cc8e5a4b97cb8b0d99c",
+      "block": 112812401,
+      "lp": 1451.428133826038,
+      "meta": 2708.7933810676886,
+      "ts": 1785325606,
+      "tx": "0x4ea30f40fed07c54078634a963a1a25069873a3b7d3d294726d80c009cc51733"
+    },
+    {
+      "kind": "stake",
+      "id": "0x4ac7891afac6bfdbf81f95c5096b741d6986993bd5b3deda277646596ade913a:0x84",
+      "user": "0xaccadbf36c393c67332101e4b28ae2a2b6d2ab4c",
+      "block": 112813532,
+      "lp": 1164.4002690517693,
+      "meta": 2174.526672771777,
+      "ts": 1785326115,
+      "tx": "0x4ac7891afac6bfdbf81f95c5096b741d6986993bd5b3deda277646596ade913a"
+    },
+    {
+      "kind": "stake",
+      "id": "0x0db6c039af75c0a3cfd637b5117a6b2cd261b4a07c5f9944619faefc1ba0eb3a:0x176",
+      "user": "0x422f89ec8a470db5dd8a2005c6502af975bf61f2",
+      "block": 112814103,
+      "lp": 559.3146119644973,
+      "meta": 1044.9184728379198,
+      "ts": 1785326372,
+      "tx": "0x0db6c039af75c0a3cfd637b5117a6b2cd261b4a07c5f9944619faefc1ba0eb3a"
+    },
+    {
+      "kind": "stake",
+      "id": "0x5211169d1d07240e59e74a79f1738e06218c0069a40e8ed92569dcba9af33460:0xb6",
+      "user": "0x8a4709cfda4465c2db2d6a7cb1f12e35300fadd4",
+      "block": 112816029,
+      "lp": 831.2223298716428,
+      "meta": 1553.9788504314579,
+      "ts": 1785327239,
+      "tx": "0x5211169d1d07240e59e74a79f1738e06218c0069a40e8ed92569dcba9af33460"
+    },
+    {
+      "kind": "stake",
+      "id": "0x3999fd710bfeca10df7e69b6650ba783b21bb9d2e12fd63eec2449f61b9982f0:0x6a",
+      "user": "0xf05a91541d76555ef50860d9a405085343f5b703",
+      "block": 112816758,
+      "lp": 1161.1757680010944,
+      "meta": 2170.8302583568075,
+      "ts": 1785327568,
+      "tx": "0x3999fd710bfeca10df7e69b6650ba783b21bb9d2e12fd63eec2449f61b9982f0"
+    },
+    {
+      "kind": "stake",
+      "id": "0x78d7f01a8eebb87464fef3a231cdd8746ae591f61db8e3a92d41368d6994559a:0x15e",
+      "user": "0x150e6dd1bdc49e143f5f188667a0ed78ad98e743",
+      "block": 112818638,
+      "lp": 4.058739053887189,
+      "meta": 7.5876788578626275,
+      "ts": 1785328414,
+      "tx": "0x78d7f01a8eebb87464fef3a231cdd8746ae591f61db8e3a92d41368d6994559a"
+    },
+    {
+      "kind": "stake",
+      "id": "0x313d4f686d75f59a6d1124183d6869455bf76ea1d10b876e5c923309ff5a1b79:0x98",
+      "user": "0xb875664fadde51bc45597de729b4968b2590019c",
+      "block": 112819561,
+      "lp": 1105.1556966744365,
+      "meta": 2066.0521415566072,
+      "ts": 1785328830,
+      "tx": "0x313d4f686d75f59a6d1124183d6869455bf76ea1d10b876e5c923309ff5a1b79"
+    },
+    {
+      "kind": "unstake",
+      "id": "0x124c7b5c70074f31b2b1830e46bd5974627bd89aa7eb9c7a5cb5f6e146d644f7:0xb1",
+      "user": "0x150e6dd1bdc49e143f5f188667a0ed78ad98e743",
+      "block": 112819735,
+      "lp": 1,
+      "token": 2.3347774010152,
+      "ts": 1785328908,
+      "tx": "0x124c7b5c70074f31b2b1830e46bd5974627bd89aa7eb9c7a5cb5f6e146d644f7"
+    },
+    {
+      "kind": "stake",
+      "id": "0x507aa0d034a99e07955349f19e2137244a75c4815d23bc770ae5a8f91a036ccf:0x3c",
+      "user": "0x49976e7f084b216d4bacb9b3f1f7d3120aaec407",
+      "block": 112820839,
+      "lp": 2.029345910610293,
+      "meta": 3.793760218467669,
+      "ts": 1785329405,
+      "tx": "0x507aa0d034a99e07955349f19e2137244a75c4815d23bc770ae5a8f91a036ccf"
+    },
+    {
+      "kind": "unstake",
+      "id": "0xbe38d07251054b1a624889cdf863e404fd5d371dd9950cd6965bc7740a66107e:0x58",
+      "user": "0x49976e7f084b216d4bacb9b3f1f7d3120aaec407",
+      "block": 112821044,
+      "lp": 1,
+      "token": 2.3348038256372505,
+      "ts": 1785329497,
+      "tx": "0xbe38d07251054b1a624889cdf863e404fd5d371dd9950cd6965bc7740a66107e"
+    },
+    {
+      "kind": "stake",
+      "id": "0x5db1aca876219a69ae59e89970a9c31da553bdb25984ba54ea156714d94e74c6:0x50",
+      "user": "0x49976e7f084b216d4bacb9b3f1f7d3120aaec407",
+      "block": 112821142,
+      "lp": 0.4058692094679229,
+      "meta": 0.758752094815253,
+      "ts": 1785329541,
+      "tx": "0x5db1aca876219a69ae59e89970a9c31da553bdb25984ba54ea156714d94e74c6"
+    },
+    {
+      "kind": "unstake",
+      "id": "0xb472f2d80c2332ff907080a3265340efd93d3e5528a57e2cfc87f61e63cbf729:0x13",
+      "user": "0x49976e7f084b216d4bacb9b3f1f7d3120aaec407",
+      "block": 112821325,
+      "lp": 0.1,
+      "token": 0.23348065808281632,
+      "ts": 1785329624,
+      "tx": "0xb472f2d80c2332ff907080a3265340efd93d3e5528a57e2cfc87f61e63cbf729"
+    },
+    {
+      "kind": "stake",
+      "id": "0xa8b3a00b9dcea37a3d1c8ba2dbebe6023ee45337f655d23b32c98b42b2c1d1b5:0x114",
+      "user": "0xd45c96433b3e1a9a4acb7dc1218b15cede11dc93",
+      "block": 112821382,
+      "lp": 1055.2094691484008,
+      "meta": 1972.6588452453816,
+      "ts": 1785329649,
+      "tx": "0xa8b3a00b9dcea37a3d1c8ba2dbebe6023ee45337f655d23b32c98b42b2c1d1b5"
+    },
+    {
+      "kind": "stake",
+      "id": "0x433491a5bba63bfb224315b2320dd9729ec1b0f38a8130944a8284037ee1d0bd:0x39",
+      "user": "0xde371d42b62b54920ceccb323efdd726a2bb66ac",
+      "block": 112821808,
+      "lp": 1163.9704753643898,
+      "meta": 2175.984837716288,
+      "ts": 1785329841,
+      "tx": "0x433491a5bba63bfb224315b2320dd9729ec1b0f38a8130944a8284037ee1d0bd"
+    },
+    {
+      "kind": "stake",
+      "id": "0xc9595ceae720c39da5d4bd7a53a0ecaba5763bb5759e04ea91bee496bd36daf5:0x71",
+      "user": "0xc158b5f88a38b2adc3c5feb429db1db0dae3ae05",
+      "block": 112822013,
+      "lp": 1067.3876806416783,
+      "meta": 1995.4413730689328,
+      "ts": 1785329933,
+      "tx": "0xc9595ceae720c39da5d4bd7a53a0ecaba5763bb5759e04ea91bee496bd36daf5"
+    },
+    {
+      "kind": "stake",
+      "id": "0x91ec5b53a7772131ad5129320d1468f6e7d4a151168e932ef3e33226cebd0fd3:0x6f",
+      "user": "0xc158b5f88a38b2adc3c5feb429db1db0dae3ae05",
+      "block": 112822316,
+      "lp": 4.05868973421364,
+      "meta": 7.587568755928746,
+      "ts": 1785330070,
+      "tx": "0x91ec5b53a7772131ad5129320d1468f6e7d4a151168e932ef3e33226cebd0fd3"
+    },
+    {
+      "kind": "stake",
+      "id": "0x28c0963f32b7b9d94755e746b9911b1ac23718841cc319522212fe585bd56e41:0x85",
+      "user": "0xbda70bdd69a4a26168fefd4c1e08952561cfa267",
+      "block": 112822348,
+      "lp": 7704.8246586780715,
+      "meta": 14403.8817151471,
+      "ts": 1785330084,
+      "tx": "0x28c0963f32b7b9d94755e746b9911b1ac23718841cc319522212fe585bd56e41"
+    },
+    {
+      "kind": "stake",
+      "id": "0xa5e77790ca8b73b96e2bd86d8700993224a3535fd3ee309d6ae2836b4ad07ddc:0xa2",
+      "user": "0x54f1e905014b8a7affa2fac75b3ad96f4de28b88",
+      "block": 112834094,
+      "lp": 11537.950327651592,
+      "meta": 21479.017132778605,
+      "ts": 1785335371,
+      "tx": "0xa5e77790ca8b73b96e2bd86d8700993224a3535fd3ee309d6ae2836b4ad07ddc"
+    },
+    {
+      "kind": "stake",
+      "id": "0xeecf8046cf5c2a3c9f807915a7a6aba26bef2e791776b8bb34edfb532599ae97:0x82",
+      "user": "0x6a0060c96796960168ca32e2f4b72617242b6a56",
+      "block": 112834259,
+      "lp": 192.75888568655822,
+      "meta": 358.83942039812877,
+      "ts": 1785335445,
+      "tx": "0xeecf8046cf5c2a3c9f807915a7a6aba26bef2e791776b8bb34edfb532599ae97"
+    },
+    {
+      "kind": "stake",
+      "id": "0x84221fbd0d7acd67ab00bea374c54185bef03ed9dafb3b2f42568ca4f8ca9858:0x64",
+      "user": "0x45df630a114e2b91fd86e61b8c9de35ff717801e",
+      "block": 112835164,
+      "lp": 1044.7062183770477,
+      "meta": 1945.9931967816756,
+      "ts": 1785335853,
+      "tx": "0x84221fbd0d7acd67ab00bea374c54185bef03ed9dafb3b2f42568ca4f8ca9858"
+    },
+    {
+      "kind": "stake",
+      "id": "0xd5329238fcb552d61842e80f1d45e1d11d155263bc3c9082e7c121b6087aec86:0x4e",
+      "user": "0x797ad6df81bf6031212cd56024757047a4fe294b",
+      "block": 112841868,
+      "lp": 4334.488711640957,
+      "meta": 8086.219288164779,
+      "ts": 1785338870,
+      "tx": "0xd5329238fcb552d61842e80f1d45e1d11d155263bc3c9082e7c121b6087aec86"
+    },
+    {
+      "kind": "stake",
+      "id": "0x1572cd43fc530cc9066ea074cedb300362c80d5d64439f54f3645733b89e65c3:0x2a1",
+      "user": "0xd4adc144c59d9c5e3002188f1936a5bbb41fb28c",
+      "block": 112844184,
+      "lp": 8097.105185413016,
+      "meta": 15105.940987410346,
+      "ts": 1785339912,
+      "tx": "0x1572cd43fc530cc9066ea074cedb300362c80d5d64439f54f3645733b89e65c3"
+    },
+    {
+      "kind": "stake",
+      "id": "0x8e9cfedd790fc9c257bbc3db528d9e275a55e7752b144c47bb2e661af4bfd91e:0x4b",
+      "user": "0x35547f322eecfbf2a969a8a43b5f403864f1e477",
+      "block": 112844851,
+      "lp": 8096.961329893217,
+      "meta": 15105.672610880334,
+      "ts": 1785340212,
+      "tx": "0x8e9cfedd790fc9c257bbc3db528d9e275a55e7752b144c47bb2e661af4bfd91e"
+    },
+    {
+      "kind": "stake",
+      "id": "0x74215872c30d083e6a87a89bcf3e6f447cdfb26e6980e716b35ca875ab4e1708:0xa9",
+      "user": "0x6afce96424e8dcaef0846d53fb32ebf10a403f77",
+      "block": 112845215,
+      "lp": 647.9586710826587,
+      "meta": 1208.8302206186797,
+      "ts": 1785340376,
+      "tx": "0x74215872c30d083e6a87a89bcf3e6f447cdfb26e6980e716b35ca875ab4e1708"
+    },
+    {
+      "kind": "stake",
+      "id": "0xc0436710987593a610565cb4938312a89469b4a42eb12a0bb9f72fb6af31983f:0xe8",
+      "user": "0xac0e78b4e6fdd7d0edaa98c7d641cea413a47521",
+      "block": 112845456,
+      "lp": 1214.6638276195717,
+      "meta": 2265.652270204166,
+      "ts": 1785340484,
+      "tx": "0xc0436710987593a610565cb4938312a89469b4a42eb12a0bb9f72fb6af31983f"
+    },
+    {
+      "kind": "stake",
+      "id": "0x5a93d53c074102e972af9fb297dcf5dc81dfde92fd3eda8cf8191524d7d664d1:0xbc",
+      "user": "0xa8620c9a85a00bcfcefcee385aa7220dc400adc4",
+      "block": 112847908,
+      "lp": 2076.752603863692,
+      "meta": 3877.0050749171205,
+      "ts": 1785341588,
+      "tx": "0x5a93d53c074102e972af9fb297dcf5dc81dfde92fd3eda8cf8191524d7d664d1"
+    },
+    {
+      "kind": "stake",
+      "id": "0xbed08e92ed4a2cab03160915036fb8cbabb4f46a7e12152459409189496e6273:0x4e",
+      "user": "0x37f474fca6fd398e6d5bf4f10e933022643042f3",
+      "block": 112848502,
+      "lp": 1093.3313366391822,
+      "meta": 2041.1058011329924,
+      "ts": 1785341855,
+      "tx": "0xbed08e92ed4a2cab03160915036fb8cbabb4f46a7e12152459409189496e6273"
+    },
+    {
+      "kind": "stake",
+      "id": "0x23f5ee1aafa8f82927b1645826eca22c30fc72d50caf2eb2589215cf7fc403dd:0x5a",
+      "user": "0x8e4bc5ae4bbb697433d9e9e5174b503269f9377d",
+      "block": 112849764,
+      "lp": 2231.2279903479184,
+      "meta": 4168.766653161069,
+      "ts": 1785342423,
+      "tx": "0x23f5ee1aafa8f82927b1645826eca22c30fc72d50caf2eb2589215cf7fc403dd"
+    },
+    {
+      "kind": "stake",
+      "id": "0xd1de4715ff6f336b0f943b62b17313596eac8eee5ea7252b569508f1b9fc4978:0x5c",
+      "user": "0x721bdecbde373eee4bac3510928dcad59f387c7c",
+      "block": 112852187,
+      "lp": 1075.0896830670765,
+      "meta": 2008.6325069052732,
+      "ts": 1785343513,
+      "tx": "0xd1de4715ff6f336b0f943b62b17313596eac8eee5ea7252b569508f1b9fc4978"
+    },
+    {
+      "kind": "stake",
+      "id": "0xd239976c5e21f1e198ed4cdae68e9054aacb183d4f60401d6f528003d9a6a913:0x123",
+      "user": "0x9aa6acb507797b286abff02c6cbd3022849cdbc8",
+      "block": 112852721,
+      "lp": 1075.0871328846288,
+      "meta": 2008.6277422987073,
+      "ts": 1785343754,
+      "tx": "0xd239976c5e21f1e198ed4cdae68e9054aacb183d4f60401d6f528003d9a6a913"
+    },
+    {
+      "kind": "stake",
+      "id": "0xe9d40f5bd1179ab98224c000e4d619ee6d4fa5e98f29289304aad6b70a99e345:0x5d",
+      "user": "0x2616a5e4e3a59ed90c3337170f52bdf559a0fd35",
+      "block": 112854641,
+      "lp": 1075.0645983047975,
+      "meta": 2008.5484398367992,
+      "ts": 1785344618,
+      "tx": "0xe9d40f5bd1179ab98224c000e4d619ee6d4fa5e98f29289304aad6b70a99e345"
+    },
+    {
+      "kind": "stake",
+      "id": "0xff8c155ae5628b2e74590aa83fec7f5b4546c6a9fb0b232afac3d6e24d34152e:0x51",
+      "user": "0x669bef08d855eb1d9f4732b36414fba9f314c248",
+      "block": 112856702,
+      "lp": 8103.822696544105,
+      "meta": 15131.97572174768,
+      "ts": 1785345545,
+      "tx": "0xff8c155ae5628b2e74590aa83fec7f5b4546c6a9fb0b232afac3d6e24d34152e"
+    },
+    {
+      "kind": "stake",
+      "id": "0x67159e9b0cc58db051e95b743dba351cd6212622409f0ede6168adcfec0ce091:0x77",
+      "user": "0x94c5eac7cf093ccae3d96afe1c91ac9a5a3c3399",
+      "block": 112865141,
+      "lp": 14197.565996354144,
+      "meta": 26478.35255668145,
+      "ts": 1785349343,
+      "tx": "0x67159e9b0cc58db051e95b743dba351cd6212622409f0ede6168adcfec0ce091"
+    },
+    {
+      "kind": "stake",
+      "id": "0xb01c9227fa8c1672f7a7200d86b47af7217666432259bc9b3840213ac9f89170:0x7d",
+      "user": "0xc1ec932a0b648fd92f296e8d824a8a424e075723",
+      "block": 112891932,
+      "lp": 2794.237220972343,
+      "meta": 5176.234655955772,
+      "ts": 1785361400,
+      "tx": "0xb01c9227fa8c1672f7a7200d86b47af7217666432259bc9b3840213ac9f89170"
+    },
+    {
+      "kind": "stake",
+      "id": "0x4226aa97f2c906f268dc179fd10f57178c68fed74f270f39fa21e37e15776cb8:0x1d",
+      "user": "0x9b2119c22029b58b2df1b1f6c0cea6000e470b27",
+      "block": 112892967,
+      "lp": 804.2840061039592,
+      "meta": 1490.1360778662329,
+      "ts": 1785361866,
+      "tx": "0x4226aa97f2c906f268dc179fd10f57178c68fed74f270f39fa21e37e15776cb8"
+    },
+    {
+      "kind": "stake",
+      "id": "0x44e55e9c19a5f1f18e0a5ad6e4f1172b183c568ef2c4a05abdaf02e5d5604daf:0x27",
+      "user": "0x4d55f4215f150964700fbe5aa93604b0a2cbb85b",
+      "block": 112899152,
+      "lp": 596.9642651342475,
+      "meta": 1107.108322221045,
+      "ts": 1785364650,
+      "tx": "0x44e55e9c19a5f1f18e0a5ad6e4f1172b183c568ef2c4a05abdaf02e5d5604daf"
+    },
+    {
+      "kind": "stake",
+      "id": "0x8895cd9db1927e00ee676e3c2076c9975f840e5e95582cb49f6826678cfad34b:0x72",
+      "user": "0x964d51fcca8c8aed47a80b7f0592a7fb6393c075",
+      "block": 112902521,
+      "lp": 1129.64202590253,
+      "meta": 2099.76547486645,
+      "ts": 1785366166,
+      "tx": "0x8895cd9db1927e00ee676e3c2076c9975f840e5e95582cb49f6826678cfad34b"
+    },
+    {
+      "kind": "stake",
+      "id": "0xcd8f55eda4a25d21e54e964716bb035d48272b7c75190cac7b662d8ee83b8393:0x8b",
+      "user": "0x93d1116b32551e2f0b5c9d07fd5db04915a8f405",
+      "block": 112908399,
+      "lp": 1092.0699439547068,
+      "meta": 2029.8360797668063,
+      "ts": 1785368813,
+      "tx": "0xcd8f55eda4a25d21e54e964716bb035d48272b7c75190cac7b662d8ee83b8393"
+    },
+    {
+      "kind": "stake",
+      "id": "0x919abdbd0e0b89f904c91acdb513010cff16bc9d8154dbf6cfa32dd06523d854:0x72",
+      "user": "0x6958ef7bfee17fcd9326dd134e19ea5de2bf283c",
+      "block": 112913259,
+      "lp": 2483.206939992258,
+      "meta": 4615.713291686514,
+      "ts": 1785371000,
+      "tx": "0x919abdbd0e0b89f904c91acdb513010cff16bc9d8154dbf6cfa32dd06523d854"
+    },
+    {
+      "kind": "stake",
+      "id": "0xa1e508d9ff11e42c89bbfd838cac3ebcf9ac79d5ceb51bec5f5ebf7d8ce15d0c:0x88",
+      "user": "0x634114147f5f2e8c8383bc7d1fd2288ccc84c33f",
+      "block": 112919649,
+      "lp": 2736.4775929030566,
+      "meta": 5086.815122341264,
+      "ts": 1785373876,
+      "tx": "0xa1e508d9ff11e42c89bbfd838cac3ebcf9ac79d5ceb51bec5f5ebf7d8ce15d0c"
+    },
+    {
+      "kind": "stake",
+      "id": "0xb6fb63444c34a68663cf9ede45aa97507aab7d2b9492a6c2346e851cf63b1bfc:0x77",
+      "user": "0xff2f857a30de4be7a58fc95bdbbc0060155e5082",
+      "block": 112935097,
+      "lp": 1063.8633668564034,
+      "meta": 1972.82055837662,
+      "ts": 1785380829,
+      "tx": "0xb6fb63444c34a68663cf9ede45aa97507aab7d2b9492a6c2346e851cf63b1bfc"
+    },
+    {
+      "kind": "stake",
+      "id": "0x479c0c89b7120719665c991c21ff938e5d7f85550e1e82bf3958287b56301831:0x73",
+      "user": "0xff2f857a30de4be7a58fc95bdbbc0060155e5082",
+      "block": 112935898,
+      "lp": 24.95396353888079,
+      "meta": 46.27390468568079,
+      "ts": 1785381190,
+      "tx": "0x479c0c89b7120719665c991c21ff938e5d7f85550e1e82bf3958287b56301831"
+    },
+    {
+      "kind": "stake",
+      "id": "0x159c1ac640601c1730aa03982f0760447ab18fd8667db5d496ed0ff9e024cb00:0x5d",
+      "user": "0x21e2f16f3f629c96360bfe9044ea9ae1f6da12bf",
+      "block": 112938591,
+      "lp": 14.44875345651355,
+      "meta": 26.780086832167722,
+      "ts": 1785382402,
+      "tx": "0x159c1ac640601c1730aa03982f0760447ab18fd8667db5d496ed0ff9e024cb00"
+    },
+    {
+      "kind": "stake",
+      "id": "0xce2aa2e0af7c0434d10a25b9cf6729fd23e4cfb671c0d3235fdda1bec35bf574:0x25e",
+      "user": "0x839ace434f89486362aed225219e0149bd3b00e6",
+      "block": 112940256,
+      "lp": 1931.8947933668899,
+      "meta": 3578.9024010422813,
+      "ts": 1785383151,
+      "tx": "0xce2aa2e0af7c0434d10a25b9cf6729fd23e4cfb671c0d3235fdda1bec35bf574"
+    },
+    {
+      "kind": "stake",
+      "id": "0xc65a9633f87279595f914f9e5ca7b08a8f683f4bbfad59ca8f1ef8d1e6995fc6:0x136",
+      "user": "0x278b52df26d6ad2721b93f0ee5f0830ac494cb84",
+      "block": 112940995,
+      "lp": 2800.88187658915,
+      "meta": 5186.232218126829,
+      "ts": 1785383484,
+      "tx": "0xc65a9633f87279595f914f9e5ca7b08a8f683f4bbfad59ca8f1ef8d1e6995fc6"
+    },
+    {
+      "kind": "stake",
+      "id": "0xb6d428df256940acc1897d79cf577df2c8a09ef921d5db03a6bf3250f78088f9:0x208",
+      "user": "0x66ba1bbb49f715c5c421cfb0e19f45d67814543f",
+      "block": 112941935,
+      "lp": 267.76949938687375,
+      "meta": 495.8134137534718,
+      "ts": 1785383907,
+      "tx": "0xb6d428df256940acc1897d79cf577df2c8a09ef921d5db03a6bf3250f78088f9"
+    },
+    {
+      "kind": "stake",
+      "id": "0x52e7beadd1c60f4576631703e237e6c52bfaf7f49597224c7128b5f3dfa86ac9:0xac",
+      "user": "0x66ba1bbb49f715c5c421cfb0e19f45d67814543f",
+      "block": 112942543,
+      "lp": 7.496707741857204,
+      "meta": 13.881223462393002,
+      "ts": 1785384181,
+      "tx": "0x52e7beadd1c60f4576631703e237e6c52bfaf7f49597224c7128b5f3dfa86ac9"
+    },
+    {
+      "kind": "stake",
+      "id": "0x73cee86f4c8e95a4f2d3717094ae36ae6990e615b893c3fd9123bdcbacfe219d:0x1ab",
+      "user": "0x899ff8476e4e3ebad9badc1a6a057edabbb6021d",
+      "block": 112943989,
+      "lp": 9681.040276063915,
+      "meta": 17924.907854338126,
+      "ts": 1785384836,
+      "tx": "0x73cee86f4c8e95a4f2d3717094ae36ae6990e615b893c3fd9123bdcbacfe219d"
+    },
+    {
+      "kind": "stake",
+      "id": "0x3d95d27de30c0fc6194032eda9db0522e1c0633cc39cc18686a61ca4b35615ff:0x3a",
+      "user": "0x3fefd37da309525d526b15d8c00b28f1058b6b77",
+      "block": 112944630,
+      "lp": 4284.8827130565205,
+      "meta": 7932.817860361395,
+      "ts": 1785385124,
+      "tx": "0x3d95d27de30c0fc6194032eda9db0522e1c0633cc39cc18686a61ca4b35615ff"
+    },
+    {
+      "kind": "stake",
+      "id": "0x1f684adeadbe49d6129bfb955aa1c9fe5d54e0a9b68f1204a30b7573276609b6:0x124",
+      "user": "0x3fefd37da309525d526b15d8c00b28f1058b6b77",
+      "block": 112945395,
+      "lp": 97.46852373779113,
+      "meta": 180.44835709835894,
+      "ts": 1785385469,
+      "tx": "0x1f684adeadbe49d6129bfb955aa1c9fe5d54e0a9b68f1204a30b7573276609b6"
+    },
+    {
+      "kind": "stake",
+      "id": "0xb07bdb72b7158a572d4249e373d0725577691e3e60702ddb9f22e34f5e514e9d:0x20",
+      "user": "0xbf0e0b48ec037cea0f1d38e5c94babfdf66b7533",
+      "block": 112945938,
+      "lp": 7230.088423765121,
+      "meta": 13384.778068264195,
+      "ts": 1785385713,
+      "tx": "0xb07bdb72b7158a572d4249e373d0725577691e3e60702ddb9f22e34f5e514e9d"
+    },
+    {
+      "kind": "stake",
+      "id": "0xeae7996005b2cfc2e6c76d93644a56e8800a355dd142a6829ae1ffa9a2d4d34a:0x192",
+      "user": "0xaacbfdf9207c7a96642eefd7b4b534ac7ddebb66",
+      "block": 112947122,
+      "lp": 1237.4540123126783,
+      "meta": 2290.847013745014,
+      "ts": 1785386247,
+      "tx": "0xeae7996005b2cfc2e6c76d93644a56e8800a355dd142a6829ae1ffa9a2d4d34a"
+    },
+    {
+      "kind": "stake",
+      "id": "0x58167966026de0e0cf1e2b1869619ad4d94cf4e9f6a37213234c6b482aec4ba3:0x18",
+      "user": "0x73d15b0fd2ff34e999d6321126147ccaf5928d67",
+      "block": 112948204,
+      "lp": 1102.8636376485106,
+      "meta": 2041.6841744982255,
+      "ts": 1785386734,
+      "tx": "0x58167966026de0e0cf1e2b1869619ad4d94cf4e9f6a37213234c6b482aec4ba3"
+    },
+    {
+      "kind": "stake",
+      "id": "0x0c28e6e7183efe433e01b91eca2b834c7b7c1af6b3ae18b9d75346823084c5c6:0x57",
+      "user": "0x4fcc1e657b0d7f406be298797113b3278ce69eba",
+      "block": 112949476,
+      "lp": 576.381739495055,
+      "meta": 1066.9343806812174,
+      "ts": 1785387306,
+      "tx": "0x0c28e6e7183efe433e01b91eca2b834c7b7c1af6b3ae18b9d75346823084c5c6"
+    },
+    {
+      "kind": "stake",
+      "id": "0x4262b137615fc56cc59b4cc784c879b9d56f2abf268ef23354beff0b8f22a691:0x45",
+      "user": "0xba0eab74db431e061d56a1d42179994c8060991a",
+      "block": 112949878,
+      "lp": 1667.1586933951644,
+      "meta": 3086.0686958369315,
+      "ts": 1785387487,
+      "tx": "0x4262b137615fc56cc59b4cc784c879b9d56f2abf268ef23354beff0b8f22a691"
+    },
+    {
+      "kind": "stake",
+      "id": "0x82b805a32473b78de945d0d41888cfc271a4b93c6034d326b02185c3c3a9b693:0x150",
+      "user": "0xd39652ac73372f12151385ff03e4c098906eb426",
+      "block": 112952528,
+      "lp": 1117.2655674564023,
+      "meta": 2068.4010777554363,
+      "ts": 1785388682,
+      "tx": "0x82b805a32473b78de945d0d41888cfc271a4b93c6034d326b02185c3c3a9b693"
+    },
+    {
+      "kind": "stake",
+      "id": "0x9e89b1d35bfb388335cd1336a4fa101d85dea23cd01b1ec4b808e05a35a1df67:0x3b",
+      "user": "0x2ad11865fe16ddb17f145175dbd44ed0ac5198f0",
+      "block": 112955713,
+      "lp": 2796.116405684763,
+      "meta": 5176.371775482224,
+      "ts": 1785390116,
+      "tx": "0x9e89b1d35bfb388335cd1336a4fa101d85dea23cd01b1ec4b808e05a35a1df67"
+    },
+    {
+      "kind": "stake",
+      "id": "0x0fc1d12f4fea98f9e6fc49e75fa6b82c0f16b645be543fd3f1e0415df8b568f6:0x71",
+      "user": "0x1e13b93082ea4ce96e9a9ae25293411e4c00a4bd",
+      "block": 112956961,
+      "lp": 2495.8194415357198,
+      "meta": 4620.240260284443,
+      "ts": 1785390678,
+      "tx": "0x0fc1d12f4fea98f9e6fc49e75fa6b82c0f16b645be543fd3f1e0415df8b568f6"
+    },
+    {
+      "kind": "stake",
+      "id": "0x6af0c537418aca1bbd0c38afd67785fd2fc0457e2434e1d12161fddd1f418c13:0xd2",
+      "user": "0x5029849d684a4a930622a9cd99bdd8af2129f662",
+      "block": 112957596,
+      "lp": 542.3766574307427,
+      "meta": 1004.0478254115351,
+      "ts": 1785390964,
+      "tx": "0x6af0c537418aca1bbd0c38afd67785fd2fc0457e2434e1d12161fddd1f418c13"
+    },
+    {
+      "kind": "stake",
+      "id": "0x5218435e28eede3e9413f01c29473f1af0f30b996c8005a93ca9a84f4dd493cb:0x52",
+      "user": "0xba0eab74db431e061d56a1d42179994c8060991a",
+      "block": 112958159,
+      "lp": 23.73729944617375,
+      "meta": 43.94274378693289,
+      "ts": 1785391217,
+      "tx": "0x5218435e28eede3e9413f01c29473f1af0f30b996c8005a93ca9a84f4dd493cb"
+    },
+    {
+      "kind": "stake",
+      "id": "0x9d8789a1a030a62d74f4c230f529e6bd3ef17098a3242ec0077a12aaa93b0fd9:0x2a",
+      "user": "0xcd3d40b337dc363b11ebf3510323c73942d7b9c8",
+      "block": 112958262,
+      "lp": 8193.14684645666,
+      "meta": 15167.16407362557,
+      "ts": 1785391264,
+      "tx": "0x9d8789a1a030a62d74f4c230f529e6bd3ef17098a3242ec0077a12aaa93b0fd9"
+    },
+    {
+      "kind": "stake",
+      "id": "0xb0ad7af29b39dd1c4d2fd21499a8f297d6111812277b1a3549b4393cf60b1135:0x103",
+      "user": "0x42131b11e2d35284240234143e08fbbf083473ba",
+      "block": 112958873,
+      "lp": 272.425715169779,
+      "meta": 504.2570820981951,
+      "ts": 1785391539,
+      "tx": "0xb0ad7af29b39dd1c4d2fd21499a8f297d6111812277b1a3549b4393cf60b1135"
+    },
+    {
+      "kind": "stake",
+      "id": "0xd1b49514190e4175a778dd33c1cf7139347bcbf804ee2a27f1e638f2020f78b4:0xdc",
+      "user": "0xedf0fcd2a56f02a218291bdc87f7a98424ac55c1",
+      "block": 112959098,
+      "lp": 401.7092447316591,
+      "meta": 743.5597951572073,
+      "ts": 1785391640,
+      "tx": "0xd1b49514190e4175a778dd33c1cf7139347bcbf804ee2a27f1e638f2020f78b4"
+    },
+    {
+      "kind": "stake",
+      "id": "0xcd490c4567f848f2b52438a008b65e901dc1a0f84085ca49280204dd521ccecb:0x3d",
+      "user": "0x03d030da823ff4fd39c166e8fca13b97803c1ed7",
+      "block": 112959309,
+      "lp": 28270.136720688737,
+      "meta": 52327.72814399469,
+      "ts": 1785391735,
+      "tx": "0xcd490c4567f848f2b52438a008b65e901dc1a0f84085ca49280204dd521ccecb"
+    },
+    {
+      "kind": "stake",
+      "id": "0x3d4408e9b1d32d1ee52595d9a5e5658ffc246ab0db7085f3cf335f24cfe1a23a:0x71",
+      "user": "0xedf0fcd2a56f02a218291bdc87f7a98424ac55c1",
+      "block": 112959327,
+      "lp": 160.67523973337074,
+      "meta": 297.40819251454127,
+      "ts": 1785391743,
+      "tx": "0x3d4408e9b1d32d1ee52595d9a5e5658ffc246ab0db7085f3cf335f24cfe1a23a"
+    },
+    {
+      "kind": "stake",
+      "id": "0x1c31cdddeadedc338adb732b6ccc01b8c1022e19f4d2b7ac31ff8fa65d57debd:0x63",
+      "user": "0xa6b90802d43c9f91e66d95fed82de8611c288f8b",
+      "block": 112960537,
+      "lp": 562.1711290751668,
+      "meta": 1040.236545387521,
+      "ts": 1785392289,
+      "tx": "0x1c31cdddeadedc338adb732b6ccc01b8c1022e19f4d2b7ac31ff8fa65d57debd"
+    },
+    {
+      "kind": "stake",
+      "id": "0x30bddc026115acf5d1aea8a8e662b121b81a0d40ff8d2ba017ca9f1808d3f19f:0x16a",
+      "user": "0x6fec591beb7be24940e174917821c74163f3d144",
+      "block": 112961500,
+      "lp": 775.4424446349309,
+      "meta": 1435.7302990310106,
+      "ts": 1785392723,
+      "tx": "0x30bddc026115acf5d1aea8a8e662b121b81a0d40ff8d2ba017ca9f1808d3f19f"
+    },
+    {
+      "kind": "stake",
+      "id": "0x9b45391ba399e58f8acddd779c47fe06cef68b0d6ce4ad33df6158abef10128c:0x1f8",
+      "user": "0x6fec591beb7be24940e174917821c74163f3d144",
+      "block": 112962840,
+      "lp": 574.4569092376913,
+      "meta": 1064.760049139098,
+      "ts": 1785393326,
+      "tx": "0x9b45391ba399e58f8acddd779c47fe06cef68b0d6ce4ad33df6158abef10128c"
+    },
+    {
+      "kind": "stake",
+      "id": "0xf684ede8af629e0b62a56125579a0beaac2a700c6ca5cb1c79237fe855cf34bb:0x26c",
+      "user": "0x52a2fed30c5edf80c2153a69a6330ec34a269f0f",
+      "block": 112964315,
+      "lp": 5688.48029296859,
+      "meta": 10550.178160225007,
+      "ts": 1785393991,
+      "tx": "0xf684ede8af629e0b62a56125579a0beaac2a700c6ca5cb1c79237fe855cf34bb"
+    },
+    {
+      "kind": "stake",
+      "id": "0x6f526d54b38bd219699d0e74ebff03277247c37cb84584ff277ce20a67c5261a:0x11e",
+      "user": "0xd4c2cfea880171e0599dc280a976a79b52d5ce82",
+      "block": 112967454,
+      "lp": 1135.9050351856924,
+      "meta": 2109.5251359374333,
+      "ts": 1785395404,
+      "tx": "0x6f526d54b38bd219699d0e74ebff03277247c37cb84584ff277ce20a67c5261a"
+    },
+    {
+      "kind": "stake",
+      "id": "0xf49f1304712d6fa9b71076acd4f8762ae509a92f988ed35d14c7f0e682643d25:0x18e",
+      "user": "0x02e97499898089ce6ad138fb9a53afe09823426d",
+      "block": 112969210,
+      "lp": 10652.776757783964,
+      "meta": 19783.767714375248,
+      "ts": 1785396195,
+      "tx": "0xf49f1304712d6fa9b71076acd4f8762ae509a92f988ed35d14c7f0e682643d25"
+    },
+    {
+      "kind": "stake",
+      "id": "0x1b69658f52cb4b2547f6c223692c450082e097e0c401174425c7e3ffda69b8de:0xf0",
+      "user": "0xc9dba01654ea17fa015bd5321b5be6ff419bbdeb",
+      "block": 112970323,
+      "lp": 2172.148159548093,
+      "meta": 4033.525834978423,
+      "ts": 1785396696,
+      "tx": "0x1b69658f52cb4b2547f6c223692c450082e097e0c401174425c7e3ffda69b8de"
+    },
+    {
+      "kind": "stake",
+      "id": "0x5a8f6892ec34e0442c9056f1abd7e75bcddaa0b9f151ca10df55d7b34e6727c8:0x67f",
+      "user": "0xbc5fb117dc92b832a617c88c62cdeef30076d8eb",
+      "block": 112971881,
+      "lp": 2172.169700192007,
+      "meta": 4033.6260318584254,
+      "ts": 1785397397,
+      "tx": "0x5a8f6892ec34e0442c9056f1abd7e75bcddaa0b9f151ca10df55d7b34e6727c8"
+    },
+    {
+      "kind": "stake",
+      "id": "0x6fec4c301de43d5ad6ee330a0fd03ab234e131ff296ce72a0c8c741c08d1b8b7:0x1c7",
+      "user": "0x0343738917f8e5703cc8bbde7fc3b8e8da40fe35",
+      "block": 112972858,
+      "lp": 585.0859451884788,
+      "meta": 1086.4807683227093,
+      "ts": 1785397837,
+      "tx": "0x6fec4c301de43d5ad6ee330a0fd03ab234e131ff296ce72a0c8c741c08d1b8b7"
+    },
+    {
+      "kind": "stake",
+      "id": "0xf1cd7dd95e0a58f3a898147f7c57f257c1a41499c64fe83b70634e799fdf1061:0x2a2",
+      "user": "0x853a7a04043ecd39e0b5e404d24ccd5871b8846b",
+      "block": 112973693,
+      "lp": 1087.91118005078,
+      "meta": 2020.1453343987966,
+      "ts": 1785398212,
+      "tx": "0xf1cd7dd95e0a58f3a898147f7c57f257c1a41499c64fe83b70634e799fdf1061"
+    },
+    {
+      "kind": "stake",
+      "id": "0x646e2c7050453db1f0c84dc76f4831007ab82995a02e6f7ceadddb71a163acad:0x245",
+      "user": "0xdcbb1c3aad55e615a7d60950ec0b684315e40e42",
+      "block": 112974188,
+      "lp": 8257.445824089024,
+      "meta": 15333.274408307529,
+      "ts": 1785398436,
+      "tx": "0x646e2c7050453db1f0c84dc76f4831007ab82995a02e6f7ceadddb71a163acad"
+    },
+    {
+      "kind": "stake",
+      "id": "0x1e1a6d9658773a02ee0017873d4ed7371f4993d055129cdab359e587dcf68d62:0x1f8",
+      "user": "0x99c532f656e3c6f84174747b76a5586806ba8bbf",
+      "block": 112974900,
+      "lp": 1208.8324917593363,
+      "meta": 2244.8211692779782,
+      "ts": 1785398756,
+      "tx": "0x1e1a6d9658773a02ee0017873d4ed7371f4993d055129cdab359e587dcf68d62"
+    },
+    {
+      "kind": "stake",
+      "id": "0xc08acf931e3231c55f0deb1a857f29e44f32892df17fefb4982a4837e1aa41a9:0x124",
+      "user": "0x39adf52bb7e8a96c820a37c261932c45bb29753d",
+      "block": 112975143,
+      "lp": 1093.3305246327789,
+      "meta": 2030.3175586483874,
+      "ts": 1785398865,
+      "tx": "0xc08acf931e3231c55f0deb1a857f29e44f32892df17fefb4982a4837e1aa41a9"
+    },
+    {
+      "kind": "stake",
+      "id": "0xff198462a0ab7cd0eca7ced0913b347097d51fdadec5b0c4d3acb6ebd54a6a9f:0xe7",
+      "user": "0x0440da58e46a757506cf491a447de7be142561bc",
+      "block": 112975551,
+      "lp": 1087.9801804387491,
+      "meta": 2020.453730669233,
+      "ts": 1785399049,
+      "tx": "0xff198462a0ab7cd0eca7ced0913b347097d51fdadec5b0c4d3acb6ebd54a6a9f"
+    },
+    {
+      "kind": "stake",
+      "id": "0x897b65c89a246338e1e2c25386905d066d62bac651d84846b17cb03e4b31e9b4:0x219",
+      "user": "0x5ce275f46e1b8c4e26db2e4a9ae5cd55d0662b05",
+      "block": 112976970,
+      "lp": 1095.8840092018488,
+      "meta": 2034.8494345647653,
+      "ts": 1785399688,
+      "tx": "0x897b65c89a246338e1e2c25386905d066d62bac651d84846b17cb03e4b31e9b4"
+    },
+    {
+      "kind": "stake",
+      "id": "0xf449fecf09864f272ed42d83bfcaabb2874e8f9aa6b2eeb2c4ae048612cdd8aa:0x8c",
+      "user": "0xa41fc207c01e80b6630e01a14d1fe8dd1160ee21",
+      "block": 112977199,
+      "lp": 1087.8238095522695,
+      "meta": 2019.8831675495442,
+      "ts": 1785399791,
+      "tx": "0xf449fecf09864f272ed42d83bfcaabb2874e8f9aa6b2eeb2c4ae048612cdd8aa"
+    },
+    {
+      "kind": "stake",
+      "id": "0x2162b0f3f8132a11b611bfe2764a3021fb21ff583d8bc867395a60bcd8aa3d32:0x1c9",
+      "user": "0x628a6c2968aa178525d68bbcd7dce02ef2ebac77",
+      "block": 112978657,
+      "lp": 1103.9098730055387,
+      "meta": 2049.7029627798825,
+      "ts": 1785400449,
+      "tx": "0x2162b0f3f8132a11b611bfe2764a3021fb21ff583d8bc867395a60bcd8aa3d32"
+    },
+    {
+      "kind": "stake",
+      "id": "0x1c3e536c615c2b470448c7553d2ba3380b02607814bd0ac3c67f51ccec17844d:0xf7",
+      "user": "0x109f1e9182a6bf72c8f48bbb11199d189f2b3768",
+      "block": 112979103,
+      "lp": 1107.3318201818965,
+      "meta": 2054.9376398873637,
+      "ts": 1785400650,
+      "tx": "0x1c3e536c615c2b470448c7553d2ba3380b02607814bd0ac3c67f51ccec17844d"
+    },
+    {
+      "kind": "stake",
+      "id": "0x89af8e5adff32b78ddb50e492ebd96dc837c5ef0cc8c84bc922bb84f0ef2b3a0:0x3f4",
+      "user": "0x9f06d5c2da93d6a7ae9d64e3078a97385604e89d",
+      "block": 112979177,
+      "lp": 3018.0974609525792,
+      "meta": 5597.819800892818,
+      "ts": 1785400684,
+      "tx": "0x89af8e5adff32b78ddb50e492ebd96dc837c5ef0cc8c84bc922bb84f0ef2b3a0"
+    },
+    {
+      "kind": "stake",
+      "id": "0x91a8d8447c8a09615df8f40525d6e7beb4848bd6ade5648a943e1f3893f2f40e:0x8b",
+      "user": "0xb7b9480ab02f44edbde6707cbaf955d12fab95d4",
+      "block": 112979316,
+      "lp": 1086.60000880403,
+      "meta": 2015.3726390975155,
+      "ts": 1785400747,
+      "tx": "0x91a8d8447c8a09615df8f40525d6e7beb4848bd6ade5648a943e1f3893f2f40e"
+    },
+    {
+      "kind": "stake",
+      "id": "0x134a6b96a8458432699907526a9fa27e7d2acfb29c8faf515a56fcf3c6d4e4bd:0xaf",
+      "user": "0x5a4d324a934c8c4a7b23cacd221f2ed901591b41",
+      "block": 112979848,
+      "lp": 1086.5179152520768,
+      "meta": 2015.073167294846,
+      "ts": 1785400986,
+      "tx": "0x134a6b96a8458432699907526a9fa27e7d2acfb29c8faf515a56fcf3c6d4e4bd"
+    },
+    {
+      "kind": "stake",
+      "id": "0x2a81a3223b698b2711edac0405d59da6b178c21e0397eb26347838645c6ab2f4:0x2c5",
+      "user": "0x9996b4d09546b6e01a82a8800256fd63bf9d20f4",
+      "block": 112980057,
+      "lp": 1086.5230596129013,
+      "meta": 2015.0970727414942,
+      "ts": 1785401080,
+      "tx": "0x2a81a3223b698b2711edac0405d59da6b178c21e0397eb26347838645c6ab2f4"
+    },
+    {
+      "kind": "stake",
+      "id": "0x6719fe5cf594d33dae9a5dbe187d08cd8969a29d3c8ebadf76382ed34b7fe735:0x1f5",
+      "user": "0xd63ab7ec7255785ce0009c5417b87dc4ae0de40c",
+      "block": 112980760,
+      "lp": 1625.3468268697047,
+      "meta": 3012.9834198262283,
+      "ts": 1785401397,
+      "tx": "0x6719fe5cf594d33dae9a5dbe187d08cd8969a29d3c8ebadf76382ed34b7fe735"
+    },
+    {
+      "kind": "stake",
+      "id": "0x3682d6577cc86e4fd14bed4d0d48200e030d86e1ed0548945b846bacf65dcdfe:0x155",
+      "user": "0x49b82a9a583fc5434940abf8a7da1a783f78fa58",
+      "block": 112986422,
+      "lp": 2193.1251511964115,
+      "meta": 4058.9439969601317,
+      "ts": 1785403947,
+      "tx": "0x3682d6577cc86e4fd14bed4d0d48200e030d86e1ed0548945b846bacf65dcdfe"
+    },
+    {
+      "kind": "stake",
+      "id": "0xb68282228bd290da9058162d00f8f9a95da614ff4487152250cc5b8059509577:0x91",
+      "user": "0xb7bded418b17bba427ee46089978b9beae3feea8",
+      "block": 112990509,
+      "lp": 2864.7631402501597,
+      "meta": 5301.8305220174725,
+      "ts": 1785405789,
+      "tx": "0xb68282228bd290da9058162d00f8f9a95da614ff4487152250cc5b8059509577"
+    },
+    {
+      "kind": "stake",
+      "id": "0xc0b35e019b8ff22ba2d69748b7256e1c4f2b8e3a71dfee50d31f00c3d35be93f:0x18b",
+      "user": "0xd549b1c0a4ede0f8aec5d00aaef1502433680729",
+      "block": 112993271,
+      "lp": 1118.2926729233593,
+      "meta": 2068.6408464347824,
+      "ts": 1785407031,
+      "tx": "0xc0b35e019b8ff22ba2d69748b7256e1c4f2b8e3a71dfee50d31f00c3d35be93f"
+    },
+    {
+      "kind": "stake",
+      "id": "0x0faec91011355eb5ec6a935f2167e93a9cabda35681367360f850264d58b200a:0xb3",
+      "user": "0xe7270ecc7ddd2e6645da23bfd1a5f0d175de4aa1",
+      "block": 112993778,
+      "lp": 8426.034202276292,
+      "meta": 15586.886483048007,
+      "ts": 1785407260,
+      "tx": "0x0faec91011355eb5ec6a935f2167e93a9cabda35681367360f850264d58b200a"
+    },
+    {
+      "kind": "stake",
+      "id": "0xa629c3006a7bfe5cf4d967e0520cf5095dbfda30a29a119206a09d7c41e59635:0x1b9",
+      "user": "0x8f41266d4b816cbf616354bafa8a50368169cf32",
+      "block": 112993831,
+      "lp": 1105.5923522422681,
+      "meta": 2045.1783220000266,
+      "ts": 1785407283,
+      "tx": "0xa629c3006a7bfe5cf4d967e0520cf5095dbfda30a29a119206a09d7c41e59635"
+    },
+    {
+      "kind": "stake",
+      "id": "0x200ffeeb88831ba354135880bbcfcd8c41ac914fa5c379cc0f305443574c4582:0x133",
+      "user": "0x5ebf17a02a7d881c5769adba26dc5cc18b27e65a",
+      "block": 112994142,
+      "lp": 602.0534635705915,
+      "meta": 1113.7073832761469,
+      "ts": 1785407423,
+      "tx": "0x200ffeeb88831ba354135880bbcfcd8c41ac914fa5c379cc0f305443574c4582"
+    },
+    {
+      "kind": "stake",
+      "id": "0x9d7a279f00d57c0b7570f8810cc26627b807bb8201d3f2b68ee33b8d0137c63e:0x165",
+      "user": "0x039a91d2cfba3d447af94025ce7adaaef167c00c",
+      "block": 112994454,
+      "lp": 602.0521030172606,
+      "meta": 1113.703820440273,
+      "ts": 1785407564,
+      "tx": "0x9d7a279f00d57c0b7570f8810cc26627b807bb8201d3f2b68ee33b8d0137c63e"
+    },
+    {
+      "kind": "stake",
+      "id": "0x4e04b41480ed7c85da71cdcc3c611ca57260ac058e97d996da4c0c2b5d54dd89:0x2dd",
+      "user": "0x290e1388aaa3441e48dc95102c87b5c23f39d766",
+      "block": 112994709,
+      "lp": 601.9759212492427,
+      "meta": 1113.4236990448585,
+      "ts": 1785407679,
+      "tx": "0x4e04b41480ed7c85da71cdcc3c611ca57260ac058e97d996da4c0c2b5d54dd89"
+    },
+    {
+      "kind": "stake",
+      "id": "0x4637c6467015109be062d8bb1fc5706f70d6e264b09119415728e4e2611530fb:0x1b1",
+      "user": "0xae512eea3ae4983d8c81731a4191e87e115a81ac",
+      "block": 112994965,
+      "lp": 601.9769487252987,
+      "meta": 1113.4289754719641,
+      "ts": 1785407794,
+      "tx": "0x4637c6467015109be062d8bb1fc5706f70d6e264b09119415728e4e2611530fb"
+    },
+    {
+      "kind": "stake",
+      "id": "0xa01ab91f7ded4f84fce3016e7f7524f1560a5eca52e6b63cb7fa6292d02c3ade:0x209",
+      "user": "0x0e44e555854f3a6b16966f74a93c0567fd5c8d07",
+      "block": 112995539,
+      "lp": 858.8063346069171,
+      "meta": 1588.4597910913253,
+      "ts": 1785408053,
+      "tx": "0xa01ab91f7ded4f84fce3016e7f7524f1560a5eca52e6b63cb7fa6292d02c3ade"
+    },
+    {
+      "kind": "stake",
+      "id": "0x767322f0d7fdbf6b68e8c3ef6002939160dccc07189f41628964291e7b74818b:0x285",
+      "user": "0xebcddca433d2074be3daf542170e108e699edfa3",
+      "block": 112995740,
+      "lp": 45682.742202676374,
+      "meta": 84495.41673322179,
+      "ts": 1785408144,
+      "tx": "0x767322f0d7fdbf6b68e8c3ef6002939160dccc07189f41628964291e7b74818b"
+    },
+    {
+      "kind": "stake",
+      "id": "0x25a2e579b27fb21308ad9c991ed6808f194ebbab10a65638dc119576f1d5945a:0x74",
+      "user": "0x6c3a510470ada89380145d453efeccc36d88766b",
+      "block": 113004456,
+      "lp": 5530.269363971992,
+      "meta": 10224.023106578728,
+      "ts": 1785412072,
+      "tx": "0x25a2e579b27fb21308ad9c991ed6808f194ebbab10a65638dc119576f1d5945a"
+    },
+    {
+      "kind": "stake",
+      "id": "0xf30af5d8fab1b6fd831bbec0a8c16310d0884b6eb463f28089cf25c548d9262b:0xfe",
+      "user": "0xa2cdc60fe77f29476e1be8bfe49e3a87d09c2b36",
+      "block": 113004459,
+      "lp": 794.1316907539745,
+      "meta": 1468.1420056732322,
+      "ts": 1785412073,
+      "tx": "0xf30af5d8fab1b6fd831bbec0a8c16310d0884b6eb463f28089cf25c548d9262b"
+    },
+    {
+      "kind": "stake",
+      "id": "0x7520ae5b4de74fa889ebdb478f2413074cf6ca369a12f883e0c9994eeb711f0d:0xc6",
+      "user": "0xa2cdc60fe77f29476e1be8bfe49e3a87d09c2b36",
+      "block": 113004693,
+      "lp": 270.7354213621883,
+      "meta": 500.52458150764386,
+      "ts": 1785412179,
+      "tx": "0x7520ae5b4de74fa889ebdb478f2413074cf6ca369a12f883e0c9994eeb711f0d"
+    },
+    {
+      "kind": "stake",
+      "id": "0xa49f3e8c930000a5741d38da6ea6e2882dbcc376602b49a80c6de1cfaba3dfa3:0x72",
+      "user": "0x23e13f4c6784592e207b18148f0edcbd4ba9d1d8",
+      "block": 113005038,
+      "lp": 601.6945051325982,
+      "meta": 1112.5165705469535,
+      "ts": 1785412335,
+      "tx": "0xa49f3e8c930000a5741d38da6ea6e2882dbcc376602b49a80c6de1cfaba3dfa3"
+    },
+    {
+      "kind": "stake",
+      "id": "0xb859b087cfff745111ee51fe418ceeb7365a9ba7b16c606c65efa284aa778f96:0x25b",
+      "user": "0x9c17593638a92cbfdd8ba8568bfebc6859f259d8",
+      "block": 113007128,
+      "lp": 597.7346516476866,
+      "meta": 1105.2918146950508,
+      "ts": 1785413275,
+      "tx": "0xb859b087cfff745111ee51fe418ceeb7365a9ba7b16c606c65efa284aa778f96"
+    },
+    {
+      "kind": "stake",
+      "id": "0xfeb01a8af004bfbcd80f7c6abd40752997c9e33867433dfc7f73a5ba78ac1926:0xd0",
+      "user": "0x022732093c5c9f5bd58954fcf3b5acd99c7c3886",
+      "block": 113008335,
+      "lp": 4951.756053779087,
+      "meta": 9157.592658842776,
+      "ts": 1785413819,
+      "tx": "0xfeb01a8af004bfbcd80f7c6abd40752997c9e33867433dfc7f73a5ba78ac1926"
+    },
+    {
+      "kind": "stake",
+      "id": "0x63510c7d0ed7eaf2142e3b6af6b793969e3abdfdef68afdd4e5d966abd2c31e0:0x15e",
+      "user": "0x2510b72fb9f30660eb47b4ab43d1c7a1b67665b8",
+      "block": 113008370,
+      "lp": 597.8016103725238,
+      "meta": 1105.5531151697817,
+      "ts": 1785413834,
+      "tx": "0x63510c7d0ed7eaf2142e3b6af6b793969e3abdfdef68afdd4e5d966abd2c31e0"
+    },
+    {
+      "kind": "stake",
+      "id": "0x897feed52590e27c47a5676b1bdd46e78daa8afd65662023fbbb128346bc1fd3:0x2db",
+      "user": "0xa2cdc60fe77f29476e1be8bfe49e3a87d09c2b36",
+      "block": 113009039,
+      "lp": 441.3022431231671,
+      "meta": 816.0728957574714,
+      "ts": 1785414135,
+      "tx": "0x897feed52590e27c47a5676b1bdd46e78daa8afd65662023fbbb128346bc1fd3"
+    },
+    {
+      "kind": "stake",
+      "id": "0x569b254bd7856842e4d2c89b98ec2d9fee03a4cfc7d284fbb8ed493289dbb058:0x784",
+      "user": "0x805a4e772ac855d5215f8af8ad67aa2e58b7604d",
+      "block": 113009687,
+      "lp": 595.750756297515,
+      "meta": 1101.6800349973626,
+      "ts": 1785414427,
+      "tx": "0x569b254bd7856842e4d2c89b98ec2d9fee03a4cfc7d284fbb8ed493289dbb058"
+    },
+    {
+      "kind": "stake",
+      "id": "0xf1c489881ac1467e7d32ca21f0360e123d2cb73fe03b951584319ba8c882a81e:0x2c2",
+      "user": "0xa2cdc60fe77f29476e1be8bfe49e3a87d09c2b36",
+      "block": 113009823,
+      "lp": 6.0178298272273,
+      "meta": 11.128346555655613,
+      "ts": 1785414488,
+      "tx": "0xf1c489881ac1467e7d32ca21f0360e123d2cb73fe03b951584319ba8c882a81e"
+    },
+    {
+      "kind": "stake",
+      "id": "0x5a5bb03cf9e13b073f34130c97e84580d13eb7a149e16247772d00efac580f25:0x177",
+      "user": "0x094591b7c93a1b50f7fe684a90d0e18d0648cf32",
+      "block": 113010963,
+      "lp": 590.9359347019131,
+      "meta": 1092.7762921307105,
+      "ts": 1785415001,
+      "tx": "0x5a5bb03cf9e13b073f34130c97e84580d13eb7a149e16247772d00efac580f25"
+    },
+    {
+      "kind": "stake",
+      "id": "0xdd24d54248f03717bd7b1c481e197234fe71e754c3fba1949d4469c0f709777a:0xe1",
+      "user": "0x569529949be721a882e316a062cd16397d9ab20b",
+      "block": 113011490,
+      "lp": 3203.4948302883477,
+      "meta": 5923.8919839342225,
+      "ts": 1785415238,
+      "tx": "0xdd24d54248f03717bd7b1c481e197234fe71e754c3fba1949d4469c0f709777a"
+    },
+    {
+      "kind": "stake",
+      "id": "0x72dbb7a3dd546fde62d0d7dc565903041673d8ff2083cdd4c2dc537741ea99e7:0xb6",
+      "user": "0x569529949be721a882e316a062cd16397d9ab20b",
+      "block": 113011956,
+      "lp": 39.22672902480671,
+      "meta": 72.53923255965066,
+      "ts": 1785415448,
+      "tx": "0x72dbb7a3dd546fde62d0d7dc565903041673d8ff2083cdd4c2dc537741ea99e7"
+    },
+    {
+      "kind": "stake",
+      "id": "0xf406a7b451fc726eb294868689a3142564d7e76e611d607ff8e0f5ae68e9e741:0x189",
+      "user": "0x09a537d3009158d626102957038e8e83e710d902",
+      "block": 113012750,
+      "lp": 1104.289575603816,
+      "meta": 2042.136777222676,
+      "ts": 1785415805,
+      "tx": "0xf406a7b451fc726eb294868689a3142564d7e76e611d607ff8e0f5ae68e9e741"
+    },
+    {
+      "kind": "stake",
+      "id": "0xe695482f3cccf8df9b9f2387e626164163bc93ff28f03df5610a0187aed7085b:0xd6",
+      "user": "0xd8bea2a84fb4e77990280ff3d9454b1456fd989a",
+      "block": 113013389,
+      "lp": 1105.937217695808,
+      "meta": 2045.1466808764171,
+      "ts": 1785416093,
+      "tx": "0xe695482f3cccf8df9b9f2387e626164163bc93ff28f03df5610a0187aed7085b"
+    },
+    {
+      "kind": "stake",
+      "id": "0xd5192c76d7d4965b6c7ba633a1f3c3f58f9edcb697162ab2b8153b11e29baae4:0xca",
+      "user": "0x21acf4bd133ae035f0d8915bd7cf6bd6524d1001",
+      "block": 113013894,
+      "lp": 1097.2290908159391,
+      "meta": 2029.0392586720798,
+      "ts": 1785416320,
+      "tx": "0xd5192c76d7d4965b6c7ba633a1f3c3f58f9edcb697162ab2b8153b11e29baae4"
+    },
+    {
+      "kind": "stake",
+      "id": "0xc24197c168a4ef8e65b44bf2fdc630ee3a8512b71e2407a9c5c167486354c9a0:0x13d",
+      "user": "0x022732093c5c9f5bd58954fcf3b5acd99c7c3886",
+      "block": 113014785,
+      "lp": 449.3119840681018,
+      "meta": 830.874480443612,
+      "ts": 1785416721,
+      "tx": "0xc24197c168a4ef8e65b44bf2fdc630ee3a8512b71e2407a9c5c167486354c9a0"
+    },
+    {
+      "kind": "stake",
+      "id": "0x7d871590177421df0e67122d4bdde163dd09ea96e723fcc576320d1c222e8a07:0x265",
+      "user": "0x3f5552b9ded94e1ad8a5e6e1dfcc950a1ff4fee0",
+      "block": 113015691,
+      "lp": 5911.674967601136,
+      "meta": 10931.742584588847,
+      "ts": 1785417129,
+      "tx": "0x7d871590177421df0e67122d4bdde163dd09ea96e723fcc576320d1c222e8a07"
+    },
+    {
+      "kind": "stake",
+      "id": "0xecf4685f5ed5e4a99a6651f007d8ca1a17676b12241730fe554def73d7f26665:0xa4",
+      "user": "0x4304f2042251a0f546c03544f1e32f462ae0de57",
+      "block": 113016286,
+      "lp": 73.97303512883809,
+      "meta": 136.7891101574722,
+      "ts": 1785417397,
+      "tx": "0xecf4685f5ed5e4a99a6651f007d8ca1a17676b12241730fe554def73d7f26665"
+    },
+    {
+      "kind": "stake",
+      "id": "0x85bcb564888f207c70e7ce82f5978ed794d9414ff66d4d41e9bcdfe6d8d09b99:0x84",
+      "user": "0x9d7a62d778518f6c87a46fa4731b2379f6a132c1",
+      "block": 113018758,
+      "lp": 1063.1478009190955,
+      "meta": 1966.1508254739417,
+      "ts": 1785418511,
+      "tx": "0x85bcb564888f207c70e7ce82f5978ed794d9414ff66d4d41e9bcdfe6d8d09b99"
+    },
+    {
+      "kind": "stake",
+      "id": "0xc1cb5e71f2af5db8e5d6472a61dd2177aa72967a703e61d8157bbc67421d9251:0xed",
+      "user": "0x9d7a62d778518f6c87a46fa4731b2379f6a132c1",
+      "block": 113019148,
+      "lp": 19.668364506842817,
+      "meta": 36.39128443454469,
+      "ts": 1785418687,
+      "tx": "0xc1cb5e71f2af5db8e5d6472a61dd2177aa72967a703e61d8157bbc67421d9251"
+    },
+    {
+      "kind": "stake",
+      "id": "0xe14aeb2373e2d809acc324cdf521ff75edbddb9b10478d5fc8e31612057d885f:0x2bc",
+      "user": "0xef69d655671a6fc393bb2a94c0c577cbd969fc29",
+      "block": 113025395,
+      "lp": 1103.6430088964119,
+      "meta": 2041.8124113761958,
+      "ts": 1785421498,
+      "tx": "0xe14aeb2373e2d809acc324cdf521ff75edbddb9b10478d5fc8e31612057d885f"
+    },
+    {
+      "kind": "stake",
+      "id": "0x92d8bf6d6085590d6d9243ec65da60748297c0530b4b5d1894929b5e4835cbbd:0x23d",
+      "user": "0x7551ad91fc5b7498e7a82297e44d7c0ae74a6342",
+      "block": 113025830,
+      "lp": 6799.854995904102,
+      "meta": 12580.368872033197,
+      "ts": 1785421694,
+      "tx": "0x92d8bf6d6085590d6d9243ec65da60748297c0530b4b5d1894929b5e4835cbbd"
+    },
+    {
+      "kind": "stake",
+      "id": "0xd68731cdb1cf4913530108f67efdb5cd1bd057aa9a9e325a6701b12ba62b91ee:0x23d",
+      "user": "0xf0b0d82915baf6ce08bcd4cbc0a68278d2b5be49",
+      "block": 113026148,
+      "lp": 1175.8168060588678,
+      "meta": 2175.3411650299545,
+      "ts": 1785421837,
+      "tx": "0xd68731cdb1cf4913530108f67efdb5cd1bd057aa9a9e325a6701b12ba62b91ee"
+    },
+    {
+      "kind": "stake",
+      "id": "0x93c8ce394ff40a0c9f4ac5b9b0f2bf4c530d5fc9afa0718c2d16bf53a35f4cec:0x5b",
+      "user": "0xc946c5568a21ba14279f3bf7459b7b298d2cb3d6",
+      "block": 113046793,
+      "lp": 1086.2117260318303,
+      "meta": 2009.218654059541,
+      "ts": 1785431129,
+      "tx": "0x93c8ce394ff40a0c9f4ac5b9b0f2bf4c530d5fc9afa0718c2d16bf53a35f4cec"
+    },
+    {
+      "kind": "stake",
+      "id": "0x147b62d862dcc5776c54b477b02589999d36edbc89cf01eeea2dd59cfa55ff53:0x2fc",
+      "user": "0x28bbf2bf682338d92d0b08b24930c01df783744a",
+      "block": 113047213,
+      "lp": 1086.209151535773,
+      "meta": 2009.2138918889814,
+      "ts": 1785431318,
+      "tx": "0x147b62d862dcc5776c54b477b02589999d36edbc89cf01eeea2dd59cfa55ff53"
+    },
+    {
+      "kind": "stake",
+      "id": "0x347d08db04f8fd0245413c370b7cb4929e987d035b78dde6d16c6e5587b6e43d:0x73",
+      "user": "0xd8af902d12b2167707d8ac262696f3b17d4aace9",
+      "block": 113047536,
+      "lp": 1086.2065771678451,
+      "meta": 2009.2091299554293,
+      "ts": 1785431463,
+      "tx": "0x347d08db04f8fd0245413c370b7cb4929e987d035b78dde6d16c6e5587b6e43d"
+    },
+    {
+      "kind": "stake",
+      "id": "0x2984af2713bd754f2f79ffc0b2cb55020ca0d9834c0bd9670f5d21ce13f7e1b1:0x175",
+      "user": "0xc1b5237898a64bf90cebbdd4dc37e42661912163",
+      "block": 113047851,
+      "lp": 1086.204002928034,
+      "meta": 2009.2043682588608,
+      "ts": 1785431605,
+      "tx": "0x2984af2713bd754f2f79ffc0b2cb55020ca0d9834c0bd9670f5d21ce13f7e1b1"
+    },
+    {
+      "kind": "stake",
+      "id": "0xed772358686a6dab784c3c17c7cb508fe757c3b47279553ffe0dce862401a680:0x115",
+      "user": "0xf868f3d7a0180d02858f7602fd32bebada4a2f18",
+      "block": 113067803,
+      "lp": 545.641233663351,
+      "meta": 1009.1505255240481,
+      "ts": 1785440584,
+      "tx": "0xed772358686a6dab784c3c17c7cb508fe757c3b47279553ffe0dce862401a680"
+    },
+    {
+      "kind": "stake",
+      "id": "0x8f841c04901ed5b5f635aabf5f75f0df4986bbb596914b78ad7a996e02ddd03d:0xd3",
+      "user": "0xbbe99bbeef86660ad4f89b29066efaee069d03a4",
+      "block": 113068703,
+      "lp": 545.6073965099579,
+      "meta": 1009.0268501350581,
+      "ts": 1785440989,
+      "tx": "0x8f841c04901ed5b5f635aabf5f75f0df4986bbb596914b78ad7a996e02ddd03d"
+    },
+    {
+      "kind": "stake",
+      "id": "0x9e450e7136cc3b9280631d7d53ee022d0b6f25622dbfa1fea5ba6497b2840745:0x100",
+      "user": "0xc5509be7951d52302999a6048a248745fa3e81d1",
+      "block": 113068891,
+      "lp": 545.6067467527137,
+      "meta": 1009.025648497196,
+      "ts": 1785441074,
+      "tx": "0x9e450e7136cc3b9280631d7d53ee022d0b6f25622dbfa1fea5ba6497b2840745"
+    },
+    {
+      "kind": "stake",
+      "id": "0x64b49fc8199be17c3b41961a0ddfd279864a1af6cdbf0ef8b39d7d4468c00d4e:0x4f",
+      "user": "0x4806289008ded692bc2bc4aca64006c0010b79d1",
+      "block": 113069180,
+      "lp": 1093.1723766541659,
+      "meta": 2021.63784072221,
+      "ts": 1785441204,
+      "tx": "0x64b49fc8199be17c3b41961a0ddfd279864a1af6cdbf0ef8b39d7d4468c00d4e"
+    },
+    {
+      "kind": "stake",
+      "id": "0x827ebde748aeb6846ef04799e07114484d123fdfe83652563b9d8272da85d59c:0x62",
+      "user": "0x41f46907d2a62b2eebfcef18fd5659a527ad8e93",
+      "block": 113070615,
+      "lp": 545.6427200640819,
+      "meta": 1009.1625416929398,
+      "ts": 1785441850,
+      "tx": "0x827ebde748aeb6846ef04799e07114484d123fdfe83652563b9d8272da85d59c"
+    },
+    {
+      "kind": "stake",
+      "id": "0xd8d9a237e17f7168314e58b842e991badc23b68a8b0b2fe59ae9c3948796732b:0x79",
+      "user": "0x3dfdd77b3f5f8592a208d358f9efc88227a864ea",
+      "block": 113072492,
+      "lp": 1103.2934929539842,
+      "meta": 2040.5338963414797,
+      "ts": 1785442694,
+      "tx": "0xd8d9a237e17f7168314e58b842e991badc23b68a8b0b2fe59ae9c3948796732b"
+    },
+    {
+      "kind": "stake",
+      "id": "0xb855464e6b1a7ee186f35d43d785c4b48e1ffff19337f8652df5f928200a04a8:0x42",
+      "user": "0x1726dc077cee4338efc134f63d4bb03820b671a1",
+      "block": 113096965,
+      "lp": 2126.152477016105,
+      "meta": 3932.1300382840996,
+      "ts": 1785453709,
+      "tx": "0xb855464e6b1a7ee186f35d43d785c4b48e1ffff19337f8652df5f928200a04a8"
+    },
+    {
+      "kind": "stake",
+      "id": "0xe52276e32cf1f61568f7f539b7a7c9197d3407241908386a61dd22b59a062061:0x89",
+      "user": "0xa4b374c00024b131230430e7b23020932a09601e",
+      "block": 113097896,
+      "lp": 4131.518230415184,
+      "meta": 7640.769639750789,
+      "ts": 1785454128,
+      "tx": "0xe52276e32cf1f61568f7f539b7a7c9197d3407241908386a61dd22b59a062061"
+    },
+    {
+      "kind": "stake",
+      "id": "0x7cf3f262383f4a2fa08016f4e88b37b704b3dd22c1cb5783be718341114318f0:0xac",
+      "user": "0xa4b374c00024b131230430e7b23020932a09601e",
+      "block": 113098137,
+      "lp": 401.2257989015244,
+      "meta": 742.1059936541163,
+      "ts": 1785454236,
+      "tx": "0x7cf3f262383f4a2fa08016f4e88b37b704b3dd22c1cb5783be718341114318f0"
+    },
+    {
+      "kind": "stake",
+      "id": "0x5980aafa365f5e4b600ea658fe7b071c204db690a1208fa2419241314a621227:0x39c",
+      "user": "0xf20ebc597282657e2de0f66a535c8eaf70164a86",
+      "block": 113098915,
+      "lp": 1203.7010061215728,
+      "meta": 2226.4862293648875,
+      "ts": 1785454587,
+      "tx": "0x5980aafa365f5e4b600ea658fe7b071c204db690a1208fa2419241314a621227"
+    },
+    {
+      "kind": "stake",
+      "id": "0xd77f5382bcf8139061c88c984ab0dd9112a2191ef2dd31923f43e8d5b41c74b9:0x90",
+      "user": "0x2cd23cb42d00104d77ff2b3e7e7c523916dcc12e",
+      "block": 113099359,
+      "lp": 1203.6978469251694,
+      "meta": 2226.480385798045,
+      "ts": 1785454787,
+      "tx": "0xd77f5382bcf8139061c88c984ab0dd9112a2191ef2dd31923f43e8d5b41c74b9"
+    },
+    {
+      "kind": "stake",
+      "id": "0x8f7471898b19eb61d6590940fe0aa451f76d27f2d062c8cbfae1f9aefdb78133:0x11e",
+      "user": "0xdbbe2b515392faac034d0246948776a71547ccf8",
+      "block": 113099848,
+      "lp": 1203.776013453266,
+      "meta": 2226.4246505399165,
+      "ts": 1785455007,
+      "tx": "0x8f7471898b19eb61d6590940fe0aa451f76d27f2d062c8cbfae1f9aefdb78133"
+    },
+    {
+      "kind": "stake",
+      "id": "0xbd9d05af5ad428dac6cee90f75ef24e83d7ba45e549cea229a99cc7c446bd7a3:0xd7",
+      "user": "0x36fef95d92e0128d1a1fe94f3b006b6a23fd68b4",
+      "block": 113100401,
+      "lp": 1985.0730839166506,
+      "meta": 3671.944061209546,
+      "ts": 1785455256,
+      "tx": "0xbd9d05af5ad428dac6cee90f75ef24e83d7ba45e549cea229a99cc7c446bd7a3"
+    },
+    {
+      "kind": "stake",
+      "id": "0xb7683afd54eac3699c38e3a10811e16a08157a13f7592cfeca085d3b7e9a21fd:0x61",
+      "user": "0x6874617f056d5b57f6255114fcc416333854ab54",
+      "block": 113111823,
+      "lp": 802.4604603543794,
+      "meta": 1484.2937343807355,
+      "ts": 1785460397,
+      "tx": "0xb7683afd54eac3699c38e3a10811e16a08157a13f7592cfeca085d3b7e9a21fd"
+    },
+    {
+      "kind": "stake",
+      "id": "0x25fa26e45a0ee21a3ca3933ed5bb843a9fcc51f632234bcd63bf3a0269db856d:0xf6",
+      "user": "0xc4dcea10940cb1dbb5bcebae75bc69346c7998fa",
+      "block": 113113106,
+      "lp": 19747.558507557445,
+      "meta": 36531.06035214188,
+      "ts": 1785460974,
+      "tx": "0x25fa26e45a0ee21a3ca3933ed5bb843a9fcc51f632234bcd63bf3a0269db856d"
+    },
+    {
+      "kind": "stake",
+      "id": "0x18a9b4c976e218d7fbe56219658f02eee371ce5ce4d2a9b114e72f3f8549009d:0x62",
+      "user": "0x6874617f056d5b57f6255114fcc416333854ab54",
+      "block": 113113706,
+      "lp": 283.6977903903989,
+      "meta": 524.8133157405036,
+      "ts": 1785461244,
+      "tx": "0x18a9b4c976e218d7fbe56219658f02eee371ce5ce4d2a9b114e72f3f8549009d"
+    },
+    {
+      "kind": "stake",
+      "id": "0xaec12bb6e7236e64d8d76c4e54113ac4f9c8f778c4a66181f7ad3e3ba68c2983:0x1d8",
+      "user": "0xd0dcfe425aef461ffa1bbd59bc9f09faf31f5b63",
+      "block": 113118309,
+      "lp": 593.7305058596058,
+      "meta": 1098.0843500113933,
+      "ts": 1785463316,
+      "tx": "0xaec12bb6e7236e64d8d76c4e54113ac4f9c8f778c4a66181f7ad3e3ba68c2983"
+    },
+    {
+      "kind": "stake",
+      "id": "0x8804a1fd437f7ecba0890865418826744d3e025477266f865657a68f5736c206:0x15a",
+      "user": "0x38924ae5da8e50b0162fe716c1e6f5214934b441",
+      "block": 113120459,
+      "lp": 1203.610224565452,
+      "meta": 2226.289199271947,
+      "ts": 1785464283,
+      "tx": "0x8804a1fd437f7ecba0890865418826744d3e025477266f865657a68f5736c206"
+    },
+    {
+      "kind": "stake",
+      "id": "0x99b57b7e974a403741476564e15c9e72cf8818258a979bb078adce1dfe9a690b:0x2b3",
+      "user": "0x0775aef84b841e506ae75d366e97d5cff0736e53",
+      "block": 113120563,
+      "lp": 1203.6070693802058,
+      "meta": 2226.283363200857,
+      "ts": 1785464330,
+      "tx": "0x99b57b7e974a403741476564e15c9e72cf8818258a979bb078adce1dfe9a690b"
+    },
+    {
+      "kind": "stake",
+      "id": "0x4c5c495e8241064b69617b7585737358c2339f76a152b655d157a020a37f0ec6:0x1e9",
+      "user": "0x9163251e09a938734ae0043cb26dca96ea82343d",
+      "block": 113120658,
+      "lp": 1203.603914368635,
+      "meta": 2226.27752745101,
+      "ts": 1785464373,
+      "tx": "0x4c5c495e8241064b69617b7585737358c2339f76a152b655d157a020a37f0ec6"
+    },
+    {
+      "kind": "stake",
+      "id": "0xa05ca9e10c438758e377e5add9707cbd908dba2c6a8be7cb4ca074eafdf02000:0x59",
+      "user": "0x9953e947a6fd060136cc404da27ac608cf0605e1",
+      "block": 113124937,
+      "lp": 98.70812996779229,
+      "meta": 182.59318618176943,
+      "ts": 1785466299,
+      "tx": "0xa05ca9e10c438758e377e5add9707cbd908dba2c6a8be7cb4ca074eafdf02000"
+    },
+    {
+      "kind": "stake",
+      "id": "0xf39ec0daeb4ba653343a5c05b09b11f8aef13c9606400b22f72a12d4138b9240:0x97",
+      "user": "0x5d3a849dd0e1eeb8a5530f60a39516e5fb386d86",
+      "block": 113125943,
+      "lp": 98.70891933065337,
+      "meta": 182.5961515688651,
+      "ts": 1785466751,
+      "tx": "0xf39ec0daeb4ba653343a5c05b09b11f8aef13c9606400b22f72a12d4138b9240"
+    },
+    {
+      "kind": "stake",
+      "id": "0x5bd654cfe89f974f3faa920300c0271a9dcd78911a4b6c064d3f2b3204403285:0x191",
+      "user": "0x0687f950feccd2ea7f3e0fce9c9ffcb0829cbbbd",
+      "block": 113127242,
+      "lp": 160.50630746354074,
+      "meta": 296.91999450337056,
+      "ts": 1785467336,
+      "tx": "0x5bd654cfe89f974f3faa920300c0271a9dcd78911a4b6c064d3f2b3204403285"
+    },
+    {
+      "kind": "stake",
+      "id": "0x688db3d7c7f5d6ef703e9008ca157512d947dd64cb091bcc5985f171b2edb134:0x185",
+      "user": "0xa3af184068f5568f050545b910d37778b87bd214",
+      "block": 113130219,
+      "lp": 1111.4765917884906,
+      "meta": 2056.1476749725957,
+      "ts": 1785468675,
+      "tx": "0x688db3d7c7f5d6ef703e9008ca157512d947dd64cb091bcc5985f171b2edb134"
+    },
+    {
+      "kind": "stake",
+      "id": "0x040ff20db4a8b8767966c16f0c63feb5a889929494bb659f00a61bb0f25c85e3:0x215",
+      "user": "0x1de6915e59b1070dffadab751b396cd7c19afc51",
+      "block": 113131658,
+      "lp": 192.23669846969267,
+      "meta": 355.675762790135,
+      "ts": 1785469323,
+      "tx": "0x040ff20db4a8b8767966c16f0c63feb5a889929494bb659f00a61bb0f25c85e3"
+    },
+    {
+      "kind": "stake",
+      "id": "0x578aa30b0589350733a4777afc4a2255bfd6f6cbf9092bab5b7f2e25f8ea7181:0x1b0",
+      "user": "0x50485aa7623d622d25be4c7ff14cf14da20d432b",
+      "block": 113136262,
+      "lp": 9761.958740150156,
+      "meta": 18062.46751766594,
+      "ts": 1785471395,
+      "tx": "0x578aa30b0589350733a4777afc4a2255bfd6f6cbf9092bab5b7f2e25f8ea7181"
+    },
+    {
+      "kind": "stake",
+      "id": "0xe8a7f33f25fe9d04ac022c78bc072b332126d9930206ac69160265e63f22d6af:0x160",
+      "user": "0xb56fb59b990062df73de7e5bd0deeb97ba03390c",
+      "block": 113136429,
+      "lp": 3271.6918803140798,
+      "meta": 6053.58212600398,
+      "ts": 1785471470,
+      "tx": "0xe8a7f33f25fe9d04ac022c78bc072b332126d9930206ac69160265e63f22d6af"
+    },
+    {
+      "kind": "stake",
+      "id": "0xa70ca62d2d2d7cce1e0cbe317b7167bd1f832456809d8dfeac829921de351a81:0xa2",
+      "user": "0x1c3935cc58351a63e5dee120b566ba0e0423c9e5",
+      "block": 113138832,
+      "lp": 1962.1179311856388,
+      "meta": 3630.0501222532857,
+      "ts": 1785472552,
+      "tx": "0xa70ca62d2d2d7cce1e0cbe317b7167bd1f832456809d8dfeac829921de351a81"
+    },
+    {
+      "kind": "stake",
+      "id": "0x5b5e93b7e05f62bfc8aa351ec22b604ee295fc7a7c31faab06b171507eb04dec:0x108",
+      "user": "0x6a0636e65c1bb6eae17385683625f0deec741a9e",
+      "block": 113144615,
+      "lp": 5877.41038754038,
+      "meta": 10873.615978251306,
+      "ts": 1785475155,
+      "tx": "0x5b5e93b7e05f62bfc8aa351ec22b604ee295fc7a7c31faab06b171507eb04dec"
+    },
+    {
+      "kind": "stake",
+      "id": "0x145dea13b06a05344dc8ccebf3cb3535d3a0dfcc94c1afe09bb2ed42ac827e8e:0x130",
+      "user": "0x477a14e7a0a34a8b57320a1befba5b9d662a8a2f",
+      "block": 113146309,
+      "lp": 5523.0971924225405,
+      "meta": 10225.409263840584,
+      "ts": 1785475917,
+      "tx": "0x145dea13b06a05344dc8ccebf3cb3535d3a0dfcc94c1afe09bb2ed42ac827e8e"
+    },
+    {
+      "kind": "stake",
+      "id": "0x0dd45b0a9416397a462e32e7656e5e7df57cb01f75b077598e60bd80becaf6c7:0x9e",
+      "user": "0xa538be04c4e75507ab745ca2c7e01284334b5a9b",
+      "block": 113147611,
+      "lp": 602.5690104219967,
+      "meta": 1116.0246855166263,
+      "ts": 1785476503,
+      "tx": "0x0dd45b0a9416397a462e32e7656e5e7df57cb01f75b077598e60bd80becaf6c7"
+    },
+    {
+      "kind": "stake",
+      "id": "0xc0f6b1e246ce4a79d0a0170d6b016b77184e8c95565a94f047dba78ec5cd4c73:0x1d",
+      "user": "0x43d3bc691368627d9780f1076c552a0e83aebf1c",
+      "block": 113148177,
+      "lp": 8436.904179423504,
+      "meta": 15633.190482380685,
+      "ts": 1785476758,
+      "tx": "0xc0f6b1e246ce4a79d0a0170d6b016b77184e8c95565a94f047dba78ec5cd4c73"
+    },
+    {
+      "kind": "stake",
+      "id": "0x68f2384a9a048cfe0d3ed0ce8adfa6bf1c8b82099d9ace73bf988d51c7215857:0xe3",
+      "user": "0xa8c3ad952b82e7abdfe29232d01876d478f13a08",
+      "block": 113148524,
+      "lp": 602.8215911244743,
+      "meta": 1116.9836225822544,
+      "ts": 1785476914,
+      "tx": "0x68f2384a9a048cfe0d3ed0ce8adfa6bf1c8b82099d9ace73bf988d51c7215857"
+    },
+    {
+      "kind": "stake",
+      "id": "0xff0db8f45cbc4be1f2d3881daf676601cc3b7be7c579ffad4db036caa443dd6a:0xbb",
+      "user": "0xd5a12958015df526ed65fed5d809488ad30437c2",
+      "block": 113152317,
+      "lp": 603.4758083125828,
+      "meta": 1119.4133901544544,
+      "ts": 1785478621,
+      "tx": "0xff0db8f45cbc4be1f2d3881daf676601cc3b7be7c579ffad4db036caa443dd6a"
+    },
+    {
+      "kind": "stake",
+      "id": "0x47940e730514c15482bc825efc7b10574867ed3fd0459c3430af1f7f4db7af88:0x48",
+      "user": "0xae6937f261e02651c1edd9ed68ae985456cd3395",
+      "block": 113153899,
+      "lp": 1144.4460690571873,
+      "meta": 2120.4959934767357,
+      "ts": 1785479333,
+      "tx": "0x47940e730514c15482bc825efc7b10574867ed3fd0459c3430af1f7f4db7af88"
+    },
+    {
+      "kind": "stake",
+      "id": "0x9a367669241a8a487c9be94f64c0d372a1ee5d1525e0402c1c76e61191be19f2:0xf0",
+      "user": "0xb208c2d18536c3892ebc1434859cba7ed033ff10",
+      "block": 113154963,
+      "lp": 603.0426776534548,
+      "meta": 1117.8143257824252,
+      "ts": 1785479812,
+      "tx": "0x9a367669241a8a487c9be94f64c0d372a1ee5d1525e0402c1c76e61191be19f2"
+    },
+    {
+      "kind": "stake",
+      "id": "0xc7d48aec8226e604d64b9a9954aaaea3a4cf5b9ac0f5cdaeb1532e96ec4a65df:0x36",
+      "user": "0xcdc4022cbf509f0793d173309a6994c84823f88a",
+      "block": 113157102,
+      "lp": 603.5438868243323,
+      "meta": 1119.678518542539,
+      "ts": 1785480775,
+      "tx": "0xc7d48aec8226e604d64b9a9954aaaea3a4cf5b9ac0f5cdaeb1532e96ec4a65df"
+    },
+    {
+      "kind": "stake",
+      "id": "0x5c2745b7256ff1d6f9beba67239c4d767769baba26a6f40aed0eba6bdbc3f3db:0x34b",
+      "user": "0xc9b498147982be1cfe0d96331429756a3afe7b06",
+      "block": 113158037,
+      "lp": 194.6177716951021,
+      "meta": 361.3981881318361,
+      "ts": 1785481195,
+      "tx": "0x5c2745b7256ff1d6f9beba67239c4d767769baba26a6f40aed0eba6bdbc3f3db"
+    },
+    {
+      "kind": "stake",
+      "id": "0xc3b6c189e49b16ce8bf0cc7d02f80f3f54cb4f1953eef511c999f59e0374bef4:0x2e8",
+      "user": "0xc2ad9721576685682ca9c5f80756f75bd59cd796",
+      "block": 113161281,
+      "lp": 4442.479295864728,
+      "meta": 8266.829770130515,
+      "ts": 1785482655,
+      "tx": "0xc3b6c189e49b16ce8bf0cc7d02f80f3f54cb4f1953eef511c999f59e0374bef4"
+    },
+    {
+      "kind": "stake",
+      "id": "0x518026ce82059b8a4f532d01537cdd3f74f06993cc692c773c5bedbc4c390536:0xe1",
+      "user": "0x1b83df35ca4799697e529458de5041a65d747942",
+      "block": 113162435,
+      "lp": 6.053710012103109,
+      "meta": 11.264577341210739,
+      "ts": 1785483175,
+      "tx": "0x518026ce82059b8a4f532d01537cdd3f74f06993cc692c773c5bedbc4c390536"
+    },
+    {
+      "kind": "stake",
+      "id": "0xb2011c38e64eb38c1fd1beb9f228446f7d658709584c1727c20c43597674f01a:0x93",
+      "user": "0x7e3e5cae5a1e0dfb43fbb670bf496c821ceb1d6b",
+      "block": 113162453,
+      "lp": 605.3549179659649,
+      "meta": 1126.427274631744,
+      "ts": 1785483183,
+      "tx": "0xb2011c38e64eb38c1fd1beb9f228446f7d658709584c1727c20c43597674f01a"
+    },
+    {
+      "kind": "stake",
+      "id": "0x6cc8594fdb9ade4d9a1b444e03d6af397d6978e571614388e0a80e4cc7e1cc19:0xfa",
+      "user": "0x5c30b29e472281e1d47bf34cdf01f5a2a8c72657",
+      "block": 113162795,
+      "lp": 2.0188333005644,
+      "meta": 3.758328127258389,
+      "ts": 1785483337,
+      "tx": "0x6cc8594fdb9ade4d9a1b444e03d6af397d6978e571614388e0a80e4cc7e1cc19"
+    },
+    {
+      "kind": "stake",
+      "id": "0x3074c2f97edf7d6b492c6d277aae5bdf0d04dcfdb5ab2e6d80db5c17bb2657f5:0xb0",
+      "user": "0x434625d5722fad45571cf9ca61183042a5a2a425",
+      "block": 113162900,
+      "lp": 1073.971329685058,
+      "meta": 1999.3451858514293,
+      "ts": 1785483384,
+      "tx": "0x3074c2f97edf7d6b492c6d277aae5bdf0d04dcfdb5ab2e6d80db5c17bb2657f5"
+    },
+    {
+      "kind": "stake",
+      "id": "0x244a1a7bdd68c4c4213343e7e67e1478953e6d0742246a818bd282770939e047:0x10b",
+      "user": "0x5c30b29e472281e1d47bf34cdf01f5a2a8c72657",
+      "block": 113162999,
+      "lp": 2.0188325608553495,
+      "meta": 3.7583341845539886,
+      "ts": 1785483429,
+      "tx": "0x244a1a7bdd68c4c4213343e7e67e1478953e6d0742246a818bd282770939e047"
+    },
+    {
+      "kind": "stake",
+      "id": "0x184d8db3869fe5a05c178a33fa0034e91d5320671c29c90df23ada0fa7b02fde:0x120",
+      "user": "0x434625d5722fad45571cf9ca61183042a5a2a425",
+      "block": 113163287,
+      "lp": 0.4728511530025286,
+      "meta": 0.8802776886588825,
+      "ts": 1785483558,
+      "tx": "0x184d8db3869fe5a05c178a33fa0034e91d5320671c29c90df23ada0fa7b02fde"
+    },
+    {
+      "kind": "stake",
+      "id": "0x6ad431ee16079f8190312f504db822066a06024d3842f711308485e2504dbaaf:0x23d",
+      "user": "0xe18f3567e5b2ffc84e4f453b0d0bfdc895c62b44",
+      "block": 113163624,
+      "lp": 8944.800433039523,
+      "meta": 16651.992338701257,
+      "ts": 1785483710,
+      "tx": "0x6ad431ee16079f8190312f504db822066a06024d3842f711308485e2504dbaaf"
+    },
+    {
+      "kind": "stake",
+      "id": "0xdea3f5599097c022269abd95ecc489240f4f077c720611eb44eabd9ccb7b2a31:0x152",
+      "user": "0x1b118e8e6c42ad46a66707fdf015c678bcfb27cf",
+      "block": 113163884,
+      "lp": 6.05878105248495,
+      "meta": 11.28373497053169,
+      "ts": 1785483827,
+      "tx": "0xdea3f5599097c022269abd95ecc489240f4f077c720611eb44eabd9ccb7b2a31"
+    },
+    {
+      "kind": "stake",
+      "id": "0xc4966eee0af7733b7b8fbc182f3b19ae0075b4e2ece29b8af212a9458c033a91:0x440",
+      "user": "0x1b83df35ca4799697e529458de5041a65d747942",
+      "block": 113165036,
+      "lp": 3.027384590087496,
+      "meta": 5.634404017976172,
+      "ts": 1785484345,
+      "tx": "0xc4966eee0af7733b7b8fbc182f3b19ae0075b4e2ece29b8af212a9458c033a91"
+    },
+    {
+      "kind": "stake",
+      "id": "0x9e259f45c14d8f0d976b4103c013b78cebf9ab66494ff9354c76738d2ed8c8e4:0xc0",
+      "user": "0x5c30b29e472281e1d47bf34cdf01f5a2a8c72657",
+      "block": 113165259,
+      "lp": 3.6328613885009067,
+      "meta": 6.761284598970763,
+      "ts": 1785484446,
+      "tx": "0x9e259f45c14d8f0d976b4103c013b78cebf9ab66494ff9354c76738d2ed8c8e4"
+    },
+    {
+      "kind": "stake",
+      "id": "0x362d994491eb3fe83453f98bea606ec9b80db6d7ca9097f3b339368feaac56a2:0x198",
+      "user": "0x03431cdd6bb57ef1ce367301c0769298f40bd0a5",
+      "block": 113167755,
+      "lp": 195.0576574585108,
+      "meta": 361.8634688412541,
+      "ts": 1785485570,
+      "tx": "0x362d994491eb3fe83453f98bea606ec9b80db6d7ca9097f3b339368feaac56a2"
+    },
+    {
+      "kind": "stake",
+      "id": "0x6d7ffbc9b5a506d23f3bbb032b0da93260cfb6645ff78ec32152278a0618809c:0xff",
+      "user": "0xc35c66d6e7abd9a6ade777b5a1608b840c6869af",
+      "block": 113168220,
+      "lp": 10.05393739422602,
+      "meta": 18.64272868415398,
+      "ts": 1785485779,
+      "tx": "0x6d7ffbc9b5a506d23f3bbb032b0da93260cfb6645ff78ec32152278a0618809c"
+    },
+    {
+      "kind": "stake",
+      "id": "0xc52bf2134852de6f99c40d23271910e6d795a55b588e8313649957c96a3402f5:0x2a2",
+      "user": "0x89410bea24624c8d4ee4436b74b724b0e63cf12e",
+      "block": 113169224,
+      "lp": 4060.399447000625,
+      "meta": 7525.229857377019,
+      "ts": 1785486231,
+      "tx": "0xc52bf2134852de6f99c40d23271910e6d795a55b588e8313649957c96a3402f5"
+    },
+    {
+      "kind": "stake",
+      "id": "0xfaa62e12701c9be3967541de2356676b8243ba697cb0e6d9b87901769b9e2dc6:0x1ad",
+      "user": "0x632eb22afbe0f7b2c12427fddb211370113983db",
+      "block": 113170023,
+      "lp": 603.9713641157799,
+      "meta": 1118.7223267637667,
+      "ts": 1785486591,
+      "tx": "0xfaa62e12701c9be3967541de2356676b8243ba697cb0e6d9b87901769b9e2dc6"
+    },
+    {
+      "kind": "stake",
+      "id": "0xbfee820059836b9b127b0592aad7d8228d68cf1f6d73b61625e2b02ba1b838aa:0x1d4",
+      "user": "0x746c5dae6eb7cbf61eae8042ec8eef2eb58e49c9",
+      "block": 113171001,
+      "lp": 1405.8015213747835,
+      "meta": 2605.2525910011764,
+      "ts": 1785487031,
+      "tx": "0xbfee820059836b9b127b0592aad7d8228d68cf1f6d73b61625e2b02ba1b838aa"
+    },
+    {
+      "kind": "stake",
+      "id": "0x216b27b5b22ac19f7b75beacdc057c21d922598c7d8de98dd5f3a80dbc3c8d4e:0x348",
+      "user": "0x79db8c058955621429080254ee334dfb5593076c",
+      "block": 113172277,
+      "lp": 605.5477014742034,
+      "meta": 1121.667111498366,
+      "ts": 1785487605,
+      "tx": "0x216b27b5b22ac19f7b75beacdc057c21d922598c7d8de98dd5f3a80dbc3c8d4e"
+    },
+    {
+      "kind": "stake",
+      "id": "0xa122dec1bcb88a2e3cb6499fc324b8bb2511a34d5e4b9e3b0f6c207337095c02:0x405",
+      "user": "0xf9e6236468197c2a9d2e770f94ad59c4ddb736e9",
+      "block": 113173659,
+      "lp": 1126.0897798217259,
+      "meta": 2088.3105676845616,
+      "ts": 1785488227,
+      "tx": "0xa122dec1bcb88a2e3cb6499fc324b8bb2511a34d5e4b9e3b0f6c207337095c02"
+    },
+    {
+      "kind": "stake",
+      "id": "0x036129f99f2f5e021bac7bb70af70dc5c89a450b626035fb87f14c0274c2a9c6:0xdf",
+      "user": "0xd9847431f1ed11a8f145c27c4a7e6deec2b762a2",
+      "block": 113174071,
+      "lp": 1426.8751366315726,
+      "meta": 2646.075103153885,
+      "ts": 1785488412,
+      "tx": "0x036129f99f2f5e021bac7bb70af70dc5c89a450b626035fb87f14c0274c2a9c6"
+    },
+    {
+      "kind": "stake",
+      "id": "0x32f846114e2302fdfbfa597451d2343a19b7c79310313b5e680802acd7de53e5:0x2b8",
+      "user": "0x5cc926b3c08a2d732b2c61fac98e3ca1d44cc106",
+      "block": 113174754,
+      "lp": 14169.252742957024,
+      "meta": 26288.58652774795,
+      "ts": 1785488720,
+      "tx": "0x32f846114e2302fdfbfa597451d2343a19b7c79310313b5e680802acd7de53e5"
+    },
+    {
+      "kind": "stake",
+      "id": "0x36b950de38ac031195022191e3b1c8fc9755f4927694c16c443ff4663749c67f:0x14a",
+      "user": "0x8f03c5999e7cbf30dc700dc20ba60dada8f75c38",
+      "block": 113175050,
+      "lp": 542.1450825073247,
+      "meta": 1005.8066350708231,
+      "ts": 1785488853,
+      "tx": "0x36b950de38ac031195022191e3b1c8fc9755f4927694c16c443ff4663749c67f"
+    },
+    {
+      "kind": "stake",
+      "id": "0x7c320193d1030aaf3b21032bd499ca7b25d9b138135f82de81be955a9d5e14e1:0x10f",
+      "user": "0xb972d29829e432144c4e22a67eacd250ed9ab83b",
+      "block": 113176219,
+      "lp": 1895.3237055108282,
+      "meta": 3516.221481012313,
+      "ts": 1785489379,
+      "tx": "0x7c320193d1030aaf3b21032bd499ca7b25d9b138135f82de81be955a9d5e14e1"
+    },
+    {
+      "kind": "stake",
+      "id": "0x0333adcc7653af6f19ed8699c629bf2ab376d5108ab4d7829c2ebceac1896103:0x9f",
+      "user": "0xb946c17e85b5401b8bb9760f742d1f1f965054be",
+      "block": 113176943,
+      "lp": 540.8172671085641,
+      "meta": 1003.12479860093,
+      "ts": 1785489705,
+      "tx": "0x0333adcc7653af6f19ed8699c629bf2ab376d5108ab4d7829c2ebceac1896103"
+    },
+    {
+      "kind": "stake",
+      "id": "0x2886ab7e7d1a92740949b811c2fad35aa337ec9f1693be1a3618f49bca329acf:0x288",
+      "user": "0x4ccd2a10699eeb360e9d43fcbb63abeba91b1799",
+      "block": 113177114,
+      "lp": 1152.8382260417645,
+      "meta": 2138.302922389574,
+      "ts": 1785489782,
+      "tx": "0x2886ab7e7d1a92740949b811c2fad35aa337ec9f1693be1a3618f49bca329acf"
+    },
+    {
+      "kind": "stake",
+      "id": "0xb2836436ada7e49320c8f2e4bd0acbf217f2f7f7e45061af7b4568f024c76878:0x10e",
+      "user": "0x78c21c933a50a79e274e7bf5ceeef3fce619f0b1",
+      "block": 113177955,
+      "lp": 1920.5965126993026,
+      "meta": 3565.059096567066,
+      "ts": 1785490161,
+      "tx": "0xb2836436ada7e49320c8f2e4bd0acbf217f2f7f7e45061af7b4568f024c76878"
+    },
+    {
+      "kind": "stake",
+      "id": "0x75baa4eb4da772a57797b270754c8f2a3f8381543b0fd5bb66b63aabd4303e21:0xd5",
+      "user": "0x78c21c933a50a79e274e7bf5ceeef3fce619f0b1",
+      "block": 113178700,
+      "lp": 1920.3465275431997,
+      "meta": 3564.4665322451365,
+      "ts": 1785490496,
+      "tx": "0x75baa4eb4da772a57797b270754c8f2a3f8381543b0fd5bb66b63aabd4303e21"
+    },
+    {
+      "kind": "stake",
+      "id": "0xc17f5443a2f5308a5707e85844db7335961051ed894199c2185b10a73e9596c2:0x106",
+      "user": "0xfed83d1955170bdf144f8f861e6efd3a74970c9c",
+      "block": 113180368,
+      "lp": 387.3068587136702,
+      "meta": 719.8533480971697,
+      "ts": 1785491246,
+      "tx": "0xc17f5443a2f5308a5707e85844db7335961051ed894199c2185b10a73e9596c2"
+    },
+    {
+      "kind": "stake",
+      "id": "0x988c3183e16aabae9840464e21577bc2640b23ae544101e6b3f5f194d39657be:0x11e",
+      "user": "0x11734c1a7a24cb941bca3ae096f26a1e10aedc96",
+      "block": 113181784,
+      "lp": 846.6652579182413,
+      "meta": 1574.388463416689,
+      "ts": 1785491884,
+      "tx": "0x988c3183e16aabae9840464e21577bc2640b23ae544101e6b3f5f194d39657be"
+    },
+    {
+      "kind": "stake",
+      "id": "0x89a154ef751adbcaf704d899f8a00bde081732e60d3b3aa96d1f17c49d1907f6:0xf9",
+      "user": "0x11734c1a7a24cb941bca3ae096f26a1e10aedc96",
+      "block": 113183235,
+      "lp": 288.98547936439076,
+      "meta": 537.9100084014967,
+      "ts": 1785492537,
+      "tx": "0x89a154ef751adbcaf704d899f8a00bde081732e60d3b3aa96d1f17c49d1907f6"
+    },
+    {
+      "kind": "stake",
+      "id": "0xa47890cf7f1049b2dc335fdc5e357395f55f7f6459b31b9e451861745ff2311c:0x1cf",
+      "user": "0x678bdff62f046860669e37673fb862db30d9c753",
+      "block": 113186558,
+      "lp": 1075.7562131057664,
+      "meta": 2002.4685140464946,
+      "ts": 1785494033,
+      "tx": "0xa47890cf7f1049b2dc335fdc5e357395f55f7f6459b31b9e451861745ff2311c"
+    },
+    {
+      "kind": "stake",
+      "id": "0xca87b0d7fcd67d76c7e09289250bf5ec96db107351815a38873f0aca6b87583f:0x200",
+      "user": "0x6787767135ee01069ab7156a497e9133de44af59",
+      "block": 113188212,
+      "lp": 1151.2092920765226,
+      "meta": 2142.8779951834854,
+      "ts": 1785494777,
+      "tx": "0xca87b0d7fcd67d76c7e09289250bf5ec96db107351815a38873f0aca6b87583f"
+    },
+    {
+      "kind": "stake",
+      "id": "0x49c0b2f5eb3bbb7134ed661fa40dc948b324eab642d01714bd48c87915d3c53d:0x1e9",
+      "user": "0x9e32635305bd3744b2c1d734b5989f1f369bb956",
+      "block": 113189802,
+      "lp": 5647.47173123675,
+      "meta": 10503.138966013192,
+      "ts": 1785495493,
+      "tx": "0x49c0b2f5eb3bbb7134ed661fa40dc948b324eab642d01714bd48c87915d3c53d"
+    },
+    {
+      "kind": "stake",
+      "id": "0xa5343b239658e5d7017ad9e6956485b13b1c409802f020b68dfea874888b38bb:0xd0",
+      "user": "0x20f46acdea73de6f37bebb147216847c0dcef90f",
+      "block": 113190442,
+      "lp": 4458.119758120801,
+      "meta": 8291.188265305005,
+      "ts": 1785495781,
+      "tx": "0xa5343b239658e5d7017ad9e6956485b13b1c409802f020b68dfea874888b38bb"
+    },
+    {
+      "kind": "stake",
+      "id": "0x449bb7c89239c46086e2bdbe8c8f0ca4218cd70a99c851da1c075dbb23640b0a:0xd1",
+      "user": "0xba72d1776ceb0717b8fc14df1df0fb43ea71d034",
+      "block": 113191999,
+      "lp": 1073.1884190964092,
+      "meta": 1995.6665028630437,
+      "ts": 1785496481,
+      "tx": "0x449bb7c89239c46086e2bdbe8c8f0ca4218cd70a99c851da1c075dbb23640b0a"
+    },
+    {
+      "kind": "stake",
+      "id": "0x856650c51a30dc850a19c05fd4da5109bbc67c6e314091773109e63c668b586f:0x6c",
+      "user": "0xba72d1776ceb0717b8fc14df1df0fb43ea71d034",
+      "block": 113193231,
+      "lp": 3.510613387297565,
+      "meta": 6.528397327844783,
+      "ts": 1785497036,
+      "tx": "0x856650c51a30dc850a19c05fd4da5109bbc67c6e314091773109e63c668b586f"
+    },
+    {
+      "kind": "stake",
+      "id": "0x24d683d22c20dbb76b2f2c83d9615c984665141cff6e2c06b31afd6380dc3cec:0x99",
+      "user": "0x7b4bcbcc068da05624267cc630af3953cc79be24",
+      "block": 113193805,
+      "lp": 5791.483088115544,
+      "meta": 10769.9183809289,
+      "ts": 1785497294,
+      "tx": "0x24d683d22c20dbb76b2f2c83d9615c984665141cff6e2c06b31afd6380dc3cec"
+    },
+    {
+      "kind": "stake",
+      "id": "0x78477f6dbe6f3b6a143e1163ecc6d5c62d264cd5be9049639a199da9e8092268:0x16f",
+      "user": "0x49f8bd312e43d4a0ffb3e5924f5bf4cb06493f55",
+      "block": 113193832,
+      "lp": 1108.91870079262,
+      "meta": 2062.1598504068643,
+      "ts": 1785497306,
+      "tx": "0x78477f6dbe6f3b6a143e1163ecc6d5c62d264cd5be9049639a199da9e8092268"
+    },
+    {
+      "kind": "stake",
+      "id": "0x31521971e446d4e304ca4dfff988f1109fada2d7454284d2d070ef4dc693be95:0xbb",
+      "user": "0x5ebf4918faf288768146f8fbd05bd8900bae340a",
+      "block": 113195095,
+      "lp": 80.60180621926617,
+      "meta": 149.7949865434292,
+      "ts": 1785497874,
+      "tx": "0x31521971e446d4e304ca4dfff988f1109fada2d7454284d2d070ef4dc693be95"
+    },
+    {
+      "kind": "stake",
+      "id": "0x1caa3fcd587715d30aa125f0c191c19dd2432bd2cffa4d7df0567b7ebcfc0aec:0x32c",
+      "user": "0x04bf79b1f742c1e6aaecf8ed61b225a0653bb1c2",
+      "block": 113199336,
+      "lp": 3936.1821180460483,
+      "meta": 7311.205787728763,
+      "ts": 1785499783,
+      "tx": "0x1caa3fcd587715d30aa125f0c191c19dd2432bd2cffa4d7df0567b7ebcfc0aec"
+    },
+    {
+      "kind": "stake",
+      "id": "0x2f91ae879d0fe9724a98000a04b6bf89e16d33e0c63ea84d78d3ec52f7ae6e9f:0xdc",
+      "user": "0x272946af2382bde0a3deaf6173b14975f496aa60",
+      "block": 113200007,
+      "lp": 4228.479524748349,
+      "meta": 7854.153996232825,
+      "ts": 1785500085,
+      "tx": "0x2f91ae879d0fe9724a98000a04b6bf89e16d33e0c63ea84d78d3ec52f7ae6e9f"
+    },
+    {
+      "kind": "stake",
+      "id": "0x59e6743f990ab703fd218705920d75e2ed34a7f4c1cad9285dcfc225243280e9:0x178",
+      "user": "0xa69cb00317a6e3dc609e1a127aa958d38c24dd68",
+      "block": 113203226,
+      "lp": 28042.762485835905,
+      "meta": 52168.32045224573,
+      "ts": 1785501534,
+      "tx": "0x59e6743f990ab703fd218705920d75e2ed34a7f4c1cad9285dcfc225243280e9"
+    },
+    {
+      "kind": "stake",
+      "id": "0x3ff8879ae506529e5846939e4093382df8944547f6c503ca34e824d9103052ac:0x246",
+      "user": "0x167b13a9a96527433c9377cdab8f0b0b707f2afd",
+      "block": 113203729,
+      "lp": 1931.5984682624867,
+      "meta": 3593.332303848445,
+      "ts": 1785501760,
+      "tx": "0x3ff8879ae506529e5846939e4093382df8944547f6c503ca34e824d9103052ac"
+    },
+    {
+      "kind": "stake",
+      "id": "0x77351a3c24fd61702441385d250c2a9479a41e08ba63c9e117ba4a1d9f47a9be:0x266",
+      "user": "0xe120e3737a7fd62b3b5273a9cc0eb9129191a24e",
+      "block": 113209982,
+      "lp": 27791.967497146426,
+      "meta": 51759.72766108305,
+      "ts": 1785504575,
+      "tx": "0x77351a3c24fd61702441385d250c2a9479a41e08ba63c9e117ba4a1d9f47a9be"
+    },
+    {
+      "kind": "stake",
+      "id": "0x9ba9672b08fd83c2d13d0a69f63ccaee7c08f9f6f5d0b985fee027e6d0e7327e:0x230",
+      "user": "0xec38cda478572b4797a789ed3153f6c3e7b11a46",
+      "block": 113213132,
+      "lp": 539.854545676968,
+      "meta": 1006.8978948568072,
+      "ts": 1785505993,
+      "tx": "0x9ba9672b08fd83c2d13d0a69f63ccaee7c08f9f6f5d0b985fee027e6d0e7327e"
+    },
+    {
+      "kind": "stake",
+      "id": "0x3f17f46287dbfd91e05e80ac342a375b0d263f21a5e9a098514a5eb4e2ea488f:0x7d",
+      "user": "0x63d10793c040be8ef13021a0ad0b3d745f07c052",
+      "block": 113215180,
+      "lp": 1092.258039094065,
+      "meta": 2038.0325909123667,
+      "ts": 1785506914,
+      "tx": "0x3f17f46287dbfd91e05e80ac342a375b0d263f21a5e9a098514a5eb4e2ea488f"
+    },
+    {
+      "kind": "stake",
+      "id": "0x9f455f4e368e60f55589475548171dd6f9cf981fa81ed6f87255058c33c19c5e:0x173",
+      "user": "0xc634a980fa777cb282920f14800223bc3fb12125",
+      "block": 113217792,
+      "lp": 2328.4049829565092,
+      "meta": 4347.2280323144405,
+      "ts": 1785508090,
+      "tx": "0x9f455f4e368e60f55589475548171dd6f9cf981fa81ed6f87255058c33c19c5e"
+    },
+    {
+      "kind": "stake",
+      "id": "0xbc53eecd5ecb2a3bede32a8f3ce7ee2d93b8bcdc94e7df42ee12555488282e87:0x78",
+      "user": "0xf201d116c0b095df0921efbb1700465bdcf49f69",
+      "block": 113220186,
+      "lp": 1111.5083126951859,
+      "meta": 2072.157415611261,
+      "ts": 1785509167,
+      "tx": "0xbc53eecd5ecb2a3bede32a8f3ce7ee2d93b8bcdc94e7df42ee12555488282e87"
+    },
+    {
+      "kind": "stake",
+      "id": "0x2e28b85575fcdeaa2a016fdfcb48bbbc11cf30743eaf2ee65868959916696956:0xc1",
+      "user": "0xa304423039db152064fc286fcc088687cdc69a7b",
+      "block": 113220346,
+      "lp": 1091.2974028964607,
+      "meta": 2034.478717092014,
+      "ts": 1785509239,
+      "tx": "0x2e28b85575fcdeaa2a016fdfcb48bbbc11cf30743eaf2ee65868959916696956"
+    },
+    {
+      "kind": "stake",
+      "id": "0x1b1a30f7c3c5e9385c950e62d75b5f26b17719171ce5a2310d4cda89c2517486:0x326",
+      "user": "0x36f62c60385d15aadc6e892b3ec46e1b82b50c46",
+      "block": 113220469,
+      "lp": 1091.2942580248653,
+      "meta": 2034.4717924958377,
+      "ts": 1785509295,
+      "tx": "0x1b1a30f7c3c5e9385c950e62d75b5f26b17719171ce5a2310d4cda89c2517486"
+    },
+    {
+      "kind": "stake",
+      "id": "0x2cf54bf95010c69f6ef103ea32cb2466e8eeb2ae8c0fda20dfa1181db47a17c9:0x1bf",
+      "user": "0xf71f1ee509994d166955048b986703e3d911e6b1",
+      "block": 113220597,
+      "lp": 1090.7619251058416,
+      "meta": 2032.493873477111,
+      "ts": 1785509352,
+      "tx": "0x2cf54bf95010c69f6ef103ea32cb2466e8eeb2ae8c0fda20dfa1181db47a17c9"
+    },
+    {
+      "kind": "stake",
+      "id": "0x57e48a3a0b3a86e647574a65f9b8be2a200ce1bc864d7e57b888664e337d10e6:0x1b4",
+      "user": "0x6a80d08ca3ed22a17dc7942bb6af9da0ac2c283e",
+      "block": 113220713,
+      "lp": 1086.7202039559336,
+      "meta": 2024.9636005001196,
+      "ts": 1785509404,
+      "tx": "0x57e48a3a0b3a86e647574a65f9b8be2a200ce1bc864d7e57b888664e337d10e6"
+    },
+    {
+      "kind": "stake",
+      "id": "0x9837f04611101f4a7d2694074f049ffaf488b595c6bf704182236c295923855b:0x1c0",
+      "user": "0x4a956a2553b48b70b9032b93dd688ccde21d3a38",
+      "block": 113220736,
+      "lp": 1090.7573033085366,
+      "meta": 2032.4862169112848,
+      "ts": 1785509415,
+      "tx": "0x9837f04611101f4a7d2694074f049ffaf488b595c6bf704182236c295923855b"
+    },
+    {
+      "kind": "stake",
+      "id": "0x89b6ecb561fef7285822c98981d6627837518d0a9d1b77bcb0336ad98246cb1e:0xef",
+      "user": "0x62919d5dd8b4d7600006ec64caf9bc74693ce37a",
+      "block": 113223202,
+      "lp": 4318.7096187994985,
+      "meta": 8033.718499675049,
+      "ts": 1785510524,
+      "tx": "0x89b6ecb561fef7285822c98981d6627837518d0a9d1b77bcb0336ad98246cb1e"
+    },
+    {
+      "kind": "stake",
+      "id": "0xa65edafa4b7092f7fceb5e92b31910656f6f999563a88664acc7c737f6551a93:0xe7",
+      "user": "0x25ccf168bfad6229b9d370e1393182e4e39b1c8a",
+      "block": 113225971,
+      "lp": 1148.418372674354,
+      "meta": 2138.263806548174,
+      "ts": 1785511771,
+      "tx": "0xa65edafa4b7092f7fceb5e92b31910656f6f999563a88664acc7c737f6551a93"
+    },
+    {
+      "kind": "stake",
+      "id": "0x534fb9a4d7a1eaecbffe0a88b840414fb157150d084ade5a5adb2dcbd0e7843e:0x202",
+      "user": "0x241591de29f1efa48a357842057b7a19c6bd2b7b",
+      "block": 113225975,
+      "lp": 1210.979698782477,
+      "meta": 2254.748027359739,
+      "ts": 1785511773,
+      "tx": "0x534fb9a4d7a1eaecbffe0a88b840414fb157150d084ade5a5adb2dcbd0e7843e"
+    },
+    {
+      "kind": "stake",
+      "id": "0x6345ed161ce2729a1fca349df40c6e0768caa7cc97eca568426e8db114ff78ce:0x1bb",
+      "user": "0x1b24f0d1e2d607424fd6b67b9f5c85b6dd92ca52",
+      "block": 113225983,
+      "lp": 1089.8845865869116,
+      "meta": 2029.2785454019725,
+      "ts": 1785511777,
+      "tx": "0x6345ed161ce2729a1fca349df40c6e0768caa7cc97eca568426e8db114ff78ce"
+    },
+    {
+      "kind": "stake",
+      "id": "0x5a33b622ba8050d42b863d5da6f085558a1e23b85d5b4169141bf8fef67f6bc0:0x7a",
+      "user": "0x7a1a97afdb50f659425fec4bb3d34a8eb8b579a9",
+      "block": 113226275,
+      "lp": 1168.7870246110108,
+      "meta": 2177.3065783661286,
+      "ts": 1785511908,
+      "tx": "0x5a33b622ba8050d42b863d5da6f085558a1e23b85d5b4169141bf8fef67f6bc0"
+    },
+    {
+      "kind": "stake",
+      "id": "0xea6b20a31b64d76ae7017f3feb875d142f60420d38fcc3d32e5b6cf986b34a0d:0x73",
+      "user": "0xf9a3f9ac86376eb67dead8e1c26b62c03d8bbf09",
+      "block": 113226352,
+      "lp": 1168.7840731861866,
+      "meta": 2177.3010802244225,
+      "ts": 1785511943,
+      "tx": "0xea6b20a31b64d76ae7017f3feb875d142f60420d38fcc3d32e5b6cf986b34a0d"
+    },
+    {
+      "kind": "stake",
+      "id": "0xddd22ba20f3a2505925ffa3550e27f24fda7e6557f77edc8afa50d287fae8655:0xfe",
+      "user": "0x5431f1f41eaf980c0d2f2fcf7574520715c92779",
+      "block": 113226424,
+      "lp": 1211.5884151215348,
+      "meta": 2257.040308429394,
+      "ts": 1785511975,
+      "tx": "0xddd22ba20f3a2505925ffa3550e27f24fda7e6557f77edc8afa50d287fae8655"
+    },
+    {
+      "kind": "stake",
+      "id": "0x782717bba972f57632514117c30bd2a7ec1b821cf9295bbb785d9c46441f9acf:0x13c",
+      "user": "0xbf64cd1d5f538a528339afa0d83fa39018d914cf",
+      "block": 113226438,
+      "lp": 1168.778062725474,
+      "meta": 2177.2898834748244,
+      "ts": 1785511981,
+      "tx": "0x782717bba972f57632514117c30bd2a7ec1b821cf9295bbb785d9c46441f9acf"
+    },
+    {
+      "kind": "stake",
+      "id": "0xa971b1c101fe8288016e88a2741a6b8ffb6f2af2a29ce8cc5c98d176f84e2fbf:0x122",
+      "user": "0x6604e77b0d22ec4edbfa547c7b7c6818b335a95c",
+      "block": 113226494,
+      "lp": 1068.2182500248346,
+      "meta": 1989.9593116067479,
+      "ts": 1785512006,
+      "tx": "0xa971b1c101fe8288016e88a2741a6b8ffb6f2af2a29ce8cc5c98d176f84e2fbf"
+    },
+    {
+      "kind": "stake",
+      "id": "0x11e34d3284aeb3975c693a2b950a358ef01f3a808e6f71afcd2e11f4c395b3a2:0x3d",
+      "user": "0x034e405e7db221b6777a3eb99c289bb8ff53c844",
+      "block": 113226682,
+      "lp": 2756.626131507296,
+      "meta": 5135.254496233208,
+      "ts": 1785512091,
+      "tx": "0x11e34d3284aeb3975c693a2b950a358ef01f3a808e6f71afcd2e11f4c395b3a2"
+    },
+    {
+      "kind": "stake",
+      "id": "0xffcf99a1d5ec009acd1761bff86eddf42f6d1739dc329cdbbf4be30b49c81462:0xf2",
+      "user": "0xb8b00dcd56c9e292a5f3bb9d1ca6493b269f70d8",
+      "block": 113226689,
+      "lp": 1069.0168592610228,
+      "meta": 1991.4465622755922,
+      "ts": 1785512094,
+      "tx": "0xffcf99a1d5ec009acd1761bff86eddf42f6d1739dc329cdbbf4be30b49c81462"
+    },
+    {
+      "kind": "stake",
+      "id": "0xdcdbb4500e03f4e3136b180df434148822395d0c4488d6c50f1128dbfbebcd85:0x110",
+      "user": "0x65ea338b3e0355f546f4b4fbc7d624d3870e2dd2",
+      "block": 113226769,
+      "lp": 1436.8040137319542,
+      "meta": 2676.588670255595,
+      "ts": 1785512130,
+      "tx": "0xdcdbb4500e03f4e3136b180df434148822395d0c4488d6c50f1128dbfbebcd85"
+    },
+    {
+      "kind": "stake",
+      "id": "0x3bbe636e39daffb679e26bdf071b2985d20da5f2ff434ce3029abf2191283c24:0xc9",
+      "user": "0x5f60f608ff3f09d8e5bc7b0306d5fe92725f6a1d",
+      "block": 113226863,
+      "lp": 431.75584597683405,
+      "meta": 804.3078907168232,
+      "ts": 1785512173,
+      "tx": "0x3bbe636e39daffb679e26bdf071b2985d20da5f2ff434ce3029abf2191283c24"
+    },
+    {
+      "kind": "stake",
+      "id": "0xc036754875fa0c0ce169d529838c00581d000ca7ca19d2c2d993bc66ccb3dce9:0x182",
+      "user": "0xb3850bed748e4bd8abe0fb973592bddc2281d03e",
+      "block": 113226941,
+      "lp": 1069.413915099427,
+      "meta": 1992.1862283319047,
+      "ts": 1785512208,
+      "tx": "0xc036754875fa0c0ce169d529838c00581d000ca7ca19d2c2d993bc66ccb3dce9"
+    },
+    {
+      "kind": "stake",
+      "id": "0x061ae1cfe7e470aa8f4143c07d0c1943951df6de1afb7dddd5ef64dc1e2eea37:0x25d",
+      "user": "0x57740db11718a0654af2270773e7a9483a091939",
+      "block": 113227219,
+      "lp": 2419.431587914231,
+      "meta": 4508.839438718293,
+      "ts": 1785512333,
+      "tx": "0x061ae1cfe7e470aa8f4143c07d0c1943951df6de1afb7dddd5ef64dc1e2eea37"
+    },
+    {
+      "kind": "stake",
+      "id": "0x90294871991c3a30631972e674d21925cc04e5d9475625d7366bcc51201fb93e:0xb9",
+      "user": "0x4879ed82cea74dfaac77e68585b18e6b7c3fb121",
+      "block": 113227227,
+      "lp": 1085.9768505328716,
+      "meta": 2023.8205029962905,
+      "ts": 1785512336,
+      "tx": "0x90294871991c3a30631972e674d21925cc04e5d9475625d7366bcc51201fb93e"
+    },
+    {
+      "kind": "stake",
+      "id": "0x2c05c14bae3d2cfb7e8e8cde3df3be65cbf172ddaf16fb313e87275e22e8d031:0x179",
+      "user": "0xb2accc9e605e667c85dc461555b3a06efec69409",
+      "block": 113227560,
+      "lp": 1085.9740735026992,
+      "meta": 2023.8149017241715,
+      "ts": 1785512486,
+      "tx": "0x2c05c14bae3d2cfb7e8e8cde3df3be65cbf172ddaf16fb313e87275e22e8d031"
+    },
+    {
+      "kind": "stake",
+      "id": "0x321986c8f51113a6a3e103efd60685b2322905e2e18018c5df21244b35345f34:0x127",
+      "user": "0x8243032667dee4761d3244df31196bfc33ef16d9",
+      "block": 113227777,
+      "lp": 1085.9715269870237,
+      "meta": 2023.8101560525236,
+      "ts": 1785512584,
+      "tx": "0x321986c8f51113a6a3e103efd60685b2322905e2e18018c5df21244b35345f34"
+    },
+    {
+      "kind": "stake",
+      "id": "0x676f724095a0acc8c7871f3f90bdab9326b02f3a27cce7b96948970666a6288e:0x11d",
+      "user": "0x6604e77b0d22ec4edbfa547c7b7c6818b335a95c",
+      "block": 113228096,
+      "lp": 6.065643890892323,
+      "meta": 11.308987462702078,
+      "ts": 1785512727,
+      "tx": "0x676f724095a0acc8c7871f3f90bdab9326b02f3a27cce7b96948970666a6288e"
+    },
+    {
+      "kind": "stake",
+      "id": "0xce86c9eb70e2d97ccb4d018fe16cd455dfcd135762af99ffd3790091ff2ced5f:0x1d1",
+      "user": "0xee0688a5710df274e375168693f23ef26cec7832",
+      "block": 113229714,
+      "lp": 3844.1918578942436,
+      "meta": 7167.936825268853,
+      "ts": 1785513456,
+      "tx": "0xce86c9eb70e2d97ccb4d018fe16cd455dfcd135762af99ffd3790091ff2ced5f"
+    },
+    {
+      "kind": "stake",
+      "id": "0x01e359e3b2f1d832cc4813bfb879339f7a2e65b1c64c3f722b3db504326bbe8a:0x116",
+      "user": "0xff86a64cdeb443438c2cb39f63e1a6dacbe6176f",
+      "block": 113237054,
+      "lp": 1175.0637263685067,
+      "meta": 2179.8701126934616,
+      "ts": 1785516760,
+      "tx": "0x01e359e3b2f1d832cc4813bfb879339f7a2e65b1c64c3f722b3db504326bbe8a"
+    },
+    {
+      "kind": "stake",
+      "id": "0x33c260ffbd1c694a5d041dd696fe95858133c4393e10ceae6bf9f9c52725260e:0x46",
+      "user": "0x8afa46fba251ada00a16d0ba38ea361531a148b9",
+      "block": 113249025,
+      "lp": 24016.571400379093,
+      "meta": 44389.36343438616,
+      "ts": 1785522147,
+      "tx": "0x33c260ffbd1c694a5d041dd696fe95858133c4393e10ceae6bf9f9c52725260e"
+    },
+    {
+      "kind": "stake",
+      "id": "0x2fb520a4aa7900f82d7bec9645a0927415ef0e09ba8be14bb1a6b354bc4dbcc7:0x4b",
+      "user": "0x7551ad91fc5b7498e7a82297e44d7c0ae74a6342",
+      "block": 113249998,
+      "lp": 559.3086193845099,
+      "meta": 1033.7793724762862,
+      "ts": 1785522585,
+      "tx": "0x2fb520a4aa7900f82d7bec9645a0927415ef0e09ba8be14bb1a6b354bc4dbcc7"
+    },
+    {
+      "kind": "stake",
+      "id": "0x54bd93590e436c4d9fc399b2323418f6c6a6d0ed2504d43ecf33b24d93fe0f9d:0x3b",
+      "user": "0x35ec74a07e30043ea0dd265cc52c77cb1f48f2f7",
+      "block": 113269617,
+      "lp": 2867.0370795323606,
+      "meta": 5300.945981810871,
+      "ts": 1785531431,
+      "tx": "0x54bd93590e436c4d9fc399b2323418f6c6a6d0ed2504d43ecf33b24d93fe0f9d"
+    },
+    {
+      "kind": "stake",
+      "id": "0xe062fbe50beafcf5227be2cb369628cb8fe7131d68681c01d247cb8a86cb72b2:0x28",
+      "user": "0xc2a6f2d95c0a9a5ef34cf49bdce03db501ee7bd2",
+      "block": 113276399,
+      "lp": 602.3482939667492,
+      "meta": 1115.8389127092044,
+      "ts": 1785534483,
+      "tx": "0xe062fbe50beafcf5227be2cb369628cb8fe7131d68681c01d247cb8a86cb72b2"
+    },
+    {
+      "kind": "stake",
+      "id": "0x04e6694a35788c8c484febb696afe68bfe924e9112408c1be22968826742ad84:0x93",
+      "user": "0x2a143e86b0584f21e92bb65d8641de1aa1a88110",
+      "block": 113277271,
+      "lp": 177.49496950443788,
+      "meta": 328.80606833396473,
+      "ts": 1785534875,
+      "tx": "0x04e6694a35788c8c484febb696afe68bfe924e9112408c1be22968826742ad84"
+    },
+    {
+      "kind": "stake",
+      "id": "0xf022b36cde30d61f08443b4048153bcf1a79b07ad5850f02fcafeb8a43cadf2e:0xe5",
+      "user": "0xb78d4e110b0bc4c94b2a95d333ed809fdd8d4f70",
+      "block": 113288320,
+      "lp": 19446.95753811156,
+      "meta": 35970.258360074506,
+      "ts": 1785539848,
+      "tx": "0xf022b36cde30d61f08443b4048153bcf1a79b07ad5850f02fcafeb8a43cadf2e"
+    },
+    {
+      "kind": "stake",
+      "id": "0xedf09387616f5e62c87c10e71cd974f674aeb6b6b408a8cb43f2960a28f5ee0a:0x7d",
+      "user": "0x9b9cbca806f637cefd8fe527ca071f1910cdd209",
+      "block": 113291499,
+      "lp": 1130.4221155456412,
+      "meta": 2090.555037806171,
+      "ts": 1785541279,
+      "tx": "0xedf09387616f5e62c87c10e71cd974f674aeb6b6b408a8cb43f2960a28f5ee0a"
     }
   ],
-  "done": false,
+  "done": true,
   "source": "nodereal"
 }

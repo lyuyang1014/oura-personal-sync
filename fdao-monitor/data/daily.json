@@ -1,0 +1,20 @@
+[
+  {
+    "date": "2026-08-30",
+    "updatedAt": "2026-08-30T06:00:30.529Z",
+    "uniqueStakeWallets": 0,
+    "newWallets": 0,
+    "stakeCount": 0,
+    "stakeMeta": 0,
+    "stakeUsd": 0,
+    "unstakeCount": 0,
+    "unstakeToken": 0,
+    "unstakeUsd": 0,
+    "netUsd": 0,
+    "tvl": 20103120.312270146,
+    "apy": 448.90991785838423,
+    "liquidity": 0,
+    "volume24": 0,
+    "burnedMeta": 904711.8972908542
+  }
+]

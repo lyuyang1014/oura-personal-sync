@@ -1,0 +1,59 @@
+{
+  "updatedAt": "2026-08-30T06:00:30.529Z",
+  "timezone": "Asia/Hong_Kong",
+  "block": 118907800,
+  "date": "2026-08-30",
+  "market": {
+    "metaPrice": 0,
+    "sentisPrice": 0,
+    "liquidity": 0,
+    "volume24": 0,
+    "buys": 819,
+    "sells": 810,
+    "priceChange24": -1.41
+  },
+  "protocol": {
+    "apy": 448.90991785838423,
+    "tvl": 20103120.312270146,
+    "totalStakedRaw": 39284653.06144484,
+    "pairSupply": 35450223.135454044,
+    "pairInFdao": 31922744.867224038,
+    "custodyPct": 0.9004948923804615,
+    "burnedMeta": 904711.8972908542,
+    "reserveSentis": 41817509.33546404,
+    "reserveMeta": 31885411.513967536
+  },
+  "today": {
+    "uniqueStakeWallets": 0,
+    "newWallets": 0,
+    "stakeCount": 0,
+    "stakeMeta": 0,
+    "stakeUsd": 0,
+    "unstakeCount": 0,
+    "unstakeToken": 0,
+    "unstakeUsd": 0,
+    "netUsd": 0
+  },
+  "pressure": {
+    "rewardLow": 120618.72187362087,
+    "rewardHigh": 241237.44374724175,
+    "feeMax": 0,
+    "feeCoverLow": 0,
+    "rewardToVolumeLow": 0,
+    "rewardToVolumeHigh": 0
+  },
+  "indexing": {
+    "dayStartBlock": 118795756,
+    "lastBlock": 118907800,
+    "backfillCursor": 118545755,
+    "backfillFloor": 112795756,
+    "backfillDone": false,
+    "historicalWallets": 0,
+    "newWalletMeaning": "历史回填中：目前表示已回填范围内未见旧质押"
+  },
+  "user": {
+    "address": "0x0e39420fcdb05c5378c7d1f955dc546b5f5a85b6",
+    "myStakedLp": 5500.488802934464,
+    "myReward": 0
+  }
+}

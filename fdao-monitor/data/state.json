@@ -1,0 +1,10 @@
+{
+  "version": 4,
+  "date": "2026-08-30",
+  "dayStartBlock": 118795756,
+  "lastBlock": 118907800,
+  "dayEvents": [],
+  "historicalWallets": [],
+  "backfillCursor": 118545755,
+  "backfillFloor": 112795756
+}

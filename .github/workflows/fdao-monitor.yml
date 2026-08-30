@@ -25,7 +25,10 @@ jobs:
       - name: Update live chain index
         run: node fdao-monitor/indexer6.mjs
       - name: Backfill launch-to-date daily history
-        run: node fdao-monitor/history-indexer.mjs
+        continue-on-error: true
+        run: |
+          sleep 5
+          node fdao-monitor/history-indexer.mjs
       - name: Persist computed data safely
         run: |
           mkdir -p /tmp/fdao-data

@@ -29,8 +29,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Update chain index
+      - name: Update live chain index
         run: node fdao-monitor/indexer6.mjs
+      - name: Backfill launch-to-date daily history
+        run: node fdao-monitor/history-indexer.mjs
       - name: Persist computed data safely
         run: |
           mkdir -p /tmp/fdao-data
@@ -48,4 +50,3 @@ jobs:
             git commit -m "data: refresh FDAO monitor"
             git push origin HEAD:fdao-dashboard-source
           fi
-      # The public page reads these precomputed snapshots; opening the page is not required for collection.

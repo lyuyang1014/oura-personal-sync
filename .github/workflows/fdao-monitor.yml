@@ -27,6 +27,9 @@ jobs:
       - name: Backfill launch-to-date daily history
         continue-on-error: true
         run: node fdao-monitor/history-indexer.mjs
+      - name: Probe rank referral and frontend ABI
+        continue-on-error: true
+        run: node fdao-monitor/contract-probe.mjs
       - name: Persist computed data safely
         run: |
           mkdir -p /tmp/fdao-data
@@ -42,4 +45,3 @@ jobs:
             git commit -m "data: refresh FDAO monitor"
             git push origin HEAD:fdao-dashboard-source
           fi
-      # wallet analytics and maturity-pressure generation trigger

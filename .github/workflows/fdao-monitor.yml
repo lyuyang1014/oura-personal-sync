@@ -26,9 +26,7 @@ jobs:
         run: node fdao-monitor/indexer6.mjs
       - name: Backfill launch-to-date daily history
         continue-on-error: true
-        run: |
-          sleep 5
-          node fdao-monitor/history-indexer.mjs
+        run: node fdao-monitor/history-indexer.mjs
       - name: Persist computed data safely
         run: |
           mkdir -p /tmp/fdao-data

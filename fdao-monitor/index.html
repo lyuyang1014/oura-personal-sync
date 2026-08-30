@@ -6,117 +6,31 @@
 <title>FDAO / META 独立链上监控</title>
 <meta name="description" content="后台持续索引 FDAO/META 链上数据：新增钱包、质押、解押、流动性、收益压力、LP集中度。" />
 <style>
-:root{--bg:#090a0c;--panel:#121419;--line:#292e36;--text:#f3f4f6;--muted:#9ca4af;--gold:#f0b90b;--green:#38c793;--red:#ff6868;--orange:#ffad55;--blue:#6bb3ff}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 80% -10%,#342707 0,transparent 28%),var(--bg);color:var(--text);font:15px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}.wrap{max-width:1100px;margin:auto;padding:20px 15px 70px}.top{display:flex;justify-content:space-between;align-items:center;gap:12px}.brand{display:flex;align-items:center;gap:11px}.logo{width:43px;height:43px;border:2px solid var(--gold);border-radius:50%;display:grid;place-items:center;color:var(--gold);font-size:22px;font-weight:900}.brand h1{font-size:20px;margin:0}.brand small{display:block;color:var(--muted);font-size:11px}.btn{border:1px solid #6c5717;background:#171309;color:#f2ce61;border-radius:10px;padding:7px 10px;font-weight:700;cursor:pointer}.hero{margin-top:18px;padding:22px;border-radius:23px;border:1px solid #56430f;background:linear-gradient(135deg,rgba(240,185,11,.12),rgba(17,19,24,.9))}.hero h2{margin:0 0 6px;font-size:26px}.hero p{margin:0;color:#d6d9de}.pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.pill{border:1px solid #504722;border-radius:999px;padding:5px 9px;font-size:11px}.green{color:#7ee0b9;border-color:#285846;background:#0d1713}.orange{color:#ffd08f;border-color:#654a1a;background:#19140a}.red{color:#ff9999;border-color:#603438;background:#1b1012}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:14px}.card{border:1px solid var(--line);background:rgba(18,20,25,.96);border-radius:17px;padding:15px}.metric .label{font-size:12px;color:var(--muted)}.metric .value{font-size:23px;font-weight:800;margin:3px 0}.metric .help{font-size:11px;color:#aeb4bd}.section{margin-top:25px}.section h3{font-size:19px;margin:0 0 4px}.intro{color:var(--muted);margin:0 0 10px}.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.line{display:flex;justify-content:space-between;gap:12px;border-bottom:1px dashed #30343b;padding:8px 0}.line:last-child{border-bottom:0}.line b{text-align:right}.callout{margin-top:10px;padding:12px 14px;border-left:3px solid var(--gold);border-radius:0 12px 12px 0;background:#15130d}.callout.danger{border-color:var(--red);background:#190f11}.callout.good{border-color:var(--green);background:#0d1713}.tag{display:inline-block;padding:2px 6px;border-radius:5px;font-size:10px;font-weight:800}.tag.a{background:rgba(56,199,147,.12);color:#7ee0b9}.tag.b{background:rgba(107,179,255,.12);color:#9bd0ff}.tag.c{background:rgba(255,173,85,.12);color:#ffd098}.bar{height:8px;background:#282c33;border-radius:999px;overflow:hidden;margin-top:8px}.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--gold),var(--red));width:0}.tablewrap{overflow-x:auto}.table{width:100%;border-collapse:collapse;min-width:720px}.table th,.table td{text-align:left;padding:9px 7px;border-bottom:1px solid #292d34}.table th{font-size:11px;color:#aab0ba}.small{font-size:11px;color:var(--muted)}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11px;word-break:break-all}.footer{margin-top:34px;color:#747c87;font-size:11px}.fresh{font-size:11px;color:#c7cbd1}.bad{color:#ff8f8f}.goodtxt{color:#7cdeb8}.warn{color:#ffd08a}@media(max-width:820px){.grid,.kpis{grid-template-columns:1fr 1fr}}@media(max-width:470px){.wrap{padding:14px 10px 50px}.hero{padding:17px}.hero h2{font-size:21px}.brand h1{font-size:16px}.grid,.kpis{gap:8px}.card{padding:12px}.metric .value{font-size:20px}}
+:root{--bg:#090a0c;--panel:#121419;--line:#292e36;--text:#f3f4f6;--muted:#9ca4af;--gold:#f0b90b;--green:#38c793;--red:#ff6868;--orange:#ffad55;--blue:#6bb3ff}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 80% -10%,#342707 0,transparent 28%),var(--bg);color:var(--text);font:15px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC,"Microsoft YaHei",sans-serif}.wrap{max-width:1100px;margin:auto;padding:20px 15px 70px}.top{display:flex;justify-content:space-between;align-items:center;gap:12px}.brand{display:flex;align-items:center;gap:11px}.logo{width:43px;height:43px;border:2px solid var(--gold);border-radius:50%;display:grid;place-items:center;color:var(--gold);font-size:22px;font-weight:900}.brand h1{font-size:20px;margin:0}.brand small{display:block;color:var(--muted);font-size:11px}.btn{border:1px solid #6c5717;background:#171309;color:#f2ce61;border-radius:10px;padding:7px 10px;font-weight:700;cursor:pointer}.hero{margin-top:18px;padding:22px;border-radius:23px;border:1px solid #56430f;background:linear-gradient(135deg,rgba(240,185,11,.12),rgba(17,19,24,.9))}.hero h2{margin:0 0 6px;font-size:26px}.hero p{margin:0;color:#d6d9de}.pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.pill{border:1px solid #504722;border-radius:999px;padding:5px 9px;font-size:11px}.green{color:#7ee0b9;border-color:#285846;background:#0d1713}.orange{color:#ffd08f;border-color:#654a1a;background:#19140a}.red{color:#ff9999;border-color:#603438;background:#1b1012}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:14px}.card{border:1px solid var(--line);background:rgba(18,20,25,.96);border-radius:17px;padding:15px}.metric .label{font-size:12px;color:var(--muted)}.metric .value{font-size:23px;font-weight:800;margin:3px 0}.metric .help{font-size:11px;color:#aeb4bd}.section{margin-top:25px}.section h3{font-size:19px;margin:0 0 4px}.intro{color:var(--muted);margin:0 0 10px}.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.line{display:flex;justify-content:space-between;gap:12px;border-bottom:1px dashed #30343b;padding:8px 0}.line:last-child{border-bottom:0}.line b{text-align:right}.callout{margin-top:10px;padding:12px 14px;border-left:3px solid var(--gold);border-radius:0 12px 12px 0;background:#15130d}.callout.danger{border-color:var(--red);background:#190f11}.callout.good{border-color:var(--green);background:#0d1713}.tag{display:inline-block;padding:2px 6px;border-radius:5px;font-size:10px;font-weight:800}.tag.a{background:rgba(56,199,147,.12);color:#7ee0b9}.tag.b{background:rgba(107,179,255,.12);color:#9bd0ff}.tag.c{background:rgba(255,173,85,.12);color:#ffd098}.tablewrap{overflow-x:auto}.table{width:100%;border-collapse:collapse;min-width:720px}.table th,.table td{text-align:left;padding:9px 7px;border-bottom:1px solid #292d34}.table th{font-size:11px;color:#aab0ba}.small{font-size:11px;color:var(--muted)}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11px;word-break:break-all}.footer{margin-top:34px;color:#747c87;font-size:11px}.bad{color:#ff8f8f}.goodtxt{color:#7cdeb8}@media(max-width:820px){.grid,.kpis{grid-template-columns:1fr 1fr}}@media(max-width:470px){.wrap{padding:14px 10px 50px}.hero{padding:17px}.hero h2{font-size:21px}.brand h1{font-size:16px}.grid,.kpis{gap:8px}.card{padding:12px}.metric .value{font-size:20px}}
 </style>
 </head>
 <body>
 <div class="wrap">
-  <div class="top">
-    <div class="brand"><div class="logo">M</div><div><h1>FDAO / META 独立链上监控</h1><small>后台每10分钟自动计算，不需要打开网页才统计</small></div></div>
-    <button class="btn" id="refresh">刷新</button>
-  </div>
-
-  <div class="hero">
-    <h2 id="headline">正在读取后台结果…</h2>
-    <p>只关注 FDAO/META 本身。SENTIS 其他交易所和其他生态不计入项目玩家数或项目入金。</p>
-    <div class="pills"><span class="pill green">链上独立验证</span><span class="pill orange" id="freshness">等待数据</span><span class="pill orange" id="backfill">历史钱包回填状态：—</span></div>
-  </div>
-
-  <div class="grid">
-    <div class="card metric"><div class="label">META 当前价</div><div class="value" id="price">—</div><div class="help">奖励最终兑现成U的重要基础。</div></div>
-    <div class="card metric"><div class="label">META/SENTIS 流动性</div><div class="value" id="liq">—</div><div class="help">可以理解成主要“退出池”的厚度。</div></div>
-    <div class="card metric"><div class="label">24小时成交额</div><div class="value" id="vol">—</div><div class="help" id="trades">—</div></div>
-    <div class="card metric"><div class="label">FDAO 当前 APY</div><div class="value" id="apy">—</div><div class="help">直接由 FDAO 合约读取。</div></div>
-  </div>
-
-  <div class="section">
-    <h3>1. 今天真正有多少钱包往 FDAO 里进？</h3>
-    <p class="intro">下面是后台扫 FDAO 质押事件得出的结果，不拿 META Holder 数凑人数。</p>
-    <div class="kpis">
-      <div class="card metric"><div class="label">今日质押钱包（去重）</div><div class="value" id="wallets">—</div><div class="help">今天至少质押过一次的钱包。</div></div>
-      <div class="card metric"><div class="label">今日疑似新钱包</div><div class="value" id="newWallets">—</div><div class="help" id="newWalletHelp">历史回填中。</div></div>
-      <div class="card metric"><div class="label">今日新增质押笔数</div><div class="value" id="stakes">—</div><div class="help">同一钱包多次追加会多笔。</div></div>
-      <div class="card metric"><div class="label">今日新增质押估值</div><div class="value" id="stakeUsd">—</div><div class="help">按质押事件中的META口径 × 当前价估算。</div></div>
-      <div class="card metric"><div class="label">今日解押笔数</div><div class="value" id="unstakes">—</div><div class="help">真实解押事件数。</div></div>
-      <div class="card metric"><div class="label">今日退出估值</div><div class="value" id="exitUsd">—</div><div class="help">按解押事件Token口径估算。</div></div>
-      <div class="card metric"><div class="label">今日净新增估值</div><div class="value" id="netUsd">—</div><div class="help">新增质押估值 − 解押估值。</div></div>
-      <div class="card metric"><div class="label">历史已识别质押钱包</div><div class="value" id="histWallets">—</div><div class="help">后台正在逐批往过去回填。</div></div>
-    </div>
-    <div class="callout" id="flowExplain">等待后台数据。</div>
-  </div>
-
-  <div class="section">
-    <h3>2. 这个收益需要多大的市场承接？</h3>
-    <p class="intro">把宣传的0.6%–1.2%日收益和真实TVL、成交额放到一起看。</p>
-    <div class="grid">
-      <div class="card metric"><div class="label">FDAO链上 TVL</div><div class="value" id="tvl">—</div><div class="help">合约直接返回的总锁仓价值口径。</div></div>
-      <div class="card metric"><div class="label">每天理论奖励压力</div><div class="value" id="reward">—</div><div class="help">TVL × 0.6%–1.2%。</div></div>
-      <div class="card metric"><div class="label">2%手续费最高贡献</div><div class="value" id="fee">—</div><div class="help">用24h成交额 × 2%做极乐观上限。</div></div>
-      <div class="card metric"><div class="label">手续费覆盖低档奖励</div><div class="value" id="feeCover">—</div><div class="help">越低，越依赖持续新增买盘。</div></div>
-    </div>
-    <div class="callout danger" id="sustain">等待后台计算。</div>
-  </div>
-
-  <div class="section">
-    <h3>3. LP和“庄家控盘”怎么看？</h3>
-    <div class="grid">
-      <div class="card metric"><div class="label">FDAO合约托管 LP 占比</div><div class="value" id="custody">—</div><div class="help">参与者质押后LP集中进入C542，所以不能简单等同于老板个人持仓。</div></div>
-      <div class="card metric"><div class="label">当前 LP 总量</div><div class="value" id="lpSupply">—</div><div class="help">PancakeSwap交易对LP总供应。</div></div>
-      <div class="card metric"><div class="label">C542持有 LP</div><div class="value" id="lpFdao">—</div><div class="help">协议托管集中度。</div></div>
-      <div class="card metric"><div class="label">META 黑洞销毁</div><div class="value" id="burn">—</div><div class="help">直接读取0x…dead余额。</div></div>
-    </div>
-    <div class="callout"><b>简单理解：</b>LP高度集中在质押合约本身，不等于一个庄家钱包拿走了这些LP；真正要继续深挖的是 C542 是否可升级、管理员能否转走托管LP、是否存在紧急提款等权限。</div>
-  </div>
-
-  <div class="section">
-    <h3>4. 你的3000U仓位</h3>
-    <div class="card">
-      <div class="line"><span>钱包</span><b class="mono">0x0e39…a85b6</b></div>
-      <div class="line"><span>链上当前质押</span><b id="myLp">—</b></div>
-      <div class="line"><span>当前可见奖励</span><b id="myReward">—</b></div>
-      <div class="line"><span>已验证入场交易</span><b>2026-08-30 · 3000U</b></div>
-    </div>
-  </div>
-
-  <div class="section">
-    <h3>5. 每日历史</h3>
-    <p class="intro">以后每天都自动留下快照，不需要你手工截图。</p>
-    <div class="card tablewrap"><table class="table"><thead><tr><th>日期</th><th>质押钱包</th><th>疑似新钱包</th><th>新增质押</th><th>退出</th><th>净新增</th><th>TVL</th><th>流动性</th></tr></thead><tbody id="history"><tr><td colspan="8">等待第一条后台快照…</td></tr></tbody></table></div>
-  </div>
-
-  <div class="section">
-    <h3>数据可信度</h3>
-    <div class="card">
-      <div class="line"><span>META价格/成交/流动性</span><b><span class="tag a">A · DEX实时</span></b></div>
-      <div class="line"><span>APY/TVL/质押/解押/销毁/LP托管</span><b><span class="tag a">A · 链上独立读取</span></b></div>
-      <div class="line"><span>今日新增钱包/净新增</span><b><span class="tag b">B · 链上事件统计</span></b></div>
-      <div class="line"><span>“历史首次钱包”</span><b><span class="tag b">B · 历史回填完成后更准确</span></b></div>
-      <div class="line"><span>项目宣传收益逻辑</span><b><span class="tag c">C · 项目规则/压力测试</span></b></div>
-    </div>
-  </div>
-  <div class="footer">后台计划每10分钟运行一次。免费公共RPC偶尔会限流；若数据更新时间明显超过30分钟，应视为“监控源异常”，不是FDAO本身一定发生异常。本页用于风险观察，不构成投资建议。</div>
+  <div class="top"><div class="brand"><div class="logo">M</div><div><h1>FDAO / META 独立链上监控</h1><small>后台每10分钟自动计算，不需要打开网页才统计</small></div></div><button class="btn" id="refresh">刷新</button></div>
+  <div class="hero"><h2 id="headline">正在读取后台结果…</h2><p>只关注 FDAO/META 本身。SENTIS 其他交易所和其他生态不计入项目玩家数或项目入金。</p><div class="pills"><span class="pill green">链上独立验证</span><span class="pill orange" id="freshness">等待数据</span><span class="pill orange" id="backfill">历史钱包回填状态：—</span></div></div>
+  <div class="grid"><div class="card metric"><div class="label">META 当前价</div><div class="value" id="price">—</div><div class="help">奖励最终兑现成U的重要基础。</div></div><div class="card metric"><div class="label">META/SENTIS 流动性</div><div class="value" id="liq">—</div><div class="help">可以理解成主要“退出池”的厚度。</div></div><div class="card metric"><div class="label">24小时成交额</div><div class="value" id="vol">—</div><div class="help" id="trades">—</div></div><div class="card metric"><div class="label">FDAO 当前 APY</div><div class="value" id="apy">—</div><div class="help">直接由 FDAO 合约读取。</div></div></div>
+  <div class="section"><h3>1. 今天真正有多少钱包往 FDAO 里进？</h3><p class="intro">下面是后台扫 FDAO 质押事件得出的结果，不拿 META Holder 数凑人数。</p><div class="kpis"><div class="card metric"><div class="label">今日质押钱包（去重）</div><div class="value" id="wallets">—</div></div><div class="card metric"><div class="label">今日疑似新钱包</div><div class="value" id="newWallets">—</div><div class="help" id="newWalletHelp">历史回填中。</div></div><div class="card metric"><div class="label">今日新增质押笔数</div><div class="value" id="stakes">—</div></div><div class="card metric"><div class="label">今日新增质押估值</div><div class="value" id="stakeUsd">—</div></div><div class="card metric"><div class="label">今日解押笔数</div><div class="value" id="unstakes">—</div></div><div class="card metric"><div class="label">今日退出估值</div><div class="value" id="exitUsd">—</div></div><div class="card metric"><div class="label">今日净新增估值</div><div class="value" id="netUsd">—</div></div><div class="card metric"><div class="label">历史已识别质押钱包</div><div class="value" id="histWallets">—</div></div></div><div class="callout" id="flowExplain">等待后台数据。</div></div>
+  <div class="section"><h3>2. 这个收益需要多大的市场承接？</h3><p class="intro">把宣传的0.6%–1.2%日收益和真实TVL、成交额放到一起看。</p><div class="grid"><div class="card metric"><div class="label">FDAO链上 TVL</div><div class="value" id="tvl">—</div></div><div class="card metric"><div class="label">每天理论奖励压力</div><div class="value" id="reward">—</div></div><div class="card metric"><div class="label">2%手续费最高贡献</div><div class="value" id="fee">—</div></div><div class="card metric"><div class="label">手续费覆盖低档奖励</div><div class="value" id="feeCover">—</div></div></div><div class="callout danger" id="sustain">等待后台计算。</div></div>
+  <div class="section"><h3>3. LP和“庄家控盘”怎么看？</h3><div class="grid"><div class="card metric"><div class="label">FDAO合约托管 LP 占比</div><div class="value" id="custody">—</div></div><div class="card metric"><div class="label">当前 LP 总量</div><div class="value" id="lpSupply">—</div></div><div class="card metric"><div class="label">C542持有 LP</div><div class="value" id="lpFdao">—</div></div><div class="card metric"><div class="label">META 黑洞销毁</div><div class="value" id="burn">—</div></div></div></div>
+  <div class="section"><h3>4. 你的3000U仓位</h3><div class="card"><div class="line"><span>钱包</span><b class="mono">0x0e39…a85b6</b></div><div class="line"><span>链上当前质押</span><b id="myLp">—</b></div><div class="line"><span>当前可见奖励</span><b id="myReward">—</b></div><div class="line"><span>已验证入场交易</span><b>2026-08-30 · 3000U</b></div></div></div>
+  <div class="section"><h3>5. 每日历史</h3><div class="card tablewrap"><table class="table"><thead><tr><th>日期</th><th>质押钱包</th><th>疑似新钱包</th><th>新增质押</th><th>退出</th><th>净新增</th><th>TVL</th><th>流动性</th></tr></thead><tbody id="history"><tr><td colspan="8">等待第一条后台快照…</td></tr></tbody></table></div></div>
+  <div class="footer">后台计划每10分钟运行一次。若数据更新时间明显超过30分钟，应视为监控源异常。本页用于风险观察，不构成投资建议。</div>
 </div>
 <script>
-const DATA='https://raw.githubusercontent.com/lyuyang1014/oura-personal-sync/fdao-dashboard-source/fdao-monitor/data/current.json';
-const DAILY='https://raw.githubusercontent.com/lyuyang1014/oura-personal-sync/fdao-dashboard-source/fdao-monitor/data/daily.json';
+const DATA='./data/current.json';
+const DAILY='./data/daily.json';
 const $=id=>document.getElementById(id);
 const usd=n=>{n=Number(n);if(!isFinite(n))return '—';if(Math.abs(n)>=1e6)return (n<0?'−':'')+'$'+(Math.abs(n)/1e6).toFixed(2)+'M';if(Math.abs(n)>=1e3)return (n<0?'−':'')+'$'+(Math.abs(n)/1e3).toFixed(1)+'K';return (n<0?'−':'')+'$'+Math.abs(n).toFixed(0)};
 const num=(n,d=0)=>isFinite(Number(n))?Number(n).toLocaleString('zh-CN',{maximumFractionDigits:d}):'—';
 const pct=n=>isFinite(Number(n))?(Number(n)*100).toFixed(1)+'%':'—';
-async function load(){
-  try{
-    const t=Date.now(); const [r1,r2]=await Promise.all([fetch(DATA+'?t='+t,{cache:'no-store'}),fetch(DAILY+'?t='+t,{cache:'no-store'})]);
-    if(!r1.ok)throw new Error('后台数据尚未生成'); const d=await r1.json(); const hist=r2.ok?await r2.json():[];
-    $('price').textContent='$'+Number(d.market.metaPrice).toFixed(4); $('liq').textContent=usd(d.market.liquidity); $('vol').textContent=usd(d.market.volume24); $('trades').textContent=`买 ${num(d.market.buys)} / 卖 ${num(d.market.sells)} 笔`;
-    $('apy').textContent=Number(d.protocol.apy).toFixed(2)+'%'; $('wallets').textContent=num(d.today.uniqueStakeWallets); $('newWallets').textContent=num(d.today.newWallets); $('stakes').textContent=num(d.today.stakeCount); $('stakeUsd').textContent=usd(d.today.stakeUsd); $('unstakes').textContent=num(d.today.unstakeCount); $('exitUsd').textContent=usd(d.today.unstakeUsd); $('netUsd').textContent=usd(d.today.netUsd); $('histWallets').textContent=num(d.indexing.historicalWallets);
-    $('newWalletHelp').textContent=d.indexing.newWalletMeaning; $('tvl').textContent=usd(d.protocol.tvl); $('reward').textContent=usd(d.pressure.rewardLow)+'–'+usd(d.pressure.rewardHigh); $('fee').textContent=usd(d.pressure.feeMax); $('feeCover').textContent=pct(d.pressure.feeCoverLow); $('custody').textContent=pct(d.protocol.custodyPct); $('lpSupply').textContent=num(d.protocol.pairSupply,2); $('lpFdao').textContent=num(d.protocol.pairInFdao,2); $('burn').textContent=num(d.protocol.burnedMeta,0)+' META'; $('myLp').textContent=num(d.user.myStakedLp,4)+' LP'; $('myReward').textContent=num(d.user.myReward,4)+' META';
-    const age=(Date.now()-Date.parse(d.updatedAt))/60000; $('freshness').textContent='后台更新 '+(age<1?'刚刚':Math.floor(age)+'分钟前'); $('freshness').className='pill '+(age>30?'red':age>15?'orange':'green'); $('backfill').textContent=d.indexing.backfillDone?'历史钱包回填完成':'历史钱包正在回填 · 已识别 '+num(d.indexing.historicalWallets)+' 个旧质押钱包';
-    let net=d.today.netUsd,cover=d.pressure.feeCoverLow,rv=d.pressure.rewardToVolumeLow; let level='高风险 · 依赖持续新增买盘'; if(net>0&&cover>.2&&rv<.4)level='仍在扩张 · 但高收益结构风险仍高'; if(net<0)level='警惕 · 今日估算净流出'; $('headline').textContent=level;
-    $('flowExplain').innerHTML=`<b>今天怎么看：</b>目前质押事件估算新增 ${usd(d.today.stakeUsd)}，解押估算 ${usd(d.today.unstakeUsd)}，净值约 <b class="${net>=0?'goodtxt':'bad'}">${usd(net)}</b>。这个指标比单看币价更早反映新增资金是否开始变弱。`;
-    $('sustain').innerHTML=`<b>压力测试：</b>当前TVL约 ${usd(d.protocol.tvl)}，按0.6%–1.2%/日相当于每天新增 ${usd(d.pressure.rewardLow)}–${usd(d.pressure.rewardHigh)} 的奖励压力；而按24h成交额×2%计算的手续费上限约 ${usd(d.pressure.feeMax)}，仅覆盖低档奖励约 <b>${pct(d.pressure.feeCoverLow)}</b>。因此收益主要不能靠交易手续费自然产生，仍需要持续买盘承接。`;
-    $('history').innerHTML=(hist||[]).slice().reverse().map(x=>`<tr><td>${x.date}</td><td>${num(x.uniqueStakeWallets)}</td><td>${num(x.newWallets)}</td><td>${usd(x.stakeUsd)}</td><td>${usd(x.unstakeUsd)}</td><td class="${x.netUsd>=0?'goodtxt':'bad'}">${usd(x.netUsd)}</td><td>${usd(x.tvl)}</td><td>${usd(x.liquidity)}</td></tr>`).join('')||'<tr><td colspan="8">暂无历史</td></tr>';
-  }catch(e){$('headline').textContent='后台第一次索引尚未完成';$('freshness').textContent=e.message;$('freshness').className='pill red';}
-}
-$('refresh').onclick=load; load(); setInterval(load,60000);
+async function load(){try{const t=Date.now();const [r1,r2]=await Promise.all([fetch(DATA+'?t='+t,{cache:'no-store'}),fetch(DAILY+'?t='+t,{cache:'no-store'})]);if(!r1.ok)throw new Error('数据文件读取失败 '+r1.status);const d=await r1.json();const hist=r2.ok?await r2.json():[];
+$('price').textContent='$'+Number(d.market.metaPrice).toFixed(4);$('liq').textContent=usd(d.market.liquidity);$('vol').textContent=usd(d.market.volume24);$('trades').textContent=`买 ${num(d.market.buys)} / 卖 ${num(d.market.sells)} 笔`;$('apy').textContent=Number(d.protocol.apy).toFixed(2)+'%';$('wallets').textContent=num(d.today.uniqueStakeWallets);$('newWallets').textContent=num(d.today.newWallets);$('stakes').textContent=num(d.today.stakeCount);$('stakeUsd').textContent=usd(d.today.stakeUsd);$('unstakes').textContent=num(d.today.unstakeCount);$('exitUsd').textContent=usd(d.today.unstakeUsd);$('netUsd').textContent=usd(d.today.netUsd);$('histWallets').textContent=num(d.indexing.historicalWallets);$('newWalletHelp').textContent=d.indexing.newWalletMeaning;$('tvl').textContent=usd(d.protocol.tvl);$('reward').textContent=usd(d.pressure.rewardLow)+'–'+usd(d.pressure.rewardHigh);$('fee').textContent=usd(d.pressure.feeMax);$('feeCover').textContent=pct(d.pressure.feeCoverLow);$('custody').textContent=pct(d.protocol.custodyPct);$('lpSupply').textContent=num(d.protocol.pairSupply,2);$('lpFdao').textContent=num(d.protocol.pairInFdao,2);$('burn').textContent=num(d.protocol.burnedMeta,0)+' META';$('myLp').textContent=num(d.user.myStakedLp,4)+' LP';$('myReward').textContent=num(d.user.myReward,4)+' META';
+const age=(Date.now()-Date.parse(d.updatedAt))/60000;$('freshness').textContent='后台更新 '+(age<1?'刚刚':Math.floor(age)+'分钟前');$('freshness').className='pill '+(age>30?'red':age>15?'orange':'green');const todayDone=Boolean(d.indexing.dayBackfillDone),historyDone=Boolean(d.indexing.historyDone);$('backfill').textContent=historyDone?'历史钱包回填完成':todayDone?'今日已完整 · 历史钱包回填中':'今日链上回填 '+Math.round((d.indexing.todayCoverage||0)*100)+'%';let net=d.today.netUsd,cover=d.pressure.feeCoverLow,rv=d.pressure.rewardToVolumeLow;let level='高风险 · 依赖持续新增买盘';if(net>0&&cover>.2&&rv<.4)level='仍在扩张 · 但高收益结构风险仍高';if(net<0)level='警惕 · 今日估算净流出';$('headline').textContent=level;$('flowExplain').innerHTML=`<b>今天怎么看：</b>目前质押事件估算新增 ${usd(d.today.stakeUsd)}，解押估算 ${usd(d.today.unstakeUsd)}，净值约 <b class="${net>=0?'goodtxt':'bad'}">${usd(net)}</b>。`;$('sustain').innerHTML=`<b>压力测试：</b>TVL约 ${usd(d.protocol.tvl)}，按0.6%–1.2%/日相当于每天 ${usd(d.pressure.rewardLow)}–${usd(d.pressure.rewardHigh)} 奖励压力；24h成交额×2%手续费上限约 ${usd(d.pressure.feeMax)}，覆盖低档奖励约 <b>${pct(d.pressure.feeCoverLow)}</b>。`;$('history').innerHTML=(hist||[]).slice().reverse().map(x=>`<tr><td>${x.date}</td><td>${num(x.uniqueStakeWallets)}</td><td>${num(x.newWallets)}</td><td>${usd(x.stakeUsd)}</td><td>${usd(x.unstakeUsd)}</td><td>${usd(x.netUsd)}</td><td>${usd(x.tvl)}</td><td>${usd(x.liquidity)}</td></tr>`).join('')||'<tr><td colspan="8">暂无历史</td></tr>';}catch(e){$('headline').textContent='数据读取失败';$('freshness').textContent=e.message;$('freshness').className='pill red';console.error(e)}}
+$('refresh').onclick=load;load();setInterval(load,60000);
 </script>
 </body></html>

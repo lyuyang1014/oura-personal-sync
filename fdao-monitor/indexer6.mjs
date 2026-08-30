@@ -21,5 +21,6 @@ const replacement=`async function logsRange(from,to){
 `;
 src=src.slice(0,start)+replacement+src.slice(end);
 src=src.replaceAll("bsc-batch-v1","bsc-drpc-v1");
+src=src.replace('const BACK=50000','const BACK=100000');
 const target='/tmp/fdao-indexer-runtime.mjs';fs.writeFileSync(target,src);
 await import(pathToFileURL(target).href+'?v='+Date.now());

@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-08-30T07:17:05.901Z",
+  "updatedAt": "2026-08-30T07:17:55.766Z",
   "timezone": "Asia/Hong_Kong",
-  "block": 118917992,
+  "block": 118918117,
   "date": "2026-08-30",
   "market": {
-    "metaPrice": 0.28483888470235086,
-    "sentisPrice": 0.2171876927706183,
+    "metaPrice": 0.285118623865906,
+    "sentisPrice": 0.21740222165470835,
     "liquidity": 18930221.011962064,
     "volume24": 391014.967835458,
     "buys": 842,
@@ -16,39 +16,39 @@
     "volumeSource": "DexPaprika/DexScreener"
   },
   "protocol": {
-    "apy": 448.90351132746844,
-    "tvl": 20140968.454885364,
+    "apy": 448.9034804384319,
+    "tvl": 20160805.936295763,
     "totalStakedRaw": 39306892.93045876,
     "pairSupply": 35472465.52827482,
     "pairInFdao": 31944984.736237966,
     "custodyPct": 0.9005572141799637,
-    "burnedMeta": 918920.712560962,
-    "reserveSentis": 41844443.982422255,
-    "reserveMeta": 31906101.069411557
+    "burnedMeta": 918921.8311184334,
+    "reserveSentis": 41844325.84004012,
+    "reserveMeta": 31906191.457863767
   },
   "today": {
-    "uniqueStakeWallets": 0,
-    "newWallets": 0,
-    "stakeCount": 0,
-    "stakeMeta": 0,
-    "stakeUsd": 0,
+    "uniqueStakeWallets": 23,
+    "newWallets": 23,
+    "stakeCount": 23,
+    "stakeMeta": 131522.10955071583,
+    "stakeUsd": 37499.402883041024,
     "unstakeCount": 0,
     "unstakeToken": 0,
     "unstakeUsd": 0,
-    "netUsd": 0
+    "netUsd": 37499.402883041024
   },
   "pressure": {
-    "rewardLow": 120845.81072931219,
-    "rewardHigh": 241691.62145862437,
+    "rewardLow": 120964.83561777457,
+    "rewardHigh": 241929.67123554915,
     "feeMax": 7820.29935670916,
-    "feeCoverLow": 0.06471303646781923,
-    "rewardToVolumeLow": 0.309056738667265,
-    "rewardToVolumeHigh": 0.61811347733453
+    "feeCoverLow": 0.06464936125255268,
+    "rewardToVolumeLow": 0.30936113849400637,
+    "rewardToVolumeHigh": 0.6187222769880127
   },
   "indexing": {
-    "engine": "routescan-index-v1",
+    "engine": "nodereal-index-v1",
     "dayStartBlock": 118795756,
-    "lastBlock": 118917992,
+    "lastBlock": 118918117,
     "dayBackfillCursor": 118795755,
     "dayBackfillDone": true,
     "todayCoverage": 1,

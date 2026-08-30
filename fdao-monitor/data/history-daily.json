@@ -1,18 +1,31 @@
 {
-  "updatedAt": "2026-08-30T07:17:12.272Z",
+  "updatedAt": "2026-08-30T07:18:02.685Z",
   "source": "Routescan indexed BSC logs",
   "backfillDone": false,
-  "coverage": 0.0833335,
-  "firstObservedDate": null,
-  "totalObservedStakeWallets": 0,
+  "coverage": 0.16666683333333332,
+  "firstObservedDate": "2026-08-30",
+  "totalObservedStakeWallets": 23,
   "trend": {
-    "last3AvgStakeUsd": 0,
+    "last3AvgStakeUsd": 37499.402883041024,
     "previous3AvgStakeUsd": 0,
     "flowRatio": null,
-    "last3AvgWallets": 0,
+    "last3AvgWallets": 23,
     "previous3AvgWallets": 0,
     "walletRatio": null,
     "risk": "数据不足"
   },
-  "daily": []
+  "daily": [
+    {
+      "date": "2026-08-30",
+      "stakeWallets": 23,
+      "newWallets": 23,
+      "stakeCount": 23,
+      "stakeMeta": 131522.10955071583,
+      "stakeUsdAtCurrentPrice": 37499.402883041024,
+      "unstakeCount": 0,
+      "unstakeToken": 0,
+      "unstakeUsdAtCurrentPrice": 0,
+      "netUsdAtCurrentPrice": 37499.402883041024
+    }
+  ]
 }

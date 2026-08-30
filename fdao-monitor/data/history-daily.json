@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-08-30T08:23:28.115Z",
+  "updatedAt": "2026-08-30T08:24:56.718Z",
   "source": "NodeReal BSC eth_getLogs",
   "backfillDone": false,
-  "coverage": 0.6666668333333333,
-  "firstObservedDate": "2026-08-09",
-  "totalObservedStakeWallets": 2092,
+  "coverage": 0.7500001666666667,
+  "firstObservedDate": "2026-08-06",
+  "totalObservedStakeWallets": 2355,
   "trend": {
-    "last3AvgStakeUsd": 185465.74627182653,
-    "previous3AvgStakeUsd": 219399.99361311496,
+    "last3AvgStakeUsd": 185549.33020098926,
+    "previous3AvgStakeUsd": 219498.8707044005,
     "flowRatio": 0.8453315937596274,
     "last3AvgWallets": 74.33333333333333,
     "previous3AvgWallets": 92.33333333333333,
@@ -16,32 +16,74 @@
   },
   "daily": [
     {
-      "date": "2026-08-09",
-      "stakeWallets": 107,
-      "newWallets": 107,
-      "stakeCount": 116,
-      "stakeMeta": 685620.7642184149,
-      "stakeUsdAtCurrentPrice": 190922.4211529201,
-      "avgPerStakeWallet": 1784.3216930179449,
-      "medianStakeTxUsd": 573.9375693780808,
+      "date": "2026-08-06",
+      "stakeWallets": 63,
+      "newWallets": 63,
+      "stakeCount": 65,
+      "stakeMeta": 437367.8394621666,
+      "stakeUsdAtCurrentPrice": 121847.18387384512,
+      "avgPerStakeWallet": 1934.0822837118274,
+      "medianStakeTxUsd": 580.0131731049698,
       "unstakeCount": 0,
       "unstakeToken": 0,
       "unstakeUsdAtCurrentPrice": 0,
-      "netUsdAtCurrentPrice": 190922.4211529201
+      "netUsdAtCurrentPrice": 121847.18387384512
+    },
+    {
+      "date": "2026-08-07",
+      "stakeWallets": 99,
+      "newWallets": 99,
+      "stakeCount": 104,
+      "stakeMeta": 644857.6288933437,
+      "stakeUsdAtCurrentPrice": 179652.18059206635,
+      "avgPerStakeWallet": 1814.668490828953,
+      "medianStakeTxUsd": 594.449752285648,
+      "unstakeCount": 0,
+      "unstakeToken": 0,
+      "unstakeUsdAtCurrentPrice": 0,
+      "netUsdAtCurrentPrice": 179652.18059206635
+    },
+    {
+      "date": "2026-08-08",
+      "stakeWallets": 103,
+      "newWallets": 101,
+      "stakeCount": 113,
+      "stakeMeta": 782062.5525262326,
+      "stakeUsdAtCurrentPrice": 217876.37553710787,
+      "avgPerStakeWallet": 2115.304616865125,
+      "medianStakeTxUsd": 571.3042313794086,
+      "unstakeCount": 0,
+      "unstakeToken": 0,
+      "unstakeUsdAtCurrentPrice": 0,
+      "netUsdAtCurrentPrice": 217876.37553710787
+    },
+    {
+      "date": "2026-08-09",
+      "stakeWallets": 111,
+      "newWallets": 109,
+      "stakeCount": 120,
+      "stakeMeta": 696027.0857883996,
+      "stakeUsdAtCurrentPrice": 193907.5822482185,
+      "avgPerStakeWallet": 1746.915155389356,
+      "medianStakeTxUsd": 575.9032129049779,
+      "unstakeCount": 0,
+      "unstakeToken": 0,
+      "unstakeUsdAtCurrentPrice": 0,
+      "netUsdAtCurrentPrice": 193907.5822482185
     },
     {
       "date": "2026-08-10",
       "stakeWallets": 121,
-      "newWallets": 121,
+      "newWallets": 119,
       "stakeCount": 129,
       "stakeMeta": 756508.8268540496,
-      "stakeUsdAtCurrentPrice": 210662.37253065247,
-      "avgPerStakeWallet": 1741.0113432285327,
-      "medianStakeTxUsd": 570.6001580131533,
+      "stakeUsdAtCurrentPrice": 210757.31183441507,
+      "avgPerStakeWallet": 1741.7959655736784,
+      "medianStakeTxUsd": 570.8573106364615,
       "unstakeCount": 2,
       "unstakeToken": 8331.514137570077,
-      "unstakeUsdAtCurrentPrice": 2320.0476619578126,
-      "netUsdAtCurrentPrice": 208342.32486869468
+      "unstakeUsdAtCurrentPrice": 2321.093238854514,
+      "netUsdAtCurrentPrice": 208436.21859556058
     },
     {
       "date": "2026-08-11",
@@ -49,13 +91,13 @@
       "newWallets": 88,
       "stakeCount": 96,
       "stakeMeta": 683278.1500897021,
-      "stakeUsdAtCurrentPrice": 190270.0815730494,
-      "avgPerStakeWallet": 2114.1120174783264,
-      "medianStakeTxUsd": 584.05371865575,
+      "stakeUsdAtCurrentPrice": 190355.8306741081,
+      "avgPerStakeWallet": 2115.0647852678676,
+      "medianStakeTxUsd": 584.3169344011297,
       "unstakeCount": 0,
       "unstakeToken": 0,
       "unstakeUsdAtCurrentPrice": 0,
-      "netUsdAtCurrentPrice": 190270.0815730494
+      "netUsdAtCurrentPrice": 190355.8306741081
     },
     {
       "date": "2026-08-12",
@@ -63,13 +105,13 @@
       "newWallets": 82,
       "stakeCount": 90,
       "stakeMeta": 491843.9271268686,
-      "stakeUsdAtCurrentPrice": 136962.06167774057,
-      "avgPerStakeWallet": 1611.3183726793009,
-      "medianStakeTxUsd": 592.073562234033,
+      "stakeUsdAtCurrentPrice": 137023.78643010792,
+      "avgPerStakeWallet": 1612.0445462365637,
+      "medianStakeTxUsd": 592.3403922858333,
       "unstakeCount": 2,
       "unstakeToken": 10549.936061886343,
-      "unstakeUsdAtCurrentPrice": 2937.803872144957,
-      "netUsdAtCurrentPrice": 134024.25780559558
+      "unstakeUsdAtCurrentPrice": 2939.127853503668,
+      "netUsdAtCurrentPrice": 134084.65857660424
     },
     {
       "date": "2026-08-13",
@@ -77,13 +119,13 @@
       "newWallets": 105,
       "stakeCount": 114,
       "stakeMeta": 665188.7654297423,
-      "stakeUsdAtCurrentPrice": 185232.79376514134,
-      "avgPerStakeWallet": 1683.9344887740122,
-      "medianStakeTxUsd": 572.2698503677937,
+      "stakeUsdAtCurrentPrice": 185316.2727094958,
+      "avgPerStakeWallet": 1684.6933882681435,
+      "medianStakeTxUsd": 572.5277554720872,
       "unstakeCount": 2,
       "unstakeToken": 2316.614563819163,
-      "unstakeUsdAtCurrentPrice": 645.0995717824718,
-      "netUsdAtCurrentPrice": 184587.69419335888
+      "unstakeUsdAtCurrentPrice": 645.3902990892369,
+      "netUsdAtCurrentPrice": 184670.88241040654
     },
     {
       "date": "2026-08-14",
@@ -91,13 +133,13 @@
       "newWallets": 83,
       "stakeCount": 91,
       "stakeMeta": 631000.7209870842,
-      "stakeUsdAtCurrentPrice": 175712.5683575623,
-      "avgPerStakeWallet": 2043.1693995065384,
-      "medianStakeTxUsd": 571.6761101412542,
+      "stakeUsdAtCurrentPrice": 175791.75681775954,
+      "avgPerStakeWallet": 2044.0901955553434,
+      "medianStakeTxUsd": 571.9337476643796,
       "unstakeCount": 2,
       "unstakeToken": 2595.422279394108,
-      "unstakeUsdAtCurrentPrice": 722.7381832010808,
-      "netUsdAtCurrentPrice": 174989.8301743612
+      "unstakeUsdAtCurrentPrice": 723.0638999348832,
+      "netUsdAtCurrentPrice": 175068.69291782466
     },
     {
       "date": "2026-08-15",
@@ -105,13 +147,13 @@
       "newWallets": 96,
       "stakeCount": 104,
       "stakeMeta": 481917.89043877646,
-      "stakeUsdAtCurrentPrice": 134197.99288658658,
-      "avgPerStakeWallet": 1355.5352816826928,
-      "medianStakeTxUsd": 565.9937830360208,
+      "stakeUsdAtCurrentPrice": 134258.47195486032,
+      "avgPerStakeWallet": 1356.1461813622254,
+      "medianStakeTxUsd": 566.2488597022991,
       "unstakeCount": 2,
       "unstakeToken": 2317.1502231221334,
-      "unstakeUsdAtCurrentPrice": 645.2487349589296,
-      "netUsdAtCurrentPrice": 133552.74415162764
+      "unstakeUsdAtCurrentPrice": 645.5395294891288,
+      "netUsdAtCurrentPrice": 133612.93242537117
     },
     {
       "date": "2026-08-16",
@@ -119,13 +161,13 @@
       "newWallets": 127,
       "stakeCount": 138,
       "stakeMeta": 678683.3095876669,
-      "stakeUsdAtCurrentPrice": 188990.57237606627,
-      "avgPerStakeWallet": 1476.4888466880177,
-      "medianStakeTxUsd": 550.0900316113349,
+      "stakeUsdAtCurrentPrice": 189075.74484015434,
+      "avgPerStakeWallet": 1477.1542565637058,
+      "medianStakeTxUsd": 550.3379409269879,
       "unstakeCount": 3,
       "unstakeToken": 1917.5213422503825,
-      "unstakeUsdAtCurrentPrice": 533.9654753487223,
-      "netUsdAtCurrentPrice": 188456.60690071754
+      "unstakeUsdAtCurrentPrice": 534.206117803537,
+      "netUsdAtCurrentPrice": 188541.5387223508
     },
     {
       "date": "2026-08-17",
@@ -133,13 +175,13 @@
       "newWallets": 154,
       "stakeCount": 163,
       "stakeMeta": 691189.1308653781,
-      "stakeUsdAtCurrentPrice": 192473.02477753072,
-      "avgPerStakeWallet": 1225.9428329779028,
-      "medianStakeTxUsd": 486.5402523132177,
+      "stakeUsdAtCurrentPrice": 192559.76667996895,
+      "avgPerStakeWallet": 1226.4953291717768,
+      "medianStakeTxUsd": 486.75952162198035,
       "unstakeCount": 6,
       "unstakeToken": 6964.662043206453,
-      "unstakeUsdAtCurrentPrice": 1939.4251300376604,
-      "netUsdAtCurrentPrice": 190533.59964749304
+      "unstakeUsdAtCurrentPrice": 1940.2991716110728,
+      "netUsdAtCurrentPrice": 190619.46750835786
     },
     {
       "date": "2026-08-18",
@@ -147,13 +189,13 @@
       "newWallets": 106,
       "stakeCount": 120,
       "stakeMeta": 605847.2847256379,
-      "stakeUsdAtCurrentPrice": 168708.17875622705,
-      "avgPerStakeWallet": 1562.1127662613615,
-      "medianStakeTxUsd": 590.113620153711,
+      "stakeUsdAtCurrentPrice": 168784.21054509262,
+      "avgPerStakeWallet": 1562.8167643064132,
+      "medianStakeTxUsd": 590.379566917555,
       "unstakeCount": 2,
       "unstakeToken": 6000.801535296868,
-      "unstakeUsdAtCurrentPrice": 1671.0222586141833,
-      "netUsdAtCurrentPrice": 167037.15649761286
+      "unstakeUsdAtCurrentPrice": 1671.7753389478892,
+      "netUsdAtCurrentPrice": 167112.43520614473
     },
     {
       "date": "2026-08-19",
@@ -161,13 +203,13 @@
       "newWallets": 88,
       "stakeCount": 99,
       "stakeMeta": 644806.1742158215,
-      "stakeUsdAtCurrentPrice": 179556.9247322538,
-      "avgPerStakeWallet": 1951.7057036114543,
-      "medianStakeTxUsd": 581.6129990831566,
+      "stakeUsdAtCurrentPrice": 179637.84573022343,
+      "avgPerStakeWallet": 1952.5852796763415,
+      "medianStakeTxUsd": 581.8751148683768,
       "unstakeCount": 1,
       "unstakeToken": 2536.108667428774,
-      "unstakeUsdAtCurrentPrice": 706.2213287025801,
-      "netUsdAtCurrentPrice": 178850.70340355125
+      "unstakeUsdAtCurrentPrice": 706.5396017783263,
+      "netUsdAtCurrentPrice": 178931.30612844514
     },
     {
       "date": "2026-08-20",
@@ -175,13 +217,13 @@
       "newWallets": 61,
       "stakeCount": 69,
       "stakeMeta": 378814.62434528564,
-      "stakeUsdAtCurrentPrice": 105487.18624440009,
-      "avgPerStakeWallet": 1648.2372850687514,
-      "medianStakeTxUsd": 585.7881637511183,
+      "stakeUsdAtCurrentPrice": 105534.72620086033,
+      "avgPerStakeWallet": 1648.9800968884426,
+      "medianStakeTxUsd": 586.0521611596295,
       "unstakeCount": 0,
       "unstakeToken": 0,
       "unstakeUsdAtCurrentPrice": 0,
-      "netUsdAtCurrentPrice": 105487.18624440009
+      "netUsdAtCurrentPrice": 105534.72620086033
     },
     {
       "date": "2026-08-21",
@@ -189,13 +231,13 @@
       "newWallets": 63,
       "stakeCount": 67,
       "stakeMeta": 383621.05834075884,
-      "stakeUsdAtCurrentPrice": 106825.61714296475,
-      "avgPerStakeWallet": 1669.1502678588242,
-      "medianStakeTxUsd": 587.7873872633196,
+      "stakeUsdAtCurrentPrice": 106873.76029066468,
+      "avgPerStakeWallet": 1669.9025045416356,
+      "medianStakeTxUsd": 588.0522856627673,
       "unstakeCount": 2,
       "unstakeToken": 8882.05391872786,
-      "unstakeUsdAtCurrentPrice": 2473.3545532382495,
-      "netUsdAtCurrentPrice": 104352.2625897265
+      "unstakeUsdAtCurrentPrice": 2474.469221018839,
+      "netUsdAtCurrentPrice": 104399.29106964586
     },
     {
       "date": "2026-08-22",
@@ -203,13 +245,13 @@
       "newWallets": 119,
       "stakeCount": 125,
       "stakeMeta": 1829704.0150286402,
-      "stakeUsdAtCurrentPrice": 509511.2907508181,
-      "avgPerStakeWallet": 4245.927422923484,
-      "medianStakeTxUsd": 688.899729361942,
+      "stakeUsdAtCurrentPrice": 509740.91242754174,
+      "avgPerStakeWallet": 4247.840936896181,
+      "medianStakeTxUsd": 689.2101961049212,
       "unstakeCount": 0,
       "unstakeToken": 0,
       "unstakeUsdAtCurrentPrice": 0,
-      "netUsdAtCurrentPrice": 509511.2907508181
+      "netUsdAtCurrentPrice": 509740.91242754174
     },
     {
       "date": "2026-08-23",
@@ -217,13 +259,13 @@
       "newWallets": 89,
       "stakeCount": 99,
       "stakeMeta": 628260.2910569952,
-      "stakeUsdAtCurrentPrice": 174949.45040000018,
-      "avgPerStakeWallet": 1803.6025814433008,
-      "medianStakeTxUsd": 590.2987495107305,
+      "stakeUsdAtCurrentPrice": 175028.29494549302,
+      "avgPerStakeWallet": 1804.4154118092065,
+      "medianStakeTxUsd": 590.564779706903,
       "unstakeCount": 0,
       "unstakeToken": 0,
       "unstakeUsdAtCurrentPrice": 0,
-      "netUsdAtCurrentPrice": 174949.45040000018
+      "netUsdAtCurrentPrice": 175028.29494549302
     },
     {
       "date": "2026-08-24",
@@ -231,13 +273,13 @@
       "newWallets": 112,
       "stakeCount": 116,
       "stakeMeta": 977473.9746482242,
-      "stakeUsdAtCurrentPrice": 272193.76599037164,
-      "avgPerStakeWallet": 2430.3014820568897,
-      "medianStakeTxUsd": 579.4305728038775,
+      "stakeUsdAtCurrentPrice": 272316.4356741942,
+      "avgPerStakeWallet": 2431.3967470910197,
+      "medianStakeTxUsd": 579.6917050340899,
       "unstakeCount": 0,
       "unstakeToken": 0,
       "unstakeUsdAtCurrentPrice": 0,
-      "netUsdAtCurrentPrice": 272193.76599037164
+      "netUsdAtCurrentPrice": 272316.4356741942
     },
     {
       "date": "2026-08-25",
@@ -245,13 +287,13 @@
       "newWallets": 87,
       "stakeCount": 90,
       "stakeMeta": 813339.7462493541,
-      "stakeUsdAtCurrentPrice": 226487.88029465225,
-      "avgPerStakeWallet": 2573.72591243923,
-      "medianStakeTxUsd": 590.4020583405821,
+      "stakeUsdAtCurrentPrice": 226589.95168693524,
+      "avgPerStakeWallet": 2574.885814624264,
+      "medianStakeTxUsd": 590.6681350949902,
       "unstakeCount": 0,
       "unstakeToken": 0,
       "unstakeUsdAtCurrentPrice": 0,
-      "netUsdAtCurrentPrice": 226487.88029465225
+      "netUsdAtCurrentPrice": 226589.95168693524
     },
     {
       "date": "2026-08-26",
@@ -259,13 +301,13 @@
       "newWallets": 109,
       "stakeCount": 113,
       "stakeMeta": 837713.4878198751,
-      "stakeUsdAtCurrentPrice": 233275.1510368158,
-      "avgPerStakeWallet": 2140.1390003377596,
-      "medianStakeTxUsd": 590.2980098530886,
+      "stakeUsdAtCurrentPrice": 233380.28125137903,
+      "avgPerStakeWallet": 2141.103497719074,
+      "medianStakeTxUsd": 590.5640397159192,
       "unstakeCount": 1,
       "unstakeToken": 5163.099938752839,
-      "unstakeUsdAtCurrentPrice": 1437.7504188994478,
-      "netUsdAtCurrentPrice": 231837.40061791634
+      "unstakeUsdAtCurrentPrice": 1438.3983705109054,
+      "netUsdAtCurrentPrice": 231941.88288086813
     },
     {
       "date": "2026-08-27",
@@ -273,13 +315,13 @@
       "newWallets": 79,
       "stakeCount": 83,
       "stakeMeta": 712606.1577743649,
-      "stakeUsdAtCurrentPrice": 198436.94950787685,
-      "avgPerStakeWallet": 2480.4618688484607,
-      "medianStakeTxUsd": 605.3194152168521,
+      "stakeUsdAtCurrentPrice": 198526.37917488732,
+      "avgPerStakeWallet": 2481.5797396860917,
+      "medianStakeTxUsd": 605.592214783022,
       "unstakeCount": 1,
       "unstakeToken": 11.647626104374991,
-      "unstakeUsdAtCurrentPrice": 3.2434737869502523,
-      "netUsdAtCurrentPrice": 198433.70603408988
+      "unstakeUsdAtCurrentPrice": 3.2449355247034455,
+      "netUsdAtCurrentPrice": 198523.13423936258
     },
     {
       "date": "2026-08-28",
@@ -287,13 +329,13 @@
       "newWallets": 65,
       "stakeCount": 71,
       "stakeMeta": 740846.0197441352,
-      "stakeUsdAtCurrentPrice": 206300.80530349162,
-      "avgPerStakeWallet": 3033.8353721101707,
-      "medianStakeTxUsd": 646.0133639363011,
+      "stakeUsdAtCurrentPrice": 206393.77897784027,
+      "avgPerStakeWallet": 3035.202632027063,
+      "medianStakeTxUsd": 646.3045030621765,
       "unstakeCount": 5,
       "unstakeToken": 18710.587769683916,
-      "unstakeUsdAtCurrentPrice": 5210.2720696543365,
-      "netUsdAtCurrentPrice": 201090.53323383728
+      "unstakeUsdAtCurrentPrice": 5212.620185251652,
+      "netUsdAtCurrentPrice": 201181.1587925886
     },
     {
       "date": "2026-08-29",
@@ -301,13 +343,13 @@
       "newWallets": 110,
       "stakeCount": 118,
       "stakeMeta": 1032918.9396321403,
-      "stakeUsdAtCurrentPrice": 287633.33186690323,
-      "avgPerStakeWallet": 2545.427715636312,
-      "medianStakeTxUsd": 597.7167440202752,
+      "stakeUsdAtCurrentPrice": 287762.9597066466,
+      "avgPerStakeWallet": 2546.57486466059,
+      "medianStakeTxUsd": 597.9861172872845,
       "unstakeCount": 1,
       "unstakeToken": 2544.128656319809,
-      "unstakeUsdAtCurrentPrice": 708.4546270164686,
-      "netUsdAtCurrentPrice": 286924.8772398868
+      "unstakeUsdAtCurrentPrice": 708.7739065737449,
+      "netUsdAtCurrentPrice": 287054.18580007285
     },
     {
       "date": "2026-08-30",
@@ -315,13 +357,13 @@
       "newWallets": 41,
       "stakeCount": 43,
       "stakeMeta": 224311.00143578136,
-      "stakeUsdAtCurrentPrice": 62463.101645084724,
-      "avgPerStakeWallet": 1487.2167058353505,
-      "medianStakeTxUsd": 582.1036743462421,
+      "stakeUsdAtCurrentPrice": 62491.25191848095,
+      "avgPerStakeWallet": 1487.8869504400227,
+      "medianStakeTxUsd": 582.3660112642982,
       "unstakeCount": 0,
       "unstakeToken": 0,
       "unstakeUsdAtCurrentPrice": 0,
-      "netUsdAtCurrentPrice": 62463.101645084724
+      "netUsdAtCurrentPrice": 62491.25191848095
     }
   ]
 }

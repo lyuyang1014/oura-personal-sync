@@ -1,56 +1,157 @@
 {
-  "updatedAt": "2026-08-30T08:23:28.115Z",
-  "coverage": 0.6666668333333333,
+  "updatedAt": "2026-08-30T08:24:56.718Z",
+  "coverage": 0.7500001666666667,
   "backfillDone": false,
   "note": "资金层级仅按累计质押金额分组，不等同于FDAO官方V级会员。历史回填100%前，首次进入时间与到期队列仍可能提前。",
   "summary": {
-    "wallets": 2110,
-    "totalStakeUsd": 4337253.522769114,
-    "avgStakeUsd": 2055.5703899379687,
-    "medianStakeUsd": 588.1190750109547,
-    "top10Share": 0.1063404694568438,
-    "top50Share": 0.2890714658738484,
-    "top100Share": 0.42045825789012103
+    "wallets": 2373,
+    "totalStakeUsd": 4861483.052722351,
+    "avgStakeUsd": 2048.6654246617577,
+    "medianStakeUsd": 588.8077965110411,
+    "top10Share": 0.10003884671331573,
+    "top50Share": 0.2719104406471467,
+    "top100Share": 0.394509929699251
   },
   "capitalTiers": [
     {
       "name": "<$1k",
-      "wallets": 1439,
-      "capitalUsd": 734884.419995482,
-      "share": 0.1694354310020356
+      "wallets": 1616,
+      "capitalUsd": 828721.7200052976,
+      "share": 0.17046685363661343
     },
     {
       "name": "$1k–3k",
-      "wallets": 366,
-      "capitalUsd": 644317.8955545399,
-      "share": 0.14855435407962408
+      "wallets": 417,
+      "capitalUsd": 738302.3214521724,
+      "share": 0.15186771473752955
     },
     {
       "name": "$3k–10k",
-      "wallets": 218,
-      "capitalUsd": 1261442.17239655,
-      "share": 0.2908389296992683
+      "wallets": 245,
+      "capitalUsd": 1426117.2683098633,
+      "share": 0.29335024988131164
     },
     {
       "name": "$10k–30k",
-      "wallets": 75,
-      "capitalUsd": 1172426.3878308183,
-      "share": 0.2703153923735323
+      "wallets": 81,
+      "capitalUsd": 1247402.689990096,
+      "share": 0.2565889208009418
     },
     {
       "name": "≥$30k",
-      "wallets": 12,
-      "capitalUsd": 524182.6469917187,
-      "share": 0.12085589284553856
+      "wallets": 14,
+      "capitalUsd": 620939.0529649192,
+      "share": 0.12772626094360312
     }
   ],
   "maturity": {
     "next7d30": {
       "days": 30,
       "horizonDays": 7,
-      "wallets": 0,
-      "capitalUsd": 0,
-      "top": []
+      "wallets": 102,
+      "capitalUsd": 242858.34414239824,
+      "top": [
+        {
+          "address": "0xb836cfe11f7087766d737e27c1ed45e25737534b",
+          "capitalUsd": 43812.88494563415,
+          "eligibleAt": 1788617383
+        },
+        {
+          "address": "0x6b5d3986c754deec0d3d9152731a59b3df1fe7c3",
+          "capitalUsd": 13820.805898660683,
+          "eligibleAt": 1788598135
+        },
+        {
+          "address": "0xbc256cbe0649f50ac58e646dccc11620a3df9eef",
+          "capitalUsd": 13373.295245437079,
+          "eligibleAt": 1788659419
+        },
+        {
+          "address": "0x7c23394e421826fcbe5c816537a0b06646f66141",
+          "capitalUsd": 11927.660437457493,
+          "eligibleAt": 1788585743
+        },
+        {
+          "address": "0xf08ec7ce19649ed24e1e8acf798e8901badff763",
+          "capitalUsd": 9912.922735485572,
+          "eligibleAt": 1788624586
+        },
+        {
+          "address": "0xd89c261fea19f2e5ad51f2a6972eb4ea82876f47",
+          "capitalUsd": 9907.93934334953,
+          "eligibleAt": 1788632333
+        },
+        {
+          "address": "0x7e25d20d61aaeb4e04178208e226773096ab9caa",
+          "capitalUsd": 7942.664508431254,
+          "eligibleAt": 1788679519
+        },
+        {
+          "address": "0x6689abd27268992d0223fccf94ab86f80971bd45",
+          "capitalUsd": 7396.149817164034,
+          "eligibleAt": 1788669487
+        },
+        {
+          "address": "0xbc1f665837a67d1abf06e98f941b138732d54fb6",
+          "capitalUsd": 7277.251442660801,
+          "eligibleAt": 1788668124
+        },
+        {
+          "address": "0xd71e1f834d04890c87fb9ef9f0739f1e1ab86a6f",
+          "capitalUsd": 7250.520224711052,
+          "eligibleAt": 1788661695
+        },
+        {
+          "address": "0x2d181dfbaaab1f68fad27f81eef06fe051a22ce9",
+          "capitalUsd": 6232.91424272594,
+          "eligibleAt": 1788641457
+        },
+        {
+          "address": "0xcbba5785a586cd0294562e8813e23e1bc82b1f14",
+          "capitalUsd": 5806.348307677873,
+          "eligibleAt": 1788624877
+        },
+        {
+          "address": "0x6b05d5b9b7d4e43ec357905bc03e7c80467131b5",
+          "capitalUsd": 5363.8864969424585,
+          "eligibleAt": 1788682559
+        },
+        {
+          "address": "0x6a00baa04145b782e49086888fd8a269984def66",
+          "capitalUsd": 4984.349098428512,
+          "eligibleAt": 1788661216
+        },
+        {
+          "address": "0xceadbc31139a4b447a87a4c6b81347bb99503f2a",
+          "capitalUsd": 4154.850866994133,
+          "eligibleAt": 1788641818
+        },
+        {
+          "address": "0x3eef7a34ac9ea30a5685d6c8b8f26b0ec0ddf9e3",
+          "capitalUsd": 4154.118954020899,
+          "eligibleAt": 1788644138
+        },
+        {
+          "address": "0xefd00fb6e9707daf7c927c009c8f1336d6da467f",
+          "capitalUsd": 4061.5311436578418,
+          "eligibleAt": 1788590720
+        },
+        {
+          "address": "0xa64b8b775e9f90a3db73efebeb251cfb618c51f6",
+          "capitalUsd": 3314.6763507996907,
+          "eligibleAt": 1788676147
+        },
+        {
+          "address": "0x7e0e5bc1922b021e4d00a5c8ebe09bdde9503eb2",
+          "capitalUsd": 2959.4806268023376,
+          "eligibleAt": 1788610821
+        },
+        {
+          "address": "0xb5f7666a9b57994a9a2fc6547918b6078a5ff4f0",
+          "capitalUsd": 2841.38282694372,
+          "eligibleAt": 1788594434
+        }
+      ]
     },
     "next7d60": {
       "days": 60,
@@ -69,108 +170,108 @@
     "next30d30": {
       "days": 30,
       "horizonDays": 30,
-      "wallets": 2092,
-      "capitalUsd": 4337253.522769114,
+      "wallets": 2355,
+      "capitalUsd": 4861483.052722351,
       "top": [
         {
           "address": "0x3e302bbb62995d2413a00694ae3429d8125cfce7",
-          "capitalUsd": 58047.7814712674,
+          "capitalUsd": 58073.94189038564,
           "eligibleAt": 1790513966
         },
         {
           "address": "0x46379b916bdd6d2ddf0447357af8f61bd4c67355",
-          "capitalUsd": 56041.10264468336,
+          "capitalUsd": 56066.358712975285,
           "eligibleAt": 1790096367
         },
         {
+          "address": "0x40eee2dfdaa44fc10454afbc47fab66abbc098ad",
+          "capitalUsd": 52707.28740429536,
+          "eligibleAt": 1788789273
+        },
+        {
           "address": "0x36e3c5c108c36eb246f59959b0cb1d4e3b4dc7a6",
-          "capitalUsd": 48798.02978267362,
+          "capitalUsd": 48820.02161214416,
           "eligibleAt": 1789717975
         },
         {
           "address": "0xa71d362ebbabf6196d629aff6c0c737512596935",
-          "capitalUsd": 48554.59482712497,
+          "capitalUsd": 48576.4769476574,
           "eligibleAt": 1790167618
         },
         {
           "address": "0x93e674a4012f879a3de30bf63ac033e15b4a7886",
-          "capitalUsd": 48516.36450676811,
+          "capitalUsd": 48538.229398025294,
           "eligibleAt": 1788942512
         },
         {
           "address": "0x4b9b2355ecf0d22c7c278cd9c927319937333901",
-          "capitalUsd": 47814.85550886256,
+          "capitalUsd": 47836.40425075219,
           "eligibleAt": 1789970117
         },
         {
+          "address": "0xb836cfe11f7087766d737e27c1ed45e25737534b",
+          "capitalUsd": 43812.88494563415,
+          "eligibleAt": 1788617383
+        },
+        {
           "address": "0xc887a3fea8d4e8a9ce4beee0c48e24139a6d6dd3",
-          "capitalUsd": 43207.15992533447,
+          "capitalUsd": 43226.6321150359,
           "eligibleAt": 1789971322
         },
         {
           "address": "0xa9de538d406f759412b743ef2205a4e04d0a78f3",
-          "capitalUsd": 38661.497039951515,
+          "capitalUsd": 38678.92063376801,
           "eligibleAt": 1790546571
         },
         {
           "address": "0x7c96b24339bc9c10ce9b9285e2f6bdf043a1d495",
-          "capitalUsd": 36956.40804023825,
+          "capitalUsd": 36973.0632008479,
           "eligibleAt": 1789142069
         },
         {
           "address": "0xe3fb41e8bde171e215e175ec4811c6e4f4cf7846",
-          "capitalUsd": 34627.78201771292,
+          "capitalUsd": 34643.38773541234,
           "eligibleAt": 1790581950
         },
         {
           "address": "0x51d97c8b803de06fc888fdd8363818c647fa862e",
-          "capitalUsd": 32602.216270705045,
+          "capitalUsd": 32616.909125801452,
           "eligibleAt": 1789144014
         },
         {
           "address": "0x35b779bfd6021d2f4025f13e5f2c7f52fe894cff",
-          "capitalUsd": 30354.854956396426,
+          "capitalUsd": 30368.534992184286,
           "eligibleAt": 1790404780
         },
         {
           "address": "0x8c724f4894e44f3dc1324bcd0d1aa9facd5676c2",
-          "capitalUsd": 29422.30999574826,
+          "capitalUsd": 29435.569761089966,
           "eligibleAt": 1788993512
         },
         {
           "address": "0x20e430ad81274f63e2bfa3ff501ae53d84c64e4a",
-          "capitalUsd": 28483.611384986252,
+          "capitalUsd": 28496.44810661361,
           "eligibleAt": 1789969640
         },
         {
           "address": "0xbf371b024bec636ca58aa261f3262e2545226f26",
-          "capitalUsd": 28455.564453893912,
+          "capitalUsd": 28468.388535598544,
           "eligibleAt": 1789969327
         },
         {
           "address": "0x8a4a593a4d2c3f781411b4bd1175942d07ada86a",
-          "capitalUsd": 28357.12349045357,
+          "capitalUsd": 28369.90320772606,
           "eligibleAt": 1789969532
         },
         {
           "address": "0x559816bbf0de5fae19d4d2c15bafead581a30c7b",
-          "capitalUsd": 28124.485982988608,
+          "capitalUsd": 28137.16085741364,
           "eligibleAt": 1790254440
         },
         {
           "address": "0x4c2ec530ded160653c9d905a043729f9d1c96c94",
-          "capitalUsd": 26886.203525631307,
+          "capitalUsd": 26898.32034275854,
           "eligibleAt": 1789970347
-        },
-        {
-          "address": "0x235cd24971abc92e921194a56dbb77b88525fbb8",
-          "capitalUsd": 23804.948805385262,
-          "eligibleAt": 1788996244
-        },
-        {
-          "address": "0x0c7c01f3974ca9ecfcdff1fc890d4695cda93d62",
-          "capitalUsd": 22098.005739731143,
-          "eligibleAt": 1789283222
         }
       ]
     },
@@ -197,9 +298,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 208455.16232814224,
-      "stakeUsd": 58047.7814712674,
+      "stakeUsd": 58073.94189038564,
       "unstakeUsd": 0,
-      "netUsd": 58047.7814712674,
+      "netUsd": 58073.94189038564,
       "capitalTier": "≥$30k",
       "lastTs": 1787921966
     },
@@ -210,11 +311,24 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 201248.98579677774,
-      "stakeUsd": 56041.10264468336,
+      "stakeUsd": 56066.358712975285,
       "unstakeUsd": 0,
-      "netUsd": 56041.10264468336,
+      "netUsd": 56066.358712975285,
       "capitalTier": "≥$30k",
       "lastTs": 1787504367
+    },
+    {
+      "address": "0x40eee2dfdaa44fc10454afbc47fab66abbc098ad",
+      "firstStakeTs": 1786197273,
+      "firstStakeDate": "2026-08-08",
+      "stakeCount": 1,
+      "unstakeCount": 0,
+      "stakeMeta": 189191.67175661263,
+      "stakeUsd": 52707.28740429536,
+      "unstakeUsd": 0,
+      "netUsd": 52707.28740429536,
+      "capitalTier": "≥$30k",
+      "lastTs": 1786197273
     },
     {
       "address": "0x36e3c5c108c36eb246f59959b0cb1d4e3b4dc7a6",
@@ -223,9 +337,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 175238.4150060206,
-      "stakeUsd": 48798.02978267362,
+      "stakeUsd": 48820.02161214416,
       "unstakeUsd": 0,
-      "netUsd": 48798.02978267362,
+      "netUsd": 48820.02161214416,
       "capitalTier": "≥$30k",
       "lastTs": 1787125975
     },
@@ -236,9 +350,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 174364.21668372373,
-      "stakeUsd": 48554.59482712497,
+      "stakeUsd": 48576.4769476574,
       "unstakeUsd": 0,
-      "netUsd": 48554.59482712497,
+      "netUsd": 48576.4769476574,
       "capitalTier": "≥$30k",
       "lastTs": 1787575618
     },
@@ -249,9 +363,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 174226.92792894517,
-      "stakeUsd": 48516.36450676811,
+      "stakeUsd": 48538.229398025294,
       "unstakeUsd": 0,
-      "netUsd": 48516.36450676811,
+      "netUsd": 48538.229398025294,
       "capitalTier": "≥$30k",
       "lastTs": 1786350512
     },
@@ -262,11 +376,24 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 171707.74169431816,
-      "stakeUsd": 47814.85550886256,
+      "stakeUsd": 47836.40425075219,
       "unstakeUsd": 0,
-      "netUsd": 47814.85550886256,
+      "netUsd": 47836.40425075219,
       "capitalTier": "≥$30k",
       "lastTs": 1787378117
+    },
+    {
+      "address": "0xb836cfe11f7087766d737e27c1ed45e25737534b",
+      "firstStakeTs": 1786025383,
+      "firstStakeDate": "2026-08-06",
+      "stakeCount": 1,
+      "unstakeCount": 0,
+      "stakeMeta": 157265.4058965884,
+      "stakeUsd": 43812.88494563415,
+      "unstakeUsd": 0,
+      "netUsd": 43812.88494563415,
+      "capitalTier": "≥$30k",
+      "lastTs": 1786025383
     },
     {
       "address": "0xc887a3fea8d4e8a9ce4beee0c48e24139a6d6dd3",
@@ -275,9 +402,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 155161.06400090037,
-      "stakeUsd": 43207.15992533447,
+      "stakeUsd": 43226.6321150359,
       "unstakeUsd": 0,
-      "netUsd": 43207.15992533447,
+      "netUsd": 43226.6321150359,
       "capitalTier": "≥$30k",
       "lastTs": 1787379322
     },
@@ -288,9 +415,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 138837.15168858325,
-      "stakeUsd": 38661.497039951515,
+      "stakeUsd": 38678.92063376801,
       "unstakeUsd": 0,
-      "netUsd": 38661.497039951515,
+      "netUsd": 38678.92063376801,
       "capitalTier": "≥$30k",
       "lastTs": 1787954571
     },
@@ -301,9 +428,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 132714.0132117908,
-      "stakeUsd": 36956.40804023825,
+      "stakeUsd": 36973.0632008479,
       "unstakeUsd": 0,
-      "netUsd": 36956.40804023825,
+      "netUsd": 36973.0632008479,
       "capitalTier": "≥$30k",
       "lastTs": 1786550069
     },
@@ -314,9 +441,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 124351.69335694282,
-      "stakeUsd": 34627.78201771292,
+      "stakeUsd": 34643.38773541234,
       "unstakeUsd": 0,
-      "netUsd": 34627.78201771292,
+      "netUsd": 34643.38773541234,
       "capitalTier": "≥$30k",
       "lastTs": 1787989950
     },
@@ -327,9 +454,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 117077.69207908431,
-      "stakeUsd": 32602.216270705045,
+      "stakeUsd": 32616.909125801452,
       "unstakeUsd": 0,
-      "netUsd": 32602.216270705045,
+      "netUsd": 32616.909125801452,
       "capitalTier": "≥$30k",
       "lastTs": 1786552014
     },
@@ -340,9 +467,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 109007.20160192324,
-      "stakeUsd": 30354.854956396426,
+      "stakeUsd": 30368.534992184286,
       "unstakeUsd": 0,
-      "netUsd": 30354.854956396426,
+      "netUsd": 30368.534992184286,
       "capitalTier": "≥$30k",
       "lastTs": 1787812780
     },
@@ -353,9 +480,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 105658.34301985278,
-      "stakeUsd": 29422.30999574826,
+      "stakeUsd": 29435.569761089966,
       "unstakeUsd": 0,
-      "netUsd": 29422.30999574826,
+      "netUsd": 29435.569761089966,
       "capitalTier": "$10k–30k",
       "lastTs": 1786401512
     },
@@ -366,9 +493,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 102287.3860887864,
-      "stakeUsd": 28483.611384986252,
+      "stakeUsd": 28496.44810661361,
       "unstakeUsd": 0,
-      "netUsd": 28483.611384986252,
+      "netUsd": 28496.44810661361,
       "capitalTier": "$10k–30k",
       "lastTs": 1787377640
     },
@@ -379,9 +506,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 102186.66686359854,
-      "stakeUsd": 28455.564453893912,
+      "stakeUsd": 28468.388535598544,
       "unstakeUsd": 0,
-      "netUsd": 28455.564453893912,
+      "netUsd": 28468.388535598544,
       "capitalTier": "$10k–30k",
       "lastTs": 1787377327
     },
@@ -392,9 +519,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 101833.15590256633,
-      "stakeUsd": 28357.12349045357,
+      "stakeUsd": 28369.90320772606,
       "unstakeUsd": 0,
-      "netUsd": 28357.12349045357,
+      "netUsd": 28369.90320772606,
       "capitalTier": "$10k–30k",
       "lastTs": 1787377532
     },
@@ -405,9 +532,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 100997.73225409792,
-      "stakeUsd": 28124.485982988608,
+      "stakeUsd": 28137.16085741364,
       "unstakeUsd": 0,
-      "netUsd": 28124.485982988608,
+      "netUsd": 28137.16085741364,
       "capitalTier": "$10k–30k",
       "lastTs": 1787662440
     },
@@ -418,9 +545,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 96550.94093642672,
-      "stakeUsd": 26886.203525631307,
+      "stakeUsd": 26898.32034275854,
       "unstakeUsd": 0,
-      "netUsd": 26886.203525631307,
+      "netUsd": 26898.32034275854,
       "capitalTier": "$10k–30k",
       "lastTs": 1787378347
     },
@@ -431,9 +558,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 85485.85909171967,
-      "stakeUsd": 23804.948805385262,
+      "stakeUsd": 23815.676992097196,
       "unstakeUsd": 0,
-      "netUsd": 23804.948805385262,
+      "netUsd": 23815.676992097196,
       "capitalTier": "$10k–30k",
       "lastTs": 1786404244
     },
@@ -444,9 +571,9 @@
       "stakeCount": 2,
       "unstakeCount": 0,
       "stakeMeta": 79356.06248593636,
-      "stakeUsd": 22098.005739731143,
+      "stakeUsd": 22107.964657663517,
       "unstakeUsd": 0,
-      "netUsd": 22098.005739731143,
+      "netUsd": 22107.964657663517,
       "capitalTier": "$10k–30k",
       "lastTs": 1786693901
     },
@@ -457,9 +584,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 77867.11263543238,
-      "stakeUsd": 21683.383071822944,
+      "stakeUsd": 21693.15513157584,
       "unstakeUsd": 0,
-      "netUsd": 21683.383071822944,
+      "netUsd": 21693.15513157584,
       "capitalTier": "$10k–30k",
       "lastTs": 1787816057
     },
@@ -470,9 +597,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 75373.63743479141,
-      "stakeUsd": 20989.033735810885,
+      "stakeUsd": 20998.492872844185,
       "unstakeUsd": 0,
-      "netUsd": 20989.033735810885,
+      "netUsd": 20998.492872844185,
       "capitalTier": "$10k–30k",
       "lastTs": 1787743051
     },
@@ -483,9 +610,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 70268.9849361057,
-      "stakeUsd": 19567.55897154469,
+      "stakeUsd": 19576.37749192294,
       "unstakeUsd": 0,
-      "netUsd": 19567.55897154469,
+      "netUsd": 19576.37749192294,
       "capitalTier": "$10k–30k",
       "lastTs": 1786648299
     },
@@ -496,9 +623,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 70243.41702834351,
-      "stakeUsd": 19560.439165511194,
+      "stakeUsd": 19569.25447720334,
       "unstakeUsd": 0,
-      "netUsd": 19560.439165511194,
+      "netUsd": 19569.25447720334,
       "capitalTier": "$10k–30k",
       "lastTs": 1787469940
     },
@@ -509,9 +636,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 69468.32909432237,
-      "stakeUsd": 19344.603133855377,
+      "stakeUsd": 19353.321174628534,
       "unstakeUsd": 0,
-      "netUsd": 19344.603133855377,
+      "netUsd": 19353.321174628534,
       "capitalTier": "$10k–30k",
       "lastTs": 1787303797
     },
@@ -522,9 +649,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 68898.41455700672,
-      "stakeUsd": 19185.901021852413,
+      "stakeUsd": 19194.54754027519,
       "unstakeUsd": 0,
-      "netUsd": 19185.901021852413,
+      "netUsd": 19194.54754027519,
       "capitalTier": "$10k–30k",
       "lastTs": 1786947564
     },
@@ -535,9 +662,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 68595.8895931519,
-      "stakeUsd": 19101.65795108689,
+      "stakeUsd": 19110.266503648043,
       "unstakeUsd": 0,
-      "netUsd": 19101.65795108689,
+      "netUsd": 19110.266503648043,
       "capitalTier": "$10k–30k",
       "lastTs": 1787380468
     },
@@ -548,9 +675,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 68594.83195405899,
-      "stakeUsd": 19101.363434020222,
+      "stakeUsd": 19109.971853851242,
       "unstakeUsd": 0,
-      "netUsd": 19101.363434020222,
+      "netUsd": 19109.971853851242,
       "capitalTier": "$10k–30k",
       "lastTs": 1787380241
     },
@@ -561,9 +688,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 68591.90936910476,
-      "stakeUsd": 19100.549591988874,
+      "stakeUsd": 19109.157645045347,
       "unstakeUsd": 0,
-      "netUsd": 19100.549591988874,
+      "netUsd": 19109.157645045347,
       "capitalTier": "$10k–30k",
       "lastTs": 1787380620
     },
@@ -574,9 +701,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 68568.78435844732,
-      "stakeUsd": 19094.110050985564,
+      "stakeUsd": 19102.71520193127,
       "unstakeUsd": 0,
-      "netUsd": 19094.110050985564,
+      "netUsd": 19102.71520193127,
       "capitalTier": "$10k–30k",
       "lastTs": 1787380004
     },
@@ -587,9 +714,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 68109.41388323279,
-      "stakeUsd": 18966.19075811802,
+      "stakeUsd": 18974.738259619942,
       "unstakeUsd": 0,
-      "netUsd": 18966.19075811802,
+      "netUsd": 18974.738259619942,
       "capitalTier": "$10k–30k",
       "lastTs": 1787381648
     },
@@ -600,9 +727,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 63754,
-      "stakeUsd": 17753.353855989215,
+      "stakeUsd": 17761.354767752862,
       "unstakeUsd": 0,
-      "netUsd": 17753.353855989215,
+      "netUsd": 17761.354767752862,
       "capitalTier": "$10k–30k",
       "lastTs": 1787351245
     },
@@ -613,9 +740,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 63087.64940201044,
-      "stakeUsd": 17567.797530766347,
+      "stakeUsd": 17575.714817779575,
       "unstakeUsd": 0,
-      "netUsd": 17567.797530766347,
+      "netUsd": 17575.714817779575,
       "capitalTier": "$10k–30k",
       "lastTs": 1786271088
     },
@@ -626,9 +753,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 62235.852021262916,
-      "stakeUsd": 17330.60048722374,
+      "stakeUsd": 17338.41087654139,
       "unstakeUsd": 0,
-      "netUsd": 17330.60048722374,
+      "netUsd": 17338.41087654139,
       "capitalTier": "$10k–30k",
       "lastTs": 1787051008
     },
@@ -639,9 +766,9 @@
       "stakeCount": 2,
       "unstakeCount": 0,
       "stakeMeta": 60894.921371164106,
-      "stakeUsd": 16957.196209413,
+      "stakeUsd": 16964.838316461104,
       "unstakeUsd": 0,
-      "netUsd": 16957.196209413,
+      "netUsd": 16964.838316461104,
       "capitalTier": "$10k–30k",
       "lastTs": 1787574919
     },
@@ -652,9 +779,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 60000,
-      "stakeUsd": 16707.990578777062,
+      "stakeUsd": 16715.520376214383,
       "unstakeUsd": 0,
-      "netUsd": 16707.990578777062,
+      "netUsd": 16715.520376214383,
       "capitalTier": "$10k–30k",
       "lastTs": 1787351273
     },
@@ -665,9 +792,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 59313.29453960904,
-      "stakeUsd": 16516.76610606695,
+      "stakeUsd": 16524.20972428734,
       "unstakeUsd": 0,
-      "netUsd": 16516.76610606695,
+      "netUsd": 16524.20972428734,
       "capitalTier": "$10k–30k",
       "lastTs": 1787805796
     },
@@ -678,9 +805,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 57362.05938243282,
-      "stakeUsd": 15973.412462348966,
+      "stakeUsd": 15980.611207144586,
       "unstakeUsd": 0,
-      "netUsd": 15973.412462348966,
+      "netUsd": 15980.611207144586,
       "capitalTier": "$10k–30k",
       "lastTs": 1787907986
     },
@@ -691,9 +818,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 57167.465650669954,
-      "stakeUsd": 15919.224625065915,
+      "stakeUsd": 15926.398949005157,
       "unstakeUsd": 0,
-      "netUsd": 15919.224625065915,
+      "netUsd": 15926.398949005157,
       "capitalTier": "$10k–30k",
       "lastTs": 1786255074
     },
@@ -704,9 +831,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 55482.01118142622,
-      "stakeUsd": 15449.882001847884,
+      "stakeUsd": 15456.844806941404,
       "unstakeUsd": 0,
-      "netUsd": 15449.882001847884,
+      "netUsd": 15456.844806941404,
       "capitalTier": "$10k–30k",
       "lastTs": 1787471312
     },
@@ -717,9 +844,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 55288.23960172922,
-      "stakeUsd": 15395.923106381013,
+      "stakeUsd": 15402.861593795464,
       "unstakeUsd": 0,
-      "netUsd": 15395.923106381013,
+      "netUsd": 15402.861593795464,
       "capitalTier": "$10k–30k",
       "lastTs": 1787995680
     },
@@ -730,9 +857,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 54881.9720102467,
-      "stakeUsd": 15282.791188198473,
+      "stakeUsd": 15289.67869040177,
       "unstakeUsd": 0,
-      "netUsd": 15282.791188198473,
+      "netUsd": 15289.67869040177,
       "capitalTier": "$10k–30k",
       "lastTs": 1787730269
     },
@@ -743,9 +870,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 54188.518443643065,
-      "stakeUsd": 15089.687593904591,
+      "stakeUsd": 15096.48807002641,
       "unstakeUsd": 0,
-      "netUsd": 15089.687593904591,
+      "netUsd": 15096.48807002641,
       "capitalTier": "$10k–30k",
       "lastTs": 1787748644
     },
@@ -756,9 +883,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 52938.46041451152,
-      "stakeUsd": 14741.588297677017,
+      "stakeUsd": 14748.231895736431,
       "unstakeUsd": 0,
-      "netUsd": 14741.588297677017,
+      "netUsd": 14748.231895736431,
       "capitalTier": "$10k–30k",
       "lastTs": 1786434683
     },
@@ -769,9 +896,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 52815.99999999999,
-      "stakeUsd": 14707.487173478154,
+      "stakeUsd": 14714.115403168978,
       "unstakeUsd": 0,
-      "netUsd": 14707.487173478154,
+      "netUsd": 14714.115403168978,
       "capitalTier": "$10k–30k",
       "lastTs": 1787655067
     },
@@ -782,9 +909,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 52719.548639828965,
-      "stakeUsd": 14680.628699860692,
+      "stakeUsd": 14687.244825231439,
       "unstakeUsd": 0,
-      "netUsd": 14680.628699860692,
+      "netUsd": 14687.244825231439,
       "capitalTier": "$10k–30k",
       "lastTs": 1787132979
     },
@@ -795,9 +922,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 52570.83843964442,
-      "stakeUsd": 14639.217889466501,
+      "stakeUsd": 14645.815352209178,
       "unstakeUsd": 0,
-      "netUsd": 14639.217889466501,
+      "netUsd": 14645.815352209178,
       "capitalTier": "$10k–30k",
       "lastTs": 1787642491
     },
@@ -808,9 +935,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 52403.42682009693,
-      "stakeUsd": 14592.59936009688,
+      "stakeUsd": 14599.175813246493,
       "unstakeUsd": 0,
-      "netUsd": 14592.59936009688,
+      "netUsd": 14599.175813246493,
       "capitalTier": "$10k–30k",
       "lastTs": 1787825218
     },
@@ -821,9 +948,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 52150.988721978974,
-      "stakeUsd": 14522.303804012226,
+      "stakeUsd": 14528.848577032768,
       "unstakeUsd": 0,
-      "netUsd": 14522.303804012226,
+      "netUsd": 14528.848577032768,
       "capitalTier": "$10k–30k",
       "lastTs": 1787466523
     },
@@ -834,9 +961,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 51848.57412121681,
-      "stakeUsd": 14438.09146567191,
+      "stakeUsd": 14444.59828668102,
       "unstakeUsd": 0,
-      "netUsd": 14438.09146567191,
+      "netUsd": 14444.59828668102,
       "capitalTier": "$10k–30k",
       "lastTs": 1786331579
     },
@@ -847,9 +974,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 51597.264494533505,
-      "stakeUsd": 14368.110151088902,
+      "stakeUsd": 14374.585433588296,
       "unstakeUsd": 0,
-      "netUsd": 14368.110151088902,
+      "netUsd": 14374.585433588296,
       "capitalTier": "$10k–30k",
       "lastTs": 1787913895
     },
@@ -860,9 +987,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 50603.019755620146,
-      "stakeUsd": 14091.246288909517,
+      "stakeUsd": 14097.596797050792,
       "unstakeUsd": 0,
-      "netUsd": 14091.246288909517,
+      "netUsd": 14097.596797050792,
       "capitalTier": "$10k–30k",
       "lastTs": 1786868525
     },
@@ -873,9 +1000,9 @@
       "stakeCount": 2,
       "unstakeCount": 0,
       "stakeMeta": 50224.27975372725,
-      "stakeUsd": 13985.779882518975,
+      "stakeUsd": 13992.082860068656,
       "unstakeUsd": 0,
-      "netUsd": 13985.779882518975,
+      "netUsd": 13992.082860068656,
       "capitalTier": "$10k–30k",
       "lastTs": 1786679760
     },
@@ -886,9 +1013,9 @@
       "stakeCount": 2,
       "unstakeCount": 0,
       "stakeMeta": 50008.76179125477,
-      "stakeUsd": 13925.765347743185,
+      "stakeUsd": 13932.041278516173,
       "unstakeUsd": 0,
-      "netUsd": 13925.765347743185,
+      "netUsd": 13932.041278516173,
       "capitalTier": "$10k–30k",
       "lastTs": 1786248331
     },
@@ -899,9 +1026,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 50004.09623246896,
-      "stakeUsd": 13924.466145872551,
+      "stakeUsd": 13930.741491133664,
       "unstakeUsd": 0,
-      "netUsd": 13924.466145872551,
+      "netUsd": 13930.741491133664,
       "capitalTier": "$10k–30k",
       "lastTs": 1786868275
     },
@@ -912,11 +1039,50 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 49658.74468471093,
-      "stakeUsd": 13828.29730576743,
+      "stakeUsd": 13834.52931057522,
       "unstakeUsd": 0,
-      "netUsd": 13828.29730576743,
+      "netUsd": 13834.52931057522,
       "capitalTier": "$10k–30k",
       "lastTs": 1787977732
+    },
+    {
+      "address": "0x6b5d3986c754deec0d3d9152731a59b3df1fe7c3",
+      "firstStakeTs": 1786006135,
+      "firstStakeDate": "2026-08-06",
+      "stakeCount": 1,
+      "unstakeCount": 0,
+      "stakeMeta": 49609.48479352358,
+      "stakeUsd": 13820.805898660683,
+      "unstakeUsd": 0,
+      "netUsd": 13820.805898660683,
+      "capitalTier": "$10k–30k",
+      "lastTs": 1786006135
+    },
+    {
+      "address": "0xc0a15380296fbd336704f753dcb690c18b81a245",
+      "firstStakeTs": 1786166345,
+      "firstStakeDate": "2026-08-08",
+      "stakeCount": 1,
+      "unstakeCount": 0,
+      "stakeMeta": 49098.387958314655,
+      "stakeUsd": 13678.418405941458,
+      "unstakeUsd": 0,
+      "netUsd": 13678.418405941458,
+      "capitalTier": "$10k–30k",
+      "lastTs": 1786166345
+    },
+    {
+      "address": "0xbc256cbe0649f50ac58e646dccc11620a3df9eef",
+      "firstStakeTs": 1786067419,
+      "firstStakeDate": "2026-08-07",
+      "stakeCount": 1,
+      "unstakeCount": 0,
+      "stakeMeta": 48003.154952208926,
+      "stakeUsd": 13373.295245437079,
+      "unstakeUsd": 0,
+      "netUsd": 13373.295245437079,
+      "capitalTier": "$10k–30k",
+      "lastTs": 1786067419
     },
     {
       "address": "0x78a1f583a5f76a51877acc39d9b34e2fdfafc0c0",
@@ -925,9 +1091,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 46670.05514388826,
-      "stakeUsd": 12996.047360918184,
+      "stakeUsd": 13001.904295278551,
       "unstakeUsd": 0,
-      "netUsd": 12996.047360918184,
+      "netUsd": 13001.904295278551,
       "capitalTier": "$10k–30k",
       "lastTs": 1787413706
     },
@@ -938,9 +1104,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 46669,
-      "stakeUsd": 12995.753538682446,
+      "stakeUsd": 13001.610340625817,
       "unstakeUsd": 0,
-      "netUsd": 12995.753538682446,
+      "netUsd": 13001.610340625817,
       "capitalTier": "$10k–30k",
       "lastTs": 1787580921
     },
@@ -951,9 +1117,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 46511.90708952505,
-      "stakeUsd": 12952.00842421231,
+      "stakeUsd": 12957.84551152577,
       "unstakeUsd": 0,
-      "netUsd": 12952.00842421231,
+      "netUsd": 12957.84551152577,
       "capitalTier": "$10k–30k",
       "lastTs": 1786406279
     },
@@ -964,9 +1130,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 46138.81085549884,
-      "stakeUsd": 12848.11361816086,
+      "stakeUsd": 12853.903883156538,
       "unstakeUsd": 0,
-      "netUsd": 12848.11361816086,
+      "netUsd": 12853.903883156538,
       "capitalTier": "$10k–30k",
       "lastTs": 1787990671
     },
@@ -977,9 +1143,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 44696.218023844136,
-      "stakeUsd": 12446.399827489224,
+      "stakeUsd": 12452.009051954787,
       "unstakeUsd": 0,
-      "netUsd": 12446.399827489224,
+      "netUsd": 12452.009051954787,
       "capitalTier": "$10k–30k",
       "lastTs": 1787649586
     },
@@ -990,9 +1156,9 @@
       "stakeCount": 2,
       "unstakeCount": 0,
       "stakeMeta": 44255.97118649971,
-      "stakeUsd": 12323.805827311106,
+      "stakeUsd": 12329.359802284875,
       "unstakeUsd": 0,
-      "netUsd": 12323.805827311106,
+      "netUsd": 12329.359802284875,
       "capitalTier": "$10k–30k",
       "lastTs": 1786949902
     },
@@ -1003,9 +1169,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 43453.027247477345,
-      "stakeUsd": 12100.212831169909,
+      "stakeUsd": 12105.666039390106,
       "unstakeUsd": 0,
-      "netUsd": 12100.212831169909,
+      "netUsd": 12105.666039390106,
       "capitalTier": "$10k–30k",
       "lastTs": 1787504540
     },
@@ -1016,9 +1182,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 43148.124401233516,
-      "stakeUsd": 12015.307599795171,
+      "stakeUsd": 12020.722543737531,
       "unstakeUsd": 0,
-      "netUsd": 12015.307599795171,
+      "netUsd": 12020.722543737531,
       "capitalTier": "$10k–30k",
       "lastTs": 1786345665
     },
@@ -1029,11 +1195,24 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 43116.97627436401,
-      "stakeUsd": 12006.633889623801,
+      "stakeUsd": 12012.044924581396,
       "unstakeUsd": 0,
-      "netUsd": 12006.633889623801,
+      "netUsd": 12012.044924581396,
       "capitalTier": "$10k–30k",
       "lastTs": 1787757504
+    },
+    {
+      "address": "0x7c23394e421826fcbe5c816537a0b06646f66141",
+      "firstStakeTs": 1785993743,
+      "firstStakeDate": "2026-08-06",
+      "stakeCount": 1,
+      "unstakeCount": 0,
+      "stakeMeta": 42814.0799771815,
+      "stakeUsd": 11927.660437457493,
+      "unstakeUsd": 0,
+      "netUsd": 11927.660437457493,
+      "capitalTier": "$10k–30k",
+      "lastTs": 1785993743
     },
     {
       "address": "0xc5864b20825636a8c4bc96773f9e4df33c43f17c",
@@ -1042,9 +1221,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 42554.59520283694,
-      "stakeUsd": 11850.029595544522,
+      "stakeUsd": 11855.370053576264,
       "unstakeUsd": 0,
-      "netUsd": 11850.029595544522,
+      "netUsd": 11855.370053576264,
       "capitalTier": "$10k–30k",
       "lastTs": 1786800001
     },
@@ -1055,9 +1234,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 42010.66571165825,
-      "stakeUsd": 11698.563448642311,
+      "stakeUsd": 11703.83564535924,
       "unstakeUsd": 0,
-      "netUsd": 11698.563448642311,
+      "netUsd": 11703.83564535924,
       "capitalTier": "$10k–30k",
       "lastTs": 1786776302
     },
@@ -1068,9 +1247,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 41855.4907018303,
-      "stakeUsd": 11655.352405271193,
+      "stakeUsd": 11660.605128048266,
       "unstakeUsd": 0,
-      "netUsd": 11655.352405271193,
+      "netUsd": 11660.605128048266,
       "capitalTier": "$10k–30k",
       "lastTs": 1786770548
     },
@@ -1081,9 +1260,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 41834.41690730512,
-      "stakeUsd": 11649.484059264765,
+      "stakeUsd": 11654.734137351772,
       "unstakeUsd": 0,
-      "netUsd": 11649.484059264765,
+      "netUsd": 11654.734137351772,
       "capitalTier": "$10k–30k",
       "lastTs": 1787377596
     },
@@ -1094,9 +1273,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 41545,
-      "stakeUsd": 11568.891143254885,
+      "stakeUsd": 11574.10490049711,
       "unstakeUsd": 0,
-      "netUsd": 11568.891143254885,
+      "netUsd": 11574.10490049711,
       "capitalTier": "$10k–30k",
       "lastTs": 1787655041
     },
@@ -1107,9 +1286,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 41442.06790679467,
-      "stakeUsd": 11540.228002529411,
+      "stakeUsd": 11545.42884214144,
       "unstakeUsd": 0,
-      "netUsd": 11540.228002529411,
+      "netUsd": 11545.42884214144,
       "capitalTier": "$10k–30k",
       "lastTs": 1787029059
     },
@@ -1120,11 +1299,24 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 41423.0319263554,
-      "stakeUsd": 11534.927119498792,
+      "stakeUsd": 11540.125570159544,
       "unstakeUsd": 0,
-      "netUsd": 11534.927119498792,
+      "netUsd": 11540.125570159544,
       "capitalTier": "$10k–30k",
       "lastTs": 1786261677
+    },
+    {
+      "address": "0x3eb592c6cca66d3527ce32160ecab3accf2f8a43",
+      "firstStakeTs": 1786126322,
+      "firstStakeDate": "2026-08-08",
+      "stakeCount": 1,
+      "unstakeCount": 0,
+      "stakeMeta": 41339.92344388948,
+      "stakeUsd": 11516.972211291288,
+      "unstakeUsd": 0,
+      "netUsd": 11516.972211291288,
+      "capitalTier": "$10k–30k",
+      "lastTs": 1786126322
     },
     {
       "address": "0xdd2b678fdbc74643305578e989b52b350d7c10b4",
@@ -1133,9 +1325,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 41318.30493082274,
-      "stakeUsd": 11505.764158587072,
+      "stakeUsd": 11510.949466363447,
       "unstakeUsd": 0,
-      "netUsd": 11505.764158587072,
+      "netUsd": 11510.949466363447,
       "capitalTier": "$10k–30k",
       "lastTs": 1788057881
     },
@@ -1146,9 +1338,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 41004.862297989144,
-      "stakeUsd": 11418.480882647556,
+      "stakeUsd": 11423.626854431708,
       "unstakeUsd": 0,
-      "netUsd": 11418.480882647556,
+      "netUsd": 11423.626854431708,
       "capitalTier": "$10k–30k",
       "lastTs": 1787909314
     },
@@ -1159,9 +1351,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 40899.634488797106,
-      "stakeUsd": 11389.178461904125,
+      "stakeUsd": 11394.311227953476,
       "unstakeUsd": 0,
-      "netUsd": 11389.178461904125,
+      "netUsd": 11394.311227953476,
       "capitalTier": "$10k–30k",
       "lastTs": 1787028271
     },
@@ -1172,9 +1364,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 40384.561507883096,
-      "stakeUsd": 11245.747886695894,
+      "stakeUsd": 11250.81601282505,
       "unstakeUsd": 0,
-      "netUsd": 11245.747886695894,
+      "netUsd": 11250.81601282505,
       "capitalTier": "$10k–30k",
       "lastTs": 1786373303
     },
@@ -1185,9 +1377,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 40288.51557704634,
-      "stakeUsd": 11219.002311570053,
+      "stakeUsd": 11224.058384259144,
       "unstakeUsd": 0,
-      "netUsd": 11219.002311570053,
+      "netUsd": 11224.058384259144,
       "capitalTier": "$10k–30k",
       "lastTs": 1786347126
     },
@@ -1198,9 +1390,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 40146.35177172161,
-      "stakeUsd": 11179.414452903242,
+      "stakeUsd": 11184.452684514716,
       "unstakeUsd": 0,
-      "netUsd": 11179.414452903242,
+      "netUsd": 11184.452684514716,
       "capitalTier": "$10k–30k",
       "lastTs": 1787751331
     },
@@ -1211,9 +1403,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 40046.632927883154,
-      "stakeUsd": 11151.646094513584,
+      "stakeUsd": 11156.671811746812,
       "unstakeUsd": 0,
-      "netUsd": 11151.646094513584,
+      "netUsd": 11156.671811746812,
       "capitalTier": "$10k–30k",
       "lastTs": 1787648016
     },
@@ -1224,9 +1416,9 @@
       "stakeCount": 2,
       "unstakeCount": 0,
       "stakeMeta": 40030.49823289086,
-      "stakeUsd": 11147.153122314872,
+      "stakeUsd": 11152.17681469835,
       "unstakeUsd": 0,
-      "netUsd": 11147.153122314872,
+      "netUsd": 11152.17681469835,
       "capitalTier": "$10k–30k",
       "lastTs": 1787160613
     },
@@ -1237,9 +1429,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 40028.29598311869,
-      "stakeUsd": 11146.539869507447,
+      "stakeUsd": 11151.563285516013,
       "unstakeUsd": 0,
-      "netUsd": 11146.539869507447,
+      "netUsd": 11151.563285516013,
       "capitalTier": "$10k–30k",
       "lastTs": 1787649694
     },
@@ -1250,9 +1442,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 39150.00306666271,
-      "stakeUsd": 10901.964706614895,
+      "stakeUsd": 10906.877899827603,
       "unstakeUsd": 0,
-      "netUsd": 10901.964706614895,
+      "netUsd": 10906.877899827603,
       "capitalTier": "$10k–30k",
       "lastTs": 1787727530
     },
@@ -1263,9 +1455,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 39088.79858027861,
-      "stakeUsd": 10884.921306916822,
+      "stakeUsd": 10889.826819173117,
       "unstakeUsd": 0,
-      "netUsd": 10884.921306916822,
+      "netUsd": 10889.826819173117,
       "capitalTier": "$10k–30k",
       "lastTs": 1786872166
     },
@@ -1276,9 +1468,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 37723.258822281285,
-      "stakeUsd": 10504.664216724073,
+      "stakeUsd": 10509.398358350863,
       "unstakeUsd": 0,
-      "netUsd": 10504.664216724073,
+      "netUsd": 10509.398358350863,
       "capitalTier": "$10k–30k",
       "lastTs": 1786723106
     },
@@ -1289,9 +1481,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 37645.533064695665,
-      "stakeUsd": 10483.020196299592,
+      "stakeUsd": 10487.74458360621,
       "unstakeUsd": 0,
-      "netUsd": 10483.020196299592,
+      "netUsd": 10487.74458360621,
       "capitalTier": "$10k–30k",
       "lastTs": 1787328743
     },
@@ -1302,11 +1494,24 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 36809.90156317601,
-      "stakeUsd": 10250.324808720932,
+      "stakeUsd": 10254.944327095238,
       "unstakeUsd": 0,
-      "netUsd": 10250.324808720932,
+      "netUsd": 10254.944327095238,
       "capitalTier": "$10k–30k",
       "lastTs": 1788074587
+    },
+    {
+      "address": "0x0f0ead6ccf6837da4bd61a7065623105cb8d0b3c",
+      "firstStakeTs": 1786191234,
+      "firstStakeDate": "2026-08-08",
+      "stakeCount": 1,
+      "unstakeCount": 0,
+      "stakeMeta": 36364.187838822334,
+      "stakeUsd": 10130.772046405367,
+      "unstakeUsd": 0,
+      "netUsd": 10130.772046405367,
+      "capitalTier": "$10k–30k",
+      "lastTs": 1786191234
     },
     {
       "address": "0xebd3f297e4fe9f039352f387470b2c4b7d42122b",
@@ -1315,9 +1520,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 36268.472114638615,
-      "stakeUsd": 10099.55483996701,
+      "stakeUsd": 10104.106410773415,
       "unstakeUsd": 0,
-      "netUsd": 10099.55483996701,
+      "netUsd": 10104.106410773415,
       "capitalTier": "$10k–30k",
       "lastTs": 1787322361
     },
@@ -1328,11 +1533,37 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 35729.49525669661,
-      "stakeUsd": 9949.467835555779,
+      "stakeUsd": 9953.951766586122,
       "unstakeUsd": 0,
-      "netUsd": 9949.467835555779,
+      "netUsd": 9953.951766586122,
       "capitalTier": "$3k–10k",
       "lastTs": 1786228991
+    },
+    {
+      "address": "0xf08ec7ce19649ed24e1e8acf798e8901badff763",
+      "firstStakeTs": 1786032586,
+      "firstStakeDate": "2026-08-07",
+      "stakeCount": 1,
+      "unstakeCount": 0,
+      "stakeMeta": 35582.22243415643,
+      "stakeUsd": 9912.922735485572,
+      "unstakeUsd": 0,
+      "netUsd": 9912.922735485572,
+      "capitalTier": "$3k–10k",
+      "lastTs": 1786032586
+    },
+    {
+      "address": "0xd89c261fea19f2e5ad51f2a6972eb4ea82876f47",
+      "firstStakeTs": 1786040333,
+      "firstStakeDate": "2026-08-07",
+      "stakeCount": 1,
+      "unstakeCount": 0,
+      "stakeMeta": 35564.33465552717,
+      "stakeUsd": 9907.93934334953,
+      "unstakeUsd": 0,
+      "netUsd": 9907.93934334953,
+      "capitalTier": "$3k–10k",
+      "lastTs": 1786040333
     },
     {
       "address": "0x4039812724f8d49e7ee3d17c370c949306cde1a4",
@@ -1341,9 +1572,9 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 35531.57923580729,
-      "stakeUsd": 9894.354852015647,
+      "stakeUsd": 9898.813945253543,
       "unstakeUsd": 0,
-      "netUsd": 9894.354852015647,
+      "netUsd": 9898.813945253543,
       "capitalTier": "$3k–10k",
       "lastTs": 1787653109
     },
@@ -1354,141 +1585,11 @@
       "stakeCount": 1,
       "unstakeCount": 0,
       "stakeMeta": 35492.642988157335,
-      "stakeUsd": 9883.512411033842,
+      "stakeUsd": 9887.966617904109,
       "unstakeUsd": 0,
-      "netUsd": 9883.512411033842,
+      "netUsd": 9887.966617904109,
       "capitalTier": "$3k–10k",
       "lastTs": 1786229943
-    },
-    {
-      "address": "0x29db298686763ed86212ff6ca2ee9b7ad263b54d",
-      "firstStakeTs": 1787977595,
-      "firstStakeDate": "2026-08-29",
-      "stakeCount": 1,
-      "unstakeCount": 0,
-      "stakeMeta": 35224.345768709056,
-      "stakeUsd": 9808.800620786276,
-      "unstakeUsd": 0,
-      "netUsd": 9808.800620786276,
-      "capitalTier": "$3k–10k",
-      "lastTs": 1787977595
-    },
-    {
-      "address": "0xdfe70df7406a9d460342d21feff7980130a3af25",
-      "firstStakeTs": 1786937215,
-      "firstStakeDate": "2026-08-17",
-      "stakeCount": 1,
-      "unstakeCount": 0,
-      "stakeMeta": 35190.7566022396,
-      "stakeUsd": 9799.4471628376,
-      "unstakeUsd": 0,
-      "netUsd": 9799.4471628376,
-      "capitalTier": "$3k–10k",
-      "lastTs": 1786937215
-    },
-    {
-      "address": "0x98b2d184521200ac52e77d22a299e28eb87bf374",
-      "firstStakeTs": 1787534904,
-      "firstStakeDate": "2026-08-24",
-      "stakeCount": 1,
-      "unstakeCount": 0,
-      "stakeMeta": 35066.901660323405,
-      "stakeUsd": 9764.957709459753,
-      "unstakeUsd": 0,
-      "netUsd": 9764.957709459753,
-      "capitalTier": "$3k–10k",
-      "lastTs": 1787534904
-    },
-    {
-      "address": "0x3b561de3cd924ea8f543460bb5cc6905691b6224",
-      "firstStakeTs": 1786515831,
-      "firstStakeDate": "2026-08-12",
-      "stakeCount": 1,
-      "unstakeCount": 0,
-      "stakeMeta": 35041.69409040107,
-      "stakeUsd": 9757.938245446816,
-      "unstakeUsd": 0,
-      "netUsd": 9757.938245446816,
-      "capitalTier": "$3k–10k",
-      "lastTs": 1786515831
-    },
-    {
-      "address": "0x3a3d14a46540a1c906824ab1d6cff938792baa75",
-      "firstStakeTs": 1786686992,
-      "firstStakeDate": "2026-08-14",
-      "stakeCount": 2,
-      "unstakeCount": 0,
-      "stakeMeta": 34924.54634618605,
-      "stakeUsd": 9725.316522002324,
-      "unstakeUsd": 0,
-      "netUsd": 9725.316522002324,
-      "capitalTier": "$3k–10k",
-      "lastTs": 1786713121
-    },
-    {
-      "address": "0xcf7e9a6471c4a40618e927c4e2cb9f38d3d47f48",
-      "firstStakeTs": 1787732397,
-      "firstStakeDate": "2026-08-26",
-      "stakeCount": 1,
-      "unstakeCount": 0,
-      "stakeMeta": 34898.19666965427,
-      "stakeUsd": 9717.979019548211,
-      "unstakeUsd": 0,
-      "netUsd": 9717.979019548211,
-      "capitalTier": "$3k–10k",
-      "lastTs": 1787732397
-    },
-    {
-      "address": "0x7a7eca71d4713a9853ec8f154565e9e34924a565",
-      "firstStakeTs": 1786961236,
-      "firstStakeDate": "2026-08-17",
-      "stakeCount": 1,
-      "unstakeCount": 0,
-      "stakeMeta": 34869.63795197778,
-      "stakeUsd": 9710.026373116863,
-      "unstakeUsd": 0,
-      "netUsd": 9710.026373116863,
-      "capitalTier": "$3k–10k",
-      "lastTs": 1786961236
-    },
-    {
-      "address": "0x39d45c4b668a7e662b671836dae1a75c5ad3e36f",
-      "firstStakeTs": 1787389843,
-      "firstStakeDate": "2026-08-22",
-      "stakeCount": 1,
-      "unstakeCount": 0,
-      "stakeMeta": 34837.76216302056,
-      "stakeUsd": 9701.150033423726,
-      "unstakeUsd": 0,
-      "netUsd": 9701.150033423726,
-      "capitalTier": "$3k–10k",
-      "lastTs": 1787389843
-    },
-    {
-      "address": "0x983f4c26500782365f34a01cc5e8ec7ba1697ed0",
-      "firstStakeTs": 1786939907,
-      "firstStakeDate": "2026-08-17",
-      "stakeCount": 1,
-      "unstakeCount": 0,
-      "stakeMeta": 34688.87945188991,
-      "stakeUsd": 9659.691184508498,
-      "unstakeUsd": 0,
-      "netUsd": 9659.691184508498,
-      "capitalTier": "$3k–10k",
-      "lastTs": 1786939907
-    },
-    {
-      "address": "0xf68afa2c1abd9508547b8e0c4718bccdd13116da",
-      "firstStakeTs": 1787989193,
-      "firstStakeDate": "2026-08-29",
-      "stakeCount": 1,
-      "unstakeCount": 0,
-      "stakeMeta": 34662.63656365807,
-      "stakeUsd": 9652.38341901954,
-      "unstakeUsd": 0,
-      "netUsd": 9652.38341901954,
-      "capitalTier": "$3k–10k",
-      "lastTs": 1787989193
     }
   ]
 }

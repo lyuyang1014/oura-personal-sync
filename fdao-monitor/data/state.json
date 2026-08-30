@@ -2,7 +2,7 @@
   "engine": "bsc-multi-v2",
   "date": "2026-08-30",
   "dayStartBlock": 118795756,
-  "lastBlock": 118912945,
+  "lastBlock": 118913230,
   "dayEvents": [
     {
       "kind": "stake",
@@ -23,9 +23,39 @@
       "lp": 2137.5302478624135,
       "meta": 4047.897251190435,
       "ts": 1788070132
+    },
+    {
+      "kind": "stake",
+      "id": "0x66bc22dd32f7de7255869d6b77c2b957ba946c5b5ab8f8461d64c32ee10f841a:0x56",
+      "user": "0xfd285686a31665aeb0e8964d67473f239801a37c",
+      "block": 118895846,
+      "tx": "0x66bc22dd32f7de7255869d6b77c2b957ba946c5b5ab8f8461d64c32ee10f841a",
+      "lp": 1063.8647287119102,
+      "meta": 2013.4782101016467,
+      "ts": 1788064249
+    },
+    {
+      "kind": "stake",
+      "id": "0x83b58ad5ce0eb82d2525ed4dbf3332b6291fc3bfa042d8de884a8a5b173f0d48:0xfb",
+      "user": "0x733e122589f5c6fc2f46dd12d5a7b3bf9478aa2a",
+      "block": 118899074,
+      "tx": "0x83b58ad5ce0eb82d2525ed4dbf3332b6291fc3bfa042d8de884a8a5b173f0d48",
+      "lp": 1131.929304544944,
+      "meta": 2141.9604138178465,
+      "ts": 1788065702
+    },
+    {
+      "kind": "stake",
+      "id": "0x24b1d879a0171c7f1b3bff422d4c49127b6823f580c8e923a5af8ee934b6072f:0x64",
+      "user": "0x48f2d72e56f71278366caac6bfc535a5cd60f185",
+      "block": 118902031,
+      "tx": "0x24b1d879a0171c7f1b3bff422d4c49127b6823f580c8e923a5af8ee934b6072f",
+      "lp": 2718.548891299705,
+      "meta": 5145.224754827339,
+      "ts": 1788067033
     }
   ],
-  "dayBackfillCursor": 118902945,
+  "dayBackfillCursor": 118892945,
   "historyCursor": null,
   "historyFloor": 112795756,
   "historicalWallets": [],

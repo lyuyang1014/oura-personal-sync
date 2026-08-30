@@ -42,4 +42,4 @@ jobs:
             git commit -m "data: refresh FDAO monitor"
             git push origin HEAD:fdao-dashboard-source
           fi
-      # verified NodeReal historical backfill trigger
+      # wallet analytics and maturity-pressure generation trigger

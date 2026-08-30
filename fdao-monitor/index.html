@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+<title>FDAO / META 独立链上监控</title>
+<meta name="description" content="独立读取 BNB Chain 与 META/SENTIS 交易池，监控 FDAO 质押、入场钱包、解押、流动性、APY、销毁与收益压力。" />
+<style>
+:root{--bg:#08090b;--panel:#121419;--panel2:#171a20;--line:#2a2e36;--text:#f4f5f7;--muted:#9da4af;--gold:#f0b90b;--green:#38c793;--red:#ff6464;--orange:#ffab52;--blue:#66adff;--radius:18px}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 78% -8%,#35280a 0,transparent 28%),var(--bg);color:var(--text);font:15px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}.wrap{max-width:1120px;margin:auto;padding:22px 16px 70px}.top{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:18px}.brand{display:flex;align-items:center;gap:12px}.logo{width:45px;height:45px;border-radius:50%;border:2px solid var(--gold);display:grid;place-items:center;color:var(--gold);font-weight:900;font-size:22px;background:#18140a}.brand h1{font-size:21px;margin:0}.brand small{display:block;color:var(--muted);font-size:12px}.refresh{border:1px solid #6e5713;background:#171308;color:#f2ce62;border-radius:999px;padding:7px 11px;font-size:12px;white-space:nowrap}.hero{border:1px solid #57430d;background:linear-gradient(135deg,rgba(240,185,11,.12),rgba(17,19,24,.9));border-radius:24px;padding:22px;margin-bottom:15px}.hero h2{font-size:27px;margin:0 0 7px}.hero p{margin:0;color:#d8dbe0}.status{display:flex;flex-wrap:wrap;gap:8px;margin-top:13px}.pill{display:inline-flex;gap:7px;align-items:center;border:1px solid #504520;background:#17140d;border-radius:999px;padding:5px 9px;font-size:12px}.pill.red{color:#ff9999;border-color:#603237;background:#1b1012}.pill.green{color:#83e5be;border-color:#285b49;background:#0d1713}.pill.orange{color:#ffd092;border-color:#654819;background:#1a140a}.dot{width:7px;height:7px;border-radius:50%;background:currentColor}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:11px;margin:15px 0}.card{border:1px solid var(--line);background:rgba(18,20,25,.96);border-radius:var(--radius);padding:16px}.metric .label{color:var(--muted);font-size:12px}.metric .val{font-size:24px;font-weight:800;letter-spacing:-.3px;margin:3px 0}.metric .help{color:#b1b6bf;font-size:12px}.live{position:relative}.live:after{content:"链上";position:absolute;right:11px;top:9px;border:1px solid #285c49;color:#7fe1bb;border-radius:5px;padding:1px 5px;font-size:9px}.section{margin-top:25px}.section h3{margin:0 0 4px;font-size:20px}.intro{margin:0 0 11px;color:var(--muted)}.two{display:grid;grid-template-columns:1fr 1fr;gap:11px}.line{display:flex;justify-content:space-between;gap:12px;align-items:flex-end;padding:8px 0;border-bottom:1px dashed #30343c}.line:last-child{border-bottom:0}.line b{text-align:right}.tag{display:inline-block;border-radius:6px;padding:2px 7px;font-size:10px;font-weight:800}.tag.a{background:rgba(56,199,147,.12);color:#7fe1ba}.tag.b{background:rgba(102,173,255,.12);color:#9bcbff}.tag.c{background:rgba(255,171,82,.12);color:#ffc782}.callout{border-left:3px solid var(--gold);background:#15130d;border-radius:0 13px 13px 0;padding:13px 15px;margin-top:11px;color:#dedbd1}.callout.red{border-color:var(--red);background:#190f11}.callout.green{border-color:var(--green);background:#0d1713}.scan{font-size:12px;color:#d8c16d;margin-top:7px}.bar{height:9px;border-radius:999px;background:#262a31;overflow:hidden;margin-top:8px}.bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--gold),var(--red));border-radius:inherit}.table{width:100%;border-collapse:collapse}.table th,.table td{text-align:left;padding:9px 7px;border-bottom:1px solid #292d34;vertical-align:top}.table th{color:#aab0ba;font-size:11px}.good{color:#75dbb4}.bad{color:#ff8e8e}.warn{color:#ffd087}.muted{color:var(--muted)}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11px;word-break:break-all}.wallet{background:linear-gradient(180deg,#17140b,#111317);border-color:#58470f}.wallet h4{margin:0 0 6px;font-size:18px}.small{font-size:12px;color:var(--muted)}.links a{color:#9bc9ff;text-decoration:none}.footer{margin-top:34px;color:#7d8490;font-size:11px}.progress{height:7px;border-radius:999px;background:#292c32;overflow:hidden;margin-top:8px}.progress i{display:block;width:0;height:100%;background:var(--gold);transition:width .25s}.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.kpi{padding:13px;border:1px solid #2b2f36;border-radius:14px;background:#101216}.kpi span{display:block;color:#9fa6b0;font-size:11px}.kpi b{display:block;font-size:20px;margin-top:2px}.nowrap{white-space:nowrap}.btn{cursor:pointer;border:1px solid #735a12;background:#1b1609;color:#f3cc58;border-radius:10px;padding:7px 10px;font-weight:700}.skeleton{opacity:.62}.hide{display:none}@media(max-width:820px){.grid{grid-template-columns:1fr 1fr}.two{grid-template-columns:1fr}.kpis{grid-template-columns:1fr 1fr}}@media(max-width:470px){.wrap{padding:15px 11px 55px}.grid{gap:8px}.card{padding:13px}.metric .val{font-size:20px}.hero{padding:18px}.hero h2{font-size:22px}.brand h1{font-size:17px}.logo{width:39px;height:39px}.refresh{font-size:10px;padding:6px 8px}.kpis{grid-template-columns:1fr 1fr}.table{font-size:12px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div class="brand"><div class="logo">M</div><div><h1>FDAO / META 独立链上监控</h1><small>只看 FDAO/META，不拿 SENTIS 其他生态凑数据</small></div></div>
+    <button class="refresh btn" id="refreshBtn">刷新</button>
+  </div>
+
+  <div class="hero">
+    <h2>这个盘今天还能不能承接收益？</h2>
+    <p>页面直接读取 BNB Chain、FDAO 合约和 META/SENTIS 交易池。重点不是“后台显示赚了多少”，而是今天还有多少钱包新增质押、LP有多厚、奖励释放有多快、市场买盘能不能接住。</p>
+    <div class="status">
+      <span class="pill orange"><span class="dot"></span><b id="riskText">正在计算风险</b></span>
+      <span class="pill green"><span class="dot"></span>个人质押 / APY / 销毁已可独立链上验证</span>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="card metric live"><div class="label">META 当前价</div><div class="val" id="metaPrice">—</div><div class="help">奖励最终想换回U，首先取决于这个价格。</div></div>
+    <div class="card metric live"><div class="label">META/SENTIS 流动性</div><div class="val" id="liquidity">—</div><div class="help">主要退出池有多厚；集中卖出时实际成交会变差。</div></div>
+    <div class="card metric live"><div class="label">24小时真实成交</div><div class="val" id="volume24">—</div><div class="help" id="buySell">买卖笔数读取中…</div></div>
+    <div class="card metric live"><div class="label">FDAO 当前 APY</div><div class="val" id="apy">—</div><div class="help">直接调用 FDAO 合约，不读网页文字。</div></div>
+  </div>
+
+  <div class="section">
+    <h3>1. 今天有多少人继续往 FDAO 里加钱？</h3>
+    <p class="intro">这里扫的是 FDAO 合约真实质押事件。同一钱包今天多次质押只算1个“今日入场钱包”。它可能包含老用户追加，因此不冒充“历史首次注册人数”。</p>
+    <div class="kpis">
+      <div class="kpi"><span>今日入场钱包（去重）</span><b id="todayWallets">索引中…</b></div>
+      <div class="kpi"><span>今日新增质押笔数</span><b id="todayStakes">—</b></div>
+      <div class="kpi"><span>今日新增质押 · META口径</span><b id="todayStakeMeta">—</b></div>
+      <div class="kpi"><span>按当前META价折算</span><b id="todayStakeUsd">—</b></div>
+      <div class="kpi"><span>今日解押笔数</span><b id="todayUnstakes">—</b></div>
+      <div class="kpi"><span>今日净新增估值</span><b id="todayNet">—</b></div>
+    </div>
+    <div class="scan" id="scanText">正在定位北京时间今天0点对应的区块…</div>
+    <div class="progress"><i id="scanBar"></i></div>
+    <div class="callout"><b>简单理解：</b>这组数比“META有多少Holder”有价值得多，因为它只统计真正进入 FDAO 质押合约的行为。净新增估值是按当前池价估算，不等于项目银行账户收到的USDT。</div>
+  </div>
+
+  <div class="section">
+    <h3>2. 收益每天需要多大的买盘来接？</h3>
+    <p class="intro">培训规则是每8小时约0.2%–0.4%，即约0.6%–1.2%/天。这里用合约当前 TVL 做压力测试。</p>
+    <div class="grid">
+      <div class="card metric live"><div class="label">FDAO合约 TVL</div><div class="val" id="tvl">—</div><div class="help">合约 viewStakeingInfo() 直接返回。</div></div>
+      <div class="card metric"><div class="label">每日理论奖励压力</div><div class="val" id="dailyReward">—</div><div class="help">TVL × 0.6%–1.2%，只是压力测试。</div></div>
+      <div class="card metric"><div class="label">2% LP手续费最大覆盖</div><div class="val" id="feeCover">—</div><div class="help">极乐观假设24h全部成交都可产生2%回流。</div></div>
+      <div class="card metric"><div class="label">奖励 / 24h成交</div><div class="val" id="rewardToVolume">—</div><div class="help">越高，新增奖励越依赖持续的新买盘。</div></div>
+    </div>
+    <div class="callout red" id="sustainText"><b>结论：</b>等待实时市场数据。</div>
+  </div>
+
+  <div class="section">
+    <h3>3. “庄家控盘”到底是什么情况？</h3>
+    <p class="intro">以前看到“LP最大地址占比很高”容易误读。现在已经从你自己的入场交易确认：你的LP也是直接铸造给FDAO质押合约，所以这更准确叫“协议集中托管”。</p>
+    <div class="two">
+      <div class="card metric live"><div class="label">全部 LP 中由 FDAO C542 合约持有</div><div class="val" id="custodyPct">—</div><div class="help" id="custodyDetail">读取中…</div></div>
+      <div class="card"><div class="line"><span>怎么理解</span><b class="warn">高集中依赖单一合约</b></div><div class="small">这不等于“老板个人钱包拿着90% LP”，因为参与者质押后的LP本来就进入这个合约；但大家能不能顺利退出，高度依赖 C542 合约本身的权限、安全性和解押逻辑。</div></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h3>4. 你截图里的数据，哪些是真的链上数据？</h3>
+    <p class="intro">把 2026-08-30 11:55 的 FDAO 页面截图和独立链上读取结果分开。</p>
+    <div class="card" style="overflow-x:auto">
+      <table class="table">
+        <thead><tr><th>指标</th><th>截图显示</th><th>独立验证</th><th>结论</th></tr></thead>
+        <tbody>
+          <tr><td>你的质押</td><td>5,500.4888 LP</td><td id="proofUserLp">—</td><td><span class="tag a">A 链上验证</span></td></tr>
+          <tr><td>APY</td><td>448.92%</td><td id="proofApy">—</td><td><span class="tag a">A 链上验证</span></td></tr>
+          <tr><td>累计销毁</td><td>903,734.61 META</td><td id="proofBurn">—</td><td><span class="tag a">A 链上验证</span></td></tr>
+          <tr><td>“质押总量” META口径</td><td>74,296,315.21 META</td><td id="proofGlobalStake">—</td><td><span class="tag b">B 派生口径</span></td></tr>
+          <tr><td>DAO池</td><td>354,388.80 SEN</td><td>关联地址仍在映射</td><td><span class="tag c">C 暂未独立验证</span></td></tr>
+          <tr><td>流动性回流池</td><td>3,267,903.10 SEN</td><td>关联地址仍在映射</td><td><span class="tag c">C 暂未独立验证</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="callout green"><b>已经确认：</b>你的入场交易在链上发出了 LPStake 事件，里面直接记录了 <b>5,500.4888 LP</b> 和约 <b>10,399.31 META</b>，和网页截图完全一致。因此至少你的质押仓位不是网页随手写出来的假余额。</div>
+  </div>
+
+  <div class="section">
+    <h3>5. 销毁速度</h3>
+    <div class="two">
+      <div class="card metric live"><div class="label">黑洞地址当前 META</div><div class="val" id="burnNow">—</div><div class="help">直接读取 0x…dEaD 的 META 余额。</div></div>
+      <div class="card metric"><div class="label">相比11:55截图新增销毁</div><div class="val" id="burnDelta">—</div><div class="help">截图基准：903,734.61 META。</div></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h3>6. 你的 3000U 仓位</h3>
+    <div class="card wallet">
+      <h4>0x0e39…a85b6 <span class="tag a">链上已验证</span></h4>
+      <div class="grid">
+        <div class="metric"><div class="label">投入</div><div class="val">3,000 U</div><div class="help">入场换得13,716.7502 SENTIS后调用FDAO。</div></div>
+        <div class="metric"><div class="label">当前质押</div><div class="val" id="userLp">—</div><div class="help">合约实时读取。</div></div>
+        <div class="metric"><div class="label">入场事件 META口径</div><div class="val">10,399.31</div><div class="help">来自你的真实 LPStake 事件。</div></div>
+        <div class="metric"><div class="label">4倍贡献值</div><div class="val">41,597.24</div><div class="help">内部计息额度，不是资产变成4倍。</div></div>
+      </div>
+      <div class="small links">已验证交易：<a target="_blank" href="https://bscscan.com/tx/0x34637cca993eab690939bd8692d6ee0db64abd6e5ecea9e9ac523db22d87778a">查看 BscScan</a></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h3>7. 24小时买盘 / 卖盘</h3>
+    <div class="two">
+      <div class="card"><div class="line"><span>买入笔数</span><b id="buys">—</b></div><div class="line"><span>卖出笔数</span><b id="sells">—</b></div><div class="line"><span>买卖笔数比</span><b id="buyRatio">—</b></div></div>
+      <div class="card"><div class="small">这里只看 META/SENTIS PancakeSwap V2 主池，不把 SENTIS 在其他市场的成交算进FDAO热度。DEX的24h交易量可能包含套利和机器人，因此它只能衡量市场承接能力，不能等同于“新人入金”。</div></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h3>8. 数据口径</h3>
+    <div class="two">
+      <div class="card"><div class="line"><span><span class="tag a">A</span> 链上实测</span><b>最高可信</b></div><div class="small">合约 eth_call、事件日志、LP储备、黑洞地址余额、DEX主池行情。</div></div>
+      <div class="card"><div class="line"><span><span class="tag b">B</span> 链上推算</span><b>说明公式</b></div><div class="small">例如“今日净新增估值”“META口径质押总量”，由公开链上变量和当前价格计算，不当成真实美元现金。</div></div>
+    </div>
+    <div class="card" style="margin-top:10px"><div class="line"><span><span class="tag c">C</span> 项目自报</span><b>未验证就不当事实</b></div><div class="small">DAO池、流动性回流池等尚未找到一一对应的合约变量时，保留“未验证”标签。</div></div>
+  </div>
+
+  <div class="footer links">数据源：BNB Chain JSON-RPC、FDAO合约 0xC542…FA41、META/SENTIS PancakeSwap V2、DexScreener。页面仅用于链上风险观察，不构成投资建议。<br><span id="updated">尚未完成首次刷新</span></div>
+</div>
+<script>
+const C={
+  meta:'0x98f0421fcb5129b352cc35c1ed15ae9081deb700',
+  sentis:'0x8fd0d741e09a98e82256c63f25f90301ea71a83e',
+  pair:'0x4f49ad237a81ad403a88f34a12a8d1d53c2d7d89',
+  fdao:'0xc5424eb1061bd9e147788c527c95ac27710bfa41',
+  user:'0x0e39420fcdb05c5378c7d1f955dc546b5f5a85b6',
+  dead:'0x000000000000000000000000000000000000dead'
+};
+const RPC='https://bsc-dataseed.binance.org/';
+const LOGRPC='https://bsc.drpc.org';
+const PAIR_API='https://api.dexscreener.com/latest/dex/pairs/bsc/'+C.pair;
+const TOPICS={
+ stake:new Set(['0x3e451024d3d4ca4a6f8985802ef8887d16b5f1b2c495e5ace458437b21d18505','0x05a5b88949c1b7e7b6f52ca8bb014e695c3f9bc8893e0f75a3699a1519507e5c','0x95b92b7b8f8d5c56d72e536e955714d166392387f565da17b314fbb8e73280a1']),
+ unstake:new Set(['0x9d4ddcf7be95a56327247eeb36efb79783c00d13defcd5a572d1e3e0d8bf57d5','0x7baf0db25f935f5cb985caf351c40c4ecfd6a3b4ee3c8e3360183b8f051ed97e','0xc4915ee1bfb9fe5fca0991eeb563dea7da3fe05fb9265ffc22a49c16cc9ff58e'])
+};
+const ALL_TOPICS=[...TOPICS.stake,...TOPICS.unstake];
+let state={market:null,chain:null,today:null};
+const $=id=>document.getElementById(id);
+function delay(ms){return new Promise(r=>setTimeout(r,ms))}
+function fmt(n,d=2){if(!Number.isFinite(n))return '—';return n.toLocaleString('zh-CN',{maximumFractionDigits:d,minimumFractionDigits:0})}
+function usd(n){if(!Number.isFinite(n))return '—';if(Math.abs(n)>=1e6)return '$'+(n/1e6).toFixed(2)+'M';if(Math.abs(n)>=1e3)return '$'+(n/1e3).toFixed(1)+'K';return '$'+n.toFixed(2)}
+function pct(n,d=1){return Number.isFinite(n)?(n*100).toFixed(d)+'%':'—'}
+function padAddr(a){return a.toLowerCase().replace(/^0x/,'').padStart(64,'0')}
+function words(hex){hex=(hex||'0x').replace(/^0x/,'');let a=[];for(let i=0;i+64<=hex.length;i+=64)a.push('0x'+hex.slice(i,i+64));return a}
+function numWord(w){try{return Number(BigInt(w))/1e18}catch{return NaN}}
+function intWord(w){try{return Number(BigInt(w))}catch{return NaN}}
+function topicAddr(t){return '0x'+t.slice(-40).toLowerCase()}
+async function rpc(method,params,endpoint=RPC,retry=2){
+  for(let i=0;i<=retry;i++){
+    try{
+      const r=await fetch(endpoint,{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({jsonrpc:'2.0',id:Date.now(),method,params})});
+      if(r.status===429){await delay(900*(i+1));continue}
+      const j=await r.json();
+      if(j.error){if((j.error.code===-32005||String(j.error.message).toLowerCase().includes('rate'))&&i<retry){await delay(900*(i+1));continue}throw new Error(j.error.message||'RPC error')}
+      return j.result;
+    }catch(e){if(i===retry)throw e;await delay(600*(i+1))}
+  }
+}
+async function ethCall(to,data,from){return rpc('eth_call',[{to,from:from||undefined,data},'latest'])}
+async function loadMarket(){
+  const r=await fetch(PAIR_API,{cache:'no-store'}),j=await r.json(),p=(j.pairs||[])[0];if(!p)throw new Error('DexScreener pair unavailable');
+  const metaIsBase=p.baseToken.address.toLowerCase()===C.meta;
+  const metaPrice=metaIsBase?Number(p.priceUsd):Number(p.priceUsd)/Number(p.priceNative);
+  state.market={metaPrice,liq:Number(p.liquidity?.usd||0),vol:Number(p.volume?.h24||0),buys:Number(p.txns?.h24?.buys||0),sells:Number(p.txns?.h24?.sells||0),change:Number(p.priceChange?.h24||0)};
+  $('metaPrice').textContent='$'+metaPrice.toFixed(4);$('liquidity').textContent=usd(state.market.liq);$('volume24').textContent=usd(state.market.vol);$('buySell').textContent=`买 ${fmt(state.market.buys,0)} / 卖 ${fmt(state.market.sells,0)} 笔`;$('buys').textContent=fmt(state.market.buys,0);$('sells').textContent=fmt(state.market.sells,0);$('buyRatio').textContent=state.market.sells? (state.market.buys/state.market.sells).toFixed(2)+' : 1':'—';
+}
+async function loadChain(){
+  const info=words(await ethCall(C.fdao,'0xb46fb85f',C.user));
+  const myLp=numWord(info[0]),reward=numWord(info[1]),totalRawLp=numWord(info[2]),apy=numWord(info[3]),tvl=numWord(info[4]);
+  const reserves=words(await ethCall(C.pair,'0x0902f1ac'));
+  const r0=numWord(reserves[0]),r1=numWord(reserves[1]);
+  const supply=numWord((words(await ethCall(C.pair,'0x18160ddd')))[0]);
+  const custody=numWord((words(await ethCall(C.pair,'0x70a08231'+padAddr(C.fdao)))[0]);
+  const burn=numWord((words(await ethCall(C.meta,'0x70a08231'+padAddr(C.dead)))[0]);
+  const token0='0x'+(words(await ethCall(C.pair,'0x0dfe1681'))[0]||'').slice(-40).toLowerCase();
+  const metaReserve=token0===C.meta?r0:r1;
+  const metaEq=totalRawLp*2*metaReserve/supply;
+  state.chain={myLp,reward,totalRawLp,apy,tvl,r0,r1,supply,custody,burn,metaEq,metaReserve};
+  $('apy').textContent=fmt(apy,2)+'%';$('tvl').textContent=usd(tvl);$('custodyPct').textContent=pct(custody/supply,2);$('custodyDetail').textContent=`C542持有 ${fmt(custody,0)} / 全池 ${fmt(supply,0)} LP`;
+  $('proofUserLp').textContent=fmt(myLp,4)+' LP';$('proofApy').textContent=fmt(apy,2)+'%（当前）';$('proofBurn').textContent=fmt(burn,2)+' META（当前）';$('proofGlobalStake').textContent=fmt(metaEq,0)+' META（当前按LP储备推算）';$('burnNow').textContent=fmt(burn,2);$('burnDelta').textContent=(burn>=903734.61?'+':'')+fmt(burn-903734.61,2)+' META';$('userLp').textContent=fmt(myLp,4)+' LP';
+}
+function updateSustain(){
+  if(!state.market||!state.chain)return;const {vol}=state.market,{tvl}=state.chain;const low=tvl*.006,high=tvl*.012,maxLp=vol*.02;const coverLow=maxLp/low,coverHigh=maxLp/high;const rvLow=low/vol,rvHigh=high/vol;
+  $('dailyReward').textContent=usd(low)+'–'+usd(high);$('feeCover').textContent=pct(coverHigh)+'–'+pct(coverLow);$('rewardToVolume').textContent=pct(rvLow)+'–'+pct(rvHigh);
+  let text=`按当前TVL，0.6%–1.2%/日相当于约 ${usd(low)}–${usd(high)} 的每日奖励压力。即使极端乐观地把24h全部成交都按2%计入LP回流，也只有 ${usd(maxLp)}，约覆盖 ${pct(coverHigh)}–${pct(coverLow)}。`;
+  $('sustainText').innerHTML='<b>结论：</b>'+text+' 高收益主要不能靠交易手续费本身解释，持续性仍依赖META释放后有人愿意接盘、以及新增质押继续进入。';
+  let risk=(coverLow<.2||state.chain.custody/state.chain.supply>.85)?'高收益结构风险 · 重点盯新增质押和LP':'观察中';$('riskText').textContent=risk;
+}
+async function blockInfo(n){return rpc('eth_getBlockByNumber',['0x'+n.toString(16),false])}
+async function findBlockAt(tsSec){
+  const latestHex=await rpc('eth_blockNumber',[]),latest=parseInt(latestHex,16),lb=await blockInfo(latest),latestTs=parseInt(lb.timestamp,16);let gap=Math.max(50000,Math.ceil((latestTs-tsSec)/.45*1.15)+10000),lo=Math.max(1,latest-gap),hi=latest;let bl=await blockInfo(lo);
+  while(parseInt(bl.timestamp,16)>tsSec&&lo>1){hi=lo;gap*=2;lo=Math.max(1,hi-gap);bl=await blockInfo(lo)}
+  while(lo<hi){let m=Math.floor((lo+hi)/2),b=await blockInfo(m),t=parseInt(b.timestamp,16);if(t<tsSec)lo=m+1;else hi=m}
+  return {block:lo,latest,latestTs};
+}
+async function getLogsChunk(a,b){
+  let last;for(let i=0;i<5;i++){
+    try{return await rpc('eth_getLogs',[{address:C.fdao,fromBlock:'0x'+a.toString(16),toBlock:'0x'+b.toString(16),topics:[ALL_TOPICS]}],LOGRPC,0)}catch(e){last=e;await delay(900+600*i)}
+  }throw last;
+}
+async function scanToday(){
+  try{
+    const now=new Date(),utc=now.getTime();const cn=new Date(utc+8*3600e3);const y=cn.getUTCFullYear(),m=cn.getUTCMonth(),d=cn.getUTCDate();const midnightUtc=Date.UTC(y,m,d)-8*3600e3;const startSec=Math.floor(midnightUtc/1000);
+    $('scanText').textContent='正在定位北京时间今天0点对应的区块…';
+    const loc=await findBlockAt(startSec),start=loc.block,end=loc.latest,chunk=9500,total=end-start+1;let logs=[];let done=0;
+    for(let a=start;a<=end;a+=chunk){let b=Math.min(end,a+chunk-1);const part=await getLogsChunk(a,b);logs.push(...part);done+=b-a+1;$('scanBar').style.width=Math.min(100,done/total*100)+'%';$('scanText').textContent=`正在扫 FDAO 今日链上事件：${Math.floor(done/total*100)}% · 已找到 ${logs.length} 条` ;await delay(520)}
+    let wallets=new Set(),stakeN=0,unstakeN=0,stakeMeta=0,unstakeLp=0;
+    for(const l of logs){const t=(l.topics?.[0]||'').toLowerCase(),w=words(l.data),eventTs=intWord(w[w.length-1]);if(eventTs&&eventTs<startSec)continue;if(TOPICS.stake.has(t)){stakeN++;if(l.topics[1])wallets.add(topicAddr(l.topics[1]));stakeMeta+=numWord(w[1])||0}else if(TOPICS.unstake.has(t)){unstakeN++;unstakeLp+=numWord(w[0])||0}}
+    let entryUsd=state.market?stakeMeta*state.market.metaPrice:NaN;let exitMetaEq=state.chain?unstakeLp*2*state.chain.metaReserve/state.chain.supply:NaN;let exitUsd=state.market?exitMetaEq*state.market.metaPrice:NaN;let net=entryUsd-exitUsd;
+    state.today={wallets:wallets.size,stakeN,unstakeN,stakeMeta,unstakeLp,entryUsd,exitUsd,net,logs:logs.length};
+    $('todayWallets').textContent=fmt(wallets.size,0);$('todayStakes').textContent=fmt(stakeN,0);$('todayStakeMeta').textContent=fmt(stakeMeta,0);$('todayStakeUsd').textContent=usd(entryUsd);$('todayUnstakes').textContent=fmt(unstakeN,0);$('todayNet').textContent=(net>=0?'+':'')+usd(net);$('todayNet').className=net>=0?'good':'bad';$('scanText').textContent=`今日索引完成 · 扫描 ${fmt(total,0)} 个区块 · ${logs.length} 条FDAO质押/解押事件 · 北京时间 ${new Date().toLocaleTimeString('zh-CN',{hour:'2-digit',minute:'2-digit'})}`;$('scanBar').style.width='100%';
+  }catch(e){console.error(e);$('todayWallets').textContent='暂不可用';$('scanText').textContent='今日事件索引暂时失败（公共RPC限流会自动在刷新时重试）：'+e.message;$('scanBar').style.width='0%'}
+}
+async function refreshAll(){
+  $('refreshBtn').disabled=true;$('refreshBtn').textContent='刷新中';
+  try{await Promise.all([loadMarket(),loadChain()]);updateSustain();$('updated').textContent='实时链上/DEX刷新：'+new Date().toLocaleString('zh-CN',{timeZone:'Asia/Shanghai'})+'（北京时间）';await scanToday()}catch(e){console.error(e);$('updated').textContent='部分实时数据刷新失败：'+e.message}finally{$('refreshBtn').disabled=false;$('refreshBtn').textContent='刷新'}
+}
+$('refreshBtn').onclick=refreshAll;refreshAll();setInterval(async()=>{try{await Promise.all([loadMarket(),loadChain()]);updateSustain();$('updated').textContent='实时链上/DEX刷新：'+new Date().toLocaleString('zh-CN',{timeZone:'Asia/Shanghai'})+'（北京时间）'}catch(e){console.warn(e)}},60000);
+</script>
+</body>
+</html>

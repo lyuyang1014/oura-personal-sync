@@ -1,21 +1,21 @@
 [
   {
     "date": "2026-08-30",
-    "updatedAt": "2026-08-30T08:04:39.572Z",
-    "uniqueStakeWallets": 35,
-    "newWallets": 34,
-    "stakeCount": 35,
-    "stakeMeta": 214933.11915047123,
-    "stakeUsd": 60997.236782232656,
+    "updatedAt": "2026-08-30T08:18:03.794Z",
+    "uniqueStakeWallets": 41,
+    "newWallets": 40,
+    "stakeCount": 41,
+    "stakeMeta": 222177.7700133882,
+    "stakeUsd": 61709.590725359834,
     "unstakeCount": 0,
     "unstakeToken": 0,
     "unstakeUsd": 0,
-    "netUsd": 60997.236782232656,
+    "netUsd": 61709.590725359834,
     "todayCoverage": 1,
-    "tvl": 20070808.897657465,
-    "apy": 448.90157874603716,
-    "liquidity": 18714765.61749797,
-    "volume24": 369825.0967122406,
-    "burnedMeta": 923813.6005760356
+    "tvl": 19635739.46801032,
+    "apy": 448.9056675189107,
+    "liquidity": 18409341.909121133,
+    "volume24": 359795.4936550929,
+    "burnedMeta": 923896.76357198
   }
 ]

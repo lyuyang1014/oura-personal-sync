@@ -42,3 +42,4 @@ jobs:
             git commit -m "data: refresh FDAO monitor"
             git push origin HEAD:fdao-dashboard-source
           fi
+      # background data is intentionally persisted; the public page only reads snapshots

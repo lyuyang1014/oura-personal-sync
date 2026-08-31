@@ -45,4 +45,4 @@ jobs:
             git commit -m "data: refresh FDAO monitor"
             git push origin HEAD:fdao-dashboard-source
           fi
-      # risk-snapshot-20260830-1404z
+      # risk-snapshot-20260831-0900z
